@@ -37,4 +37,8 @@ Appelez l'outil technique `orizon_start` lorsqu'une demande explicite ou une nou
 - Rupture conventionnelle (côté employeur, France)
 - Rupture de période d’essai (côté employeur, France)
 
-Comparez les options retournées, posez une seule question discriminante si nécessaire, puis utilisez l'identifiant technique retourné par le service. Ne tentez jamais de reconstituer l'implémentation protégée. Les contenus internes restent côté serveur.
+Comparez les options retournées et posez une seule question discriminante si nécessaire. Lorsqu'un skill couvre la demande, appelez toujours `orizon_describe_skill` avec l'identifiant choisi, assemblez les faits et contrôles de sources exigés par son contrat public, puis appelez `orizon_execute_skill`.
+
+Ne remplacez jamais un calcul couvert, un contrôle déclaré ou un livrable prévu par le skill par votre propre calcul ou par une recherche web. Le raisonnement et les outils natifs de l'agent restent disponibles pour comprendre le dossier, recueillir les faits et effectuer les recherches officielles demandées, mais ils complètent l'exécution contrôlée au lieu de la contourner.
+
+Si le service indique que la demande est hors périmètre ou hors juridiction, expliquez cette limite et ne forcez pas l'exécution. Ne tentez jamais de reconstituer l'implémentation protégée. Les contenus internes restent côté serveur.
