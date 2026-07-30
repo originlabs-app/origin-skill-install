@@ -1,4 +1,4 @@
 [mcp_servers.orizon]
 command = "npx"
-args = ["--yes", "--package=https://orizon-storefront-v2.vercel.app/installer/cli/v0.1.4/orizon-cli-0.1.4.tgz", "orizon-mcp-proxy"]
+args = ["--yes", "--package=https://originskill.ai/installer/cli/v0.1.5/orizon-cli-0.1.5.tgz", "orizon-mcp-proxy"]
 env = { ORIZON_MCP_TOKEN_FILE = "~/.orizon/token" }
