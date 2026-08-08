@@ -1,4 +1,4 @@
 [mcp_servers.orizon]
 command = "npx"
-args = ["--yes", "--package=https://originskill.ai/installer/cli/v0.1.5/orizon-cli-0.1.5.tgz", "orizon-mcp-proxy"]
-env = { ORIZON_MCP_TOKEN_FILE = "~/.orizon/token" }
+args = ["--yes", "--package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz", "orizon-mcp-proxy"]
+env = { ORIZON_MCP_URL = "https://api.originskill.ai/mcp", ORIZON_MCP_TOKEN_FILE = "~/.orizon/token" }

@@ -29,16 +29,16 @@ expertise on top of them.
 Confirm the connector resolves and reports its version:
 
 ```sh
-npx --yes --package="https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz" orizon --version
+npx --yes --package="https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz" orizon --version
 ```
 
-This should print `0.1.11`. Then install the MCP configuration for your
+This should print `0.1.13`. Then install the MCP configuration for your
 client:
 
 ```sh
-npx --yes --package=https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz orizon install codex --yes --package-spec https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz
-npx --yes --package=https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz orizon install claude-code --yes --package-spec https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz
-npx --yes --package=https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz orizon install cursor --yes --package-spec https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon install codex --yes --package-spec https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon install claude-code --yes --package-spec https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon install cursor --yes --package-spec https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz
 ```
 
 The version above is current at the time of writing. [originskill.ai/installer](https://originskill.ai/installer)
@@ -51,8 +51,8 @@ up any file it replaces, and reminds you to restart or reload your AI
 client. Verify the result with:
 
 ```sh
-orizon status
-orizon mcp-check --json
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon status
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon mcp-check --json
 ```
 
 ## Requirements
@@ -83,14 +83,14 @@ orizon mcp-check --json
 If you have not signed in yet, start an interactive, masked login:
 
 ```sh
-npx --yes --package=https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz orizon login
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon login
 ```
 
 After a purchase, you can also activate your license with your order
 reference and the email used for the order:
 
 ```sh
-npx --yes --package=https://originskill.ai/installer/cli/v0.1.11/orizon-cli-0.1.11.tgz orizon login --order <order-id> --email <email>
+npx --yes --package=https://originskill.ai/installer/cli/v0.1.13/orizon-cli-0.1.13.tgz orizon login --order <order-id> --email <email>
 ```
 
 ## Supported clients
@@ -108,7 +108,7 @@ OriginSkill account and skip the CLI entirely.
   `ORIZON_MCP_TOKEN` for a non-interactive install.
 - **`Could not reach OriginSkill runtime`**: check your network connection
   and the `ORIZON_API_URL` / `ORIZON_MCP_URL` values if you overrode them,
-  then run `orizon status`.
+  then run the `orizon status` command through the same `npx --package` wrapper as above.
 - **`The target MCP config file is not valid JSON`**: fix the file or move
   it aside, then rerun the install. The CLI will not overwrite a file it
   cannot parse.
