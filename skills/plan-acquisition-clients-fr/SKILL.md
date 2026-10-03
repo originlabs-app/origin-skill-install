@@ -8,7 +8,7 @@ description: "Trouver des clients. Méthode professionnelle française, avec ses
 # Trouver des clients
 
 Une seule tâche : choisir où chercher ses clients, savoir ce que chaque canal coûte par client gagné, savoir si un client rapporte assez pour justifier ce coût, et savoir quoi faire chaque semaine pour atteindre un objectif.
-Le calcul est exact ; le choix des canaux et la façon de parler à ses clients restent ceux de la personne, avec les voix d'experts côte à côte. Fiche relue le 03/10/2026.
+Le calcul est exact ; le choix des canaux et la façon de parler à ses clients restent ceux de la personne, avec les voix d'experts côte à côte.
 
 ## Quand l'utiliser
 
@@ -50,7 +50,7 @@ puis concentrer le temps et l'argent sur ce qui marche (cadre Bullseye de Gabrie
 - *Aaron Ross, Predictable Revenue : spécialiser la prospection et la mesurer.* Un profil de client idéal, une liste, des courriels courts visant des réponses (environ 10 % visés, contre 0 % pour des messages commerciaux, selon son entretien avec David Skok), une qualification, puis seulement le passage à un commercial ; la prospection et la vente sont deux métiers. Lu : le résumé de Collin Stewart (2022) et l'entretien avec David Skok (forEntrepreneurs, sans date). Non lu : l'ouvrage.
 - *Byron Sharp, How Brands Grow (2010) : atteindre le plus d'acheteurs.* Une marque grandit surtout par la pénétration, c'est-à-dire en gagnant plus d'acheteurs, en étant facile à penser (disponibilité mentale) et facile à trouver et à acheter (disponibilité physique). Lu : la notice de l'éditeur et la page de l'Institut Ehrenberg-Bass (sans date). Non lu : l'ouvrage. Résultats établis surtout sur des produits de grande consommation.
 - *David Skok, SaaS Metrics 2.0 : comparer ce que vaut un client à ce qu'il coûte.* Repères : valeur d'au moins 3 fois le coût d'acquisition, coût récupéré en moins de 12 mois. Lu : la page (vers 2012-2013). Ce sont des repères d'abonnements logiciels, pas des règles pour un artisan ou un cabinet.
-- *Où ils divergent.* Weinberg et Mares, comme Ross, vont vers le resserré : un canal, un profil de client idéal. Sharp met en avant le nombre d'acheteurs gagnés et la facilité d'être pensé et trouvé, ce qui pousse à toucher large plutôt qu'à resserrer (lecture de la page de l'Institut ; l'ouvrage n'a pas été relu). Avec un petit budget, tout couvrir est impossible ; viser trop étroit expose à un marché trop petit. Skok juge au rapport valeur sur coût, Ross aux rendez-vous qualifiés, Sharp au nombre d'acheteurs : trois tableaux de bord qui ne disent pas la même chose.
+- *Où ils divergent.* Weinberg et Mares et Ross ne resserrent pas au même moment : Weinberg et Mares testent d'abord plusieurs canaux puis se concentrent sur celui qui marche, le resserrement vient après le test ; Ross resserre dès le départ sur un profil de client idéal et une liste précise. Ne pas les présenter comme d'accord. Sharp met en avant le nombre d'acheteurs gagnés et la facilité d'être pensé et trouvé, ce qui pousse à toucher large plutôt qu'à resserrer (lecture de la page de l'Institut ; l'ouvrage n'a pas été relu). Avec un petit budget, tout couvrir est impossible ; viser trop étroit expose à un marché trop petit. Skok juge au rapport valeur sur coût, Ross aux rendez-vous qualifiés, Sharp au nombre d'acheteurs : trois tableaux de bord qui ne disent pas la même chose.
 - *Ce que le calcul fait de ces divergences.* Il chiffre ce qui a déjà été essayé (coût, taux, valeur, rapport) et ce qu'il faudrait pour un objectif ; il ne dit pas si votre cible est étroite ou large, ni quel canal essayer. Le repère de 3 fois est rendu comme un repère, jamais comme un seuil.
 
 **Le chiffre ne tranche pas seul.** Un coût par client calculé sur quatre clients bouge beaucoup avec un cinquième. Un client « gagné » par un canal n'a pas toujours été amené par lui. Et un taux de passage mesuré à petit volume ne se retrouve pas toujours à grand volume : l'objectif dit ce qu'il faudrait si les taux tenaient.
@@ -68,7 +68,7 @@ puis concentrer le temps et l'argent sur ce qui marche (cadre Bullseye de Gabrie
 
 ## Méthodes proposées (jamais imposées)
 
-1. **Trois canaux à petit prix (Weinberg et Mares)** : lister tous les canaux possibles pour sa cible, en choisir trois prometteurs, les tester une à deux semaines avec un petit budget en notant dépense, temps et chaque étape, faire calculer le coût par client, puis concentrer sur le meilleur.
+1. **Tester trois canaux à petit prix** (adaptation par la fiche du cadre Bullseye de Weinberg et Mares ; « trois canaux à petit prix » est le nom de l'adaptation, le cadre des auteurs s'appelle Bullseye) : lister tous les canaux possibles pour sa cible, en choisir trois prometteurs, les tester une à deux semaines avec un petit budget en notant dépense, temps et chaque étape, faire calculer le coût par client, puis concentrer sur le meilleur.
    Détails : `methode-trois-canaux-a-petit-prix`.
 2. **L'entonnoir à rendez-vous qualifiés (Ross)** pour une vente directe à des entreprises : un profil de client idéal, une liste, des messages courts, un nombre de rendez-vous qualifiés visé, et le calcul du nombre de contacts nécessaires à partir des taux observés.
    Détails : `methode-entonnoir-a-rendez-vous`.
@@ -78,11 +78,13 @@ Désaccords des auteurs : `divergences-des-sources`. Fiches voisines : `voir-aus
 
 ## Contrat de réponse (3 règles fixes)
 
-1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : les méthodes d'auteurs et les repères viennent du calcul avec leur source et leur date de lecture ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
+1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : les méthodes d'auteurs et les repères viennent du calcul avec leur source et la date de leur publication ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
 2. **Ne jamais inventer** : ne jamais produire un taux de conversion, un coût par contact ou un panier que la personne n'a pas donné ; dire l'hypothèse retenue faute de fait et ce qui n'est pas relevé.
 3. **Prévenir** quand une règle vient de changer (champ `prudence`).
 
 « Plan d'action d'abord », « deux questions au maximum » et l'ordre des étapes sont de bonnes habitudes quand la personne veut agir, pas des obligations.
+
+**Dates dans la réponse.** Pour une règle, donner sa date (version en vigueur, publication de la source), jamais une date de lecture : ne pas écrire « lu le JJ/MM/AAAA », « relu le », « consulté le » ni « j'ai lu » à propos des sources de la fiche, sauf si la personne demande quand elles ont été relues. Une source qui n'a pas pu être relue se dit « non relue ».
 
 **Restitution au dirigeant.**
 
@@ -98,7 +100,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur marketing.
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `acquisition_plan_calculer` (nom servi : `orizon_acquisition_plan_calculer`) | Taux de passage et coût de chaque étape par canal ; coût d'un client hors temps et avec le temps valorisé ; classement des canaux ; valeur d'un client en chiffre d'affaires et en marge ; rapport valeur sur coût et délai de récupération ; pour un objectif de clients, budget, contacts, prospects et rendez-vous nécessaires, rythme par semaine, répartition entre canaux, clients permis par un budget | Dès que la personne donne ce qu'un canal a coûté et rapporté, ou un objectif de clients |
+| `acquisition_plan_calculer` (nom servi : `orizon_acquisition_plan_calculer`) | Taux de passage et coût de chaque étape par canal ; coût d'un client hors temps et avec le temps valorisé ; classement des canaux ; valeur d'un client en chiffre d'affaires et en marge ; rapport valeur sur coût et délai de récupération ; pour un objectif de clients, budget, contacts, prospects et rendez-vous nécessaires, rythme par semaine, répartition entre canaux, clients permis par un budget | Dès qu'une question donne un coût et un nombre de clients, ou un objectif (« 1 800 € pour 12 clients », « avec 500 € de budget, combien de clients ? »), même avec un seul canal ou sans entonnoir complet : appeler l'outil plutôt que diviser à la main |
 
 Entrées : `canaux` (20 au plus ; chacun : `nom`, `depense_ht`, `temps_heures`, `contacts`, `prospects`, `rendez_vous`, `clients`), ou ces mêmes chiffres sans canal (un seul ensemble) ; `valeur_heure_ht` ; `panier_moyen_ht`, `achats_par_an`, `duree_relation_annees`, `taux_marge_pct` ;
 `objectif_clients`, `horizon_jours`, `budget_total_ht`, `repartition_clients_pct`. Les montants s'écrivent comme la personne les donne. Une entrée non comprise est dite dans `manquant`, jamais ignorée en silence.
@@ -140,7 +142,7 @@ Pour chacun, le dire et orienter.
 
 # Désaccords des auteurs et des sources
 
-Corpus non réglementé : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur. Pages lues le 03/10/2026 quand elles se sont ouvertes ; les ouvrages eux-mêmes n'ont pas été relus.
+Corpus non réglementé : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur. Pages relevées quand elles se sont ouvertes ; les ouvrages eux-mêmes n'ont pas été relus.
 
 | Sujet | Voix 1 | Voix 2 | Ce que fait le calcul |
 | --- | --- | --- | --- |
@@ -214,9 +216,9 @@ Une méthode n'est pas une promesse : aucun taux de réponse ni de signature n'e
 
 ### Annexe : methode-trois-canaux-a-petit-prix
 
-# Méthode : trois canaux à petit prix
+# Méthode : trois canaux à petit prix (adaptation du cadre Bullseye)
 
-Principe d'après le cadre Bullseye de Gabriel Weinberg et Justin Mares (Traction, 2015), lu dans le résumé de Jessica Cox (Tech.co, 02/01/2017) ; l'ouvrage lui-même n'a pas pu être ouvert. Reformulé ici, avec une approche concurrente à la fin.
+« Trois canaux à petit prix » est le nom que la fiche donne à son adaptation ; le cadre des auteurs s'appelle Bullseye. Principe d'après le cadre Bullseye de Gabriel Weinberg et Justin Mares (Traction, 2015), lu dans le résumé de Jessica Cox (Tech.co, 02/01/2017) ; l'ouvrage lui-même n'a pas pu être ouvert. Reformulé ici, avec une approche concurrente à la fin.
 
 1. **Énumérer.** Lister tous les moyens possibles de joindre sa cible (bouche-à-oreille, site et référencement, annuaires, réseaux sociaux, prospection directe, courriel, salons, partenaires, publicité...). Pour chacun, une idée peu coûteuse à essayer. Ne pas trier encore.
 2. **Choisir trois canaux prometteurs.** Ceux où votre cible se trouve déjà et où vous pouvez agir vite, avec un petit budget. Deux à trois seulement : au-delà, on ne sait plus lequel a donné quoi.

@@ -8,7 +8,7 @@ description: "Lancer une publicité en ligne rentable et conforme. Méthode prof
 # Lancer une publicité en ligne rentable et conforme
 
 Deux questions, une réponse chiffrée et une réponse de droit : combien puis-je payer pour obtenir une vente sans perdre d'argent, et que doit respecter mon annonce ? Le calcul est exact sur les chiffres de la personne ; le droit est donné
-avec les articles lus et leur date ; le jugement (la bonne plateforme, le message, la licéité d'une annonce précise) reste celui de la personne et, pour la licéité, d'un professionnel du droit. Fiche relue le 03/10/2026.
+avec les articles lus et leur date ; le jugement (la bonne plateforme, le message, la licéité d'une annonce précise) reste celui de la personne et, pour la licéité, d'un professionnel du droit.
 
 ## Quand l'utiliser
 
@@ -37,7 +37,7 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 ## Connaissances du métier
 
 **La réponse courte.** Une publicité est rentable tant que ce qu'elle coûte par vente reste sous la marge qu'une vente laisse (ou sous celle de toute la relation avec le client, s'il rachète). Le retour sur dépense publicitaire (ROAS), selon Google, est la valeur des conversions divisée par ce que la publicité a coûté ;
-le ROAS qui ne fait ni gagner ni perdre est l'inverse du taux de marge. Avant diffusion, l'annonce doit être reconnaissable comme publicité, ne pas induire en erreur, et respecter les règles propres aux comparaisons, aux promotions et aux prix barrés : textes lus sur Légifrance le 03/10/2026.
+le ROAS qui ne fait ni gagner ni perdre est l'inverse du taux de marge. Avant diffusion, l'annonce doit être reconnaissable comme publicité, ne pas induire en erreur, et respecter les règles propres aux comparaisons, aux promotions et aux prix barrés (articles ci-dessous, à n'évoquer que si la question touche l'annonce elle-même).
 
 **Ce que le calcul apporte que l'assistant seul ne donne pas.** Prix 100 € hors taxes, coût 60 €.
 
@@ -48,7 +48,7 @@ le ROAS qui ne fait ni gagner ni perdre est l'inverse du taux de marge. Avant di
 - *Google Ads.* 10 ventes en 30 jours sont sous les 15 conversions que Google demande pour les enchères au ROAS cible (et sous les 30 qu'il recommande pour le CPA cible) : le budget par jour qui y arriverait est de 15 € pour 15 conversions, 30 € pour 30, au CPA de 30 €.
 - *Le prix barré.* Annoncé 80 €, barré 120 €, prix le plus bas des 30 derniers jours 100 € : la réduction affichée est de 33,33 %, la réduction calculée sur le prix antérieur que le texte désigne est de 20 %, et le prix barré dépasse de 20 € ce prix antérieur.
 
-**Ce que dit le droit (Code de la consommation, lu sur Légifrance le 03/10/2026).** Le calcul n'en juge jamais l'application à une annonce précise.
+**Ce que dit le droit (Code de la consommation).** À n'évoquer que si la question porte sur le contenu d'une annonce (comparaison, offre limitée, avis, prix barré, contenu payé) ou sur les sanctions. Une question de rentabilité (coût par vente, ROAS, budget) n'appelle ni ces articles ni les peines : ne pas les ajouter. Le calcul n'en juge jamais l'application à une annonce précise.
 
 | Sujet | Article (version lue) | Ce que dit le texte, en nos mots |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ le ROAS qui ne fait ni gagner ni perdre est l'inverse du taux de marge. Avant di
 | Réduction de prix | L112-1-1 (2022-05-28) | Toute annonce de réduction indique le prix antérieur, le plus bas pratiqué envers tous les consommateurs dans les 30 jours précédant la réduction (celui d'avant la première en cas de réductions successives) ; exceptions pour les produits périssables et la comparaison avec d'autres professionnels |
 | Sanctions | L132-1 (2016-07-01), L132-2 (2024-05-12) | Délit constitué dès que la pratique est menée ou produit ses effets en France ; deux ans d'emprisonnement et 300 000 € d'amende, jusqu'à 10 % du chiffre d'affaires moyen ou 50 % des dépenses de publicité ; cinq ans et 750 000 € quand elle est commise par un service de communication au public en ligne |
 
-Les versions sont celles lues le 03/10/2026 : « version du » indique la date d'entrée en vigueur de la version lue, non une garantie qu'elle reste la dernière. Une relecture reste à faire avant d'agir.
+Les dates entre parenthèses sont celles d'entrée en vigueur de la version relevée, non une garantie qu'elle reste la dernière. Une relecture reste à faire avant d'agir.
 
 **Les experts ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Pour chacun : ce qui a été lu, et ce qui ne l'a pas été.
 
@@ -100,11 +100,13 @@ Désaccords des auteurs : `divergences-des-sources`. Fiches voisines : `voir-aus
 
 ## Contrat de réponse (3 règles fixes)
 
-1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : le droit vient du calcul avec l'article et la date de lecture ; les guides et les auteurs avec leur page et leur date de lecture ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
+1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : le droit vient du calcul avec l'article et la date de sa version ; les guides et les auteurs avec leur page et leur date de publication quand elle est connue ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
 2. **Ne jamais inventer** : ne jamais produire un coût par clic, un taux de conversion, une marge ou un prix que la personne n'a pas donné ; ne jamais dire qu'une annonce est licite ; dire l'hypothèse retenue faute de fait et ce qui n'est pas relevé.
 3. **Prévenir** quand une règle vient de changer (champ `prudence`).
 
 « Plan d'action d'abord », « deux questions au maximum » et l'ordre des étapes sont de bonnes habitudes quand la personne veut agir, pas des obligations.
+
+**Dates dans la réponse.** Pour une règle, donner sa date (version en vigueur, publication de la source), jamais une date de lecture : ne pas écrire « lu le JJ/MM/AAAA », « relu le », « consulté le » ni « j'ai lu » à propos des sources de la fiche, sauf si la personne demande quand elles ont été relues. Une source qui n'a pas pu être relue se dit « non relue ».
 
 **Restitution au dirigeant.**
 
@@ -120,7 +122,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur marketing ; le t
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `publicite_rentabilite_calculer` (nom servi : `orizon_publicite_rentabilite_calculer`) | Marge d'une vente ; coût par acquisition maximal (première vente, relation) ; CPA visé ; ROAS de rentabilité hors taxes et toutes taxes comprises ; CPA, ROAS et bénéfice estimés ou observés ; coût par clic maximal ; conversion minimale ; clics, budget et budget par jour d'un objectif ; seuil de rentabilité ; rapport aux 15 et 30 conversions de Google Ads ; articles qui s'appliquent à l'annonce décrite ; comparaison d'un prix barré avec le prix le plus bas des 30 jours | Dès que la personne donne un prix et un coût (ou un taux de marge), un objectif de ventes, une campagne déjà faite, ou décrit son annonce |
+| `publicite_rentabilite_calculer` (nom servi : `orizon_publicite_rentabilite_calculer`) | Marge d'une vente ; coût par acquisition maximal (première vente, relation) ; CPA visé ; ROAS de rentabilité hors taxes et toutes taxes comprises ; CPA, ROAS et bénéfice estimés ou observés ; coût par clic maximal ; conversion minimale ; clics, budget et budget par jour d'un objectif ; seuil de rentabilité ; rapport aux 15 et 30 conversions de Google Ads ; articles qui s'appliquent à l'annonce décrite (seulement si elle est décrite) ; comparaison d'un prix barré avec le prix le plus bas des 30 jours | Dès qu'une question donne un prix et un coût (ou un taux de marge), un budget, un objectif de ventes ou une campagne déjà faite (« est-ce rentable ? », « quel ROAS viser ? », « quel budget pour 50 ventes ? »), ou décrit son annonce : appeler l'outil plutôt que calculer à la main |
 
 Entrées : `prix_vente_ht`, `cout_variable_ht` ou `taux_marge_pct`, `achats_par_client`, `tva_pct`, `marge_a_garder_pct`, `cpc_ht` et `taux_conversion_pct` (ou `cpa_observe_ht`, ou `depense_pub_ht` et `ventes_observees`), `frais_fixes_campagne_ht`, `objectif_ventes`, `horizon_jours`, `budget_max_ht`,
 `plateforme` (`google_ads`, `meta`, `linkedin`, `autre`), `annonce` (`compare_un_concurrent`, `contenu_redactionnel_paye`, `annonceur_identifiable`, `offre_limitee_dans_le_temps`, `mot_gratuit`, `jeu_concours_ou_tirage_au_sort`, `avis_clients`, `reduction_de_prix` avec `prix_annonce_ttc`, `prix_barre_ttc`, `prix_le_plus_bas_30_jours_ttc`).
@@ -139,7 +141,7 @@ Rien n'est écrit dans la mémoire sans validation humaine.
 
 | Usage | Attitude | Outils |
 | --- | --- | --- |
-| Question simple (« une publicité doit-elle être signalée ? », « c'est quoi un ROAS ? ») | Répondre d'abord avec la règle (article, date de lecture) ou la définition, proposer de chiffrer ensuite | `publicite_rentabilite_calculer` si des chiffres sont donnés |
+| Question simple (« une publicité doit-elle être signalée ? », « c'est quoi un ROAS ? ») | Répondre d'abord avec la règle (article, date de sa version) ou la définition, proposer de chiffrer ensuite | `publicite_rentabilite_calculer` si des chiffres sont donnés |
 | Objectif précis (« je vends 100 € avec 40 € de marge, quel budget pour 50 ventes à 1,20 € le clic et 4 % de conversion ? ») | Appeler l'outil tout de suite, rendre la réponse d'abord (CPA maximal, budget), puis le détail et les hypothèses | `publicite_rentabilite_calculer` |
 | Suivre une méthode (« guide-moi pour lancer ma première campagne ») | Proposer l'une des deux méthodes ; la personne choisit le rythme | selon l'étape |
 | Explorer (« vaut-il mieux faire de la marque ou de la performance ? ») | Conversation libre, voix des experts côte à côte, sans trancher à sa place | outil seulement si des chiffres sont donnés |
@@ -162,8 +164,8 @@ les politiques de contenu des régies ; les budgets minimaux de Meta et de Linke
 
 # Désaccords des auteurs et des sources
 
-Deux familles dites séparément. **Le droit** (Code de la consommation) : lu sur Légifrance le 03/10/2026 par l'API officielle, rien à départager, des cas limites à confier à un professionnel. **Les méthodes** : corpus non réglementé, plusieurs voix, divergences montrées, aucune tranchée à la place de la personne.
-Chaque position est attribuée à son auteur. Pages lues le 03/10/2026 quand elles se sont ouvertes ; les rapports et ouvrages eux-mêmes n'ont pas été relus.
+Deux familles dites séparément. **Le droit** (Code de la consommation) : texte officiel, rien à départager, des cas limites à confier à un professionnel. **Les méthodes** : corpus non réglementé, plusieurs voix, divergences montrées, aucune tranchée à la place de la personne.
+Chaque position est attribuée à son auteur. Pages relevées quand elles se sont ouvertes ; les rapports et ouvrages eux-mêmes n'ont pas été relus.
 
 | Sujet | Voix 1 | Voix 2 | Ce que fait le calcul |
 | --- | --- | --- | --- |
@@ -223,7 +225,7 @@ Un budget de 2 000 € au CPA de 30 € permet 2 000 / 30 = 66,67, soit 66 vente
 
 # Méthode : le calcul à l'envers
 
-Méthode de la fiche, qui s'appuie sur la définition du ROAS de Google (page d'aide « About Target ROAS bidding », lue le 03/10/2026) et sur le conseil d'Avinash Kaushik de juger sur le profit (article « The Best Marketing ROI Formula », lu le 03/10/2026). Ce n'est pas une méthode d'un seul auteur.
+Méthode de la fiche, qui s'appuie sur la définition du ROAS de Google (page d'aide « About Target ROAS bidding ») et sur le conseil d'Avinash Kaushik de juger sur le profit (article « The Best Marketing ROI Formula », date non relevée). Ce n'est pas une méthode d'un seul auteur.
 
 1. **Partir de la marge d'une vente.** Prix hors taxes moins ce que la vente coûte (achat, fabrication, sous-traitance, livraison payée par vous). C'est le plafond de ce qu'on peut payer en publicité pour une vente sans perdre d'argent sur la première vente.
 2. **Regarder la relation.** Si le client rachète, la marge de toute la relation est un autre plafond, plus haut. Ne l'utiliser que si les rachats sont réels, pas espérés.
@@ -243,7 +245,7 @@ Une méthode n'est pas une promesse : aucun résultat n'est garanti.
 
 # Méthode : la liste de contrôle avant diffusion
 
-Méthode de la fiche, fondée sur les articles du Code de la consommation lus sur Légifrance le 03/10/2026 (L121-2, L121-3, L121-4, L121-20, L122-1, L122-2, L122-5, L112-1-1, L132-1, L132-2). Elle ne remplace pas la relecture d'un professionnel du droit et ne dit jamais qu'une annonce est licite.
+Méthode de la fiche, fondée sur les articles du Code de la consommation (L121-2, L121-3, L121-4, L121-20, L122-1, L122-2, L122-5, L112-1-1, L132-1, L132-2). Elle ne remplace pas la relecture d'un professionnel du droit et ne dit jamais qu'une annonce est licite.
 
 Pour chaque point, le calcul rappelle l'article et ce qu'il demande ; la personne répond oui, non ou je ne sais pas.
 
