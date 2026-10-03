@@ -41,9 +41,11 @@ Le mois où une opération se déclare dépend de l'**exigibilité** : à la liv
 les biens, à l'encaissement pour les services (sauf option pour les débits). C'est une
 cause fréquente de décalage entre la comptabilité et la CA3.
 
-Depuis le 1er septembre 2026, les règles de TVA sont dans le **code des impositions sur
-les biens et services (CIBS)** ; les anciennes références du CGI restent admises jusqu'à
-fin 2027. Les fiches pratiques et les notices citent encore souvent le CGI.
+À compter du 1er janvier 2027 (et non du 1er septembre 2026 : report par l'ordonnance
+n° 2026-671 du 27/07/2026), les règles de TVA sont dans le **code des impositions sur
+les biens et services (CIBS)** ; jusqu'au 31/12/2026, ce sont les articles du CGI qui
+s'appliquent, et les anciennes références du CGI restent admises jusqu'au 30/06/2028.
+Les fiches pratiques et les notices citent encore souvent le CGI.
 
 ## Pièges fréquents
 
@@ -189,7 +191,7 @@ autoliquidations), lignes de taux, 16, 17, 19 à 24, TD, 25 à 28. Les hypothès
 | TVA-09 | Régimes : CA3 au réel normal et mini-réel, CA12 au réel simplifié |
 | TVA-10 | Franchise en base : pas de CA3 |
 | TVA-11 | Franchise en base : mention sur factures |
-| TVA-12 | CIBS depuis le 01/09/2026, pour toute déclaration déposée depuis cette date |
+| TVA-12 | CIBS à compter du 01/01/2027 (report du 01/09/2026), pour toute déclaration déposée à compter de cette date |
 | TVA-13 | Autres autoliquidations : cases A2, A3, A4, B4 et ligne 24 |
 | TVA-14 | Dépôt tardif : majoration de 10 %, 40 %, 80 % |
 | TVA-15 | Intérêt de retard : 0,20 % par mois |
@@ -252,7 +254,7 @@ sa règle source ; ce que l'outil n'a pas contrôlé est rappelé à côté.
 | Crédit de TVA | Excédent de TVA déductible sur la TVA brute (ligne 25), reporté ou remboursé. |
 | Report du crédit | Crédit non remboursé (ligne 27), imputé sur la déclaration suivante (ligne 22). |
 | Exigibilité | Moment où la TVA devient due : livraison pour un bien, encaissement pour un service sauf option pour les débits. |
-| CIBS | Code des impositions sur les biens et services, qui contient les règles de TVA depuis le 1er septembre 2026. |
+| CIBS | Code des impositions sur les biens et services, qui contiendra les règles de TVA à compter du 1er janvier 2027 (report du 1er septembre 2026 par l'ordonnance n° 2026-671). |
 
 ### Annexe : liens-ressources
 

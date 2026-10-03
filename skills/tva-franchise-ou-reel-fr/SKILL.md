@@ -121,11 +121,11 @@ TVA (un sixième du prix à 20 %) est prélevée sur la marge. L'outil chiffre l
 - *Un projet de loi de finances pour 2027* est annoncé pour la fin septembre 2026 (source secondaire) ; son contenu sur la
   franchise n'est pas connu. Revérifier les plafonds après son dépôt.
 - *La recodification de la TVA au code des impositions sur les biens et services (CIBS)* renumérotera l'article
-  293 B à droit constant. L'entrée en vigueur est donnée au 01/09/2026 par nos relevés antérieurs et par le BOFiP du
-  18/02/2026, et au 01/01/2027 par l'ordonnance n° 2026-671 du 27/07/2026 (résultat de recherche sur Légifrance,
-  page non ouverte). Le numéro de l'article du CIBS qui remplace le 293 B n'est pas tranché non plus. Tant que ce
-  n'est pas lu à la source, garder la mention « art. 293 B du CGI » relevée et la vérifier avant d'éditer un modèle
-  de facture.
+  293 B à droit constant. Elle entre en vigueur le 01/01/2027, et non le 01/09/2026 : l'ordonnance n° 2026-671 du
+  27/07/2026 (art. 17, texte lu le 03/10/2026) a reporté la date. Jusqu'au 31/12/2026, l'article 293 B du CGI
+  s'applique ; les anciennes références du CGI restent admises jusqu'au 30/06/2028. Le numéro de l'article du CIBS
+  qui reprend la mention n'est pas relevé. Tant que ce n'est pas lu à la source, garder la mention « art. 293 B du
+  CGI » relevée et la vérifier avant d'éditer un modèle de facture à compter du 01/01/2027.
 
 **Les faits de mémoire que cette fiche lit et propose** (mêmes noms que la mémoire d'entreprise) :
 
@@ -357,7 +357,7 @@ Franchise cessée au 01/01/2026, 43 000 € de ventes à 10 % et 29 500 € de p
 | Option pour le paiement de la TVA | Renonciation à la franchise : effet le premier jour du mois de la demande, engagement de deux années civiles (CGI art. 293 F). |
 | Numéro de TVA intracommunautaire | Numéro nécessaire pour facturer la TVA. |
 | SIE | Service des impôts des entreprises, à informer de la sortie de la franchise. |
-| CIBS | Code des impositions sur les biens et services, où la TVA sera recodifiée ; date d'entrée en vigueur et numéro de l'article 293 B non tranchés. |
+| CIBS | Code des impositions sur les biens et services, où la TVA sera recodifiée à compter du 01/01/2027 (report du 01/09/2026 par l'ordonnance n° 2026-671) ; numéro de l'article qui reprend la mention de l'article 293 B non relevé. |
 | Micro-entreprise | Régime de l'impôt sur le revenu et des cotisations, avec ses propres plafonds ; distinct de la franchise de TVA. |
 | Ramené à douze mois | CA prévu de l'année de création × 365 / jours d'activité, comparé au plafond de base : dit si la franchise tient l'an prochain. |
 | TVA à rattraper | TVA due depuis la date de bascule sur des factures émises sans TVA : ajoutée au prix (HT × taux) ou prélevée sur le prix payé (prix × taux / (1 + taux)) ; deux lectures, aucune choisie par l'outil. |
@@ -481,16 +481,15 @@ pleine page reste à faire. Jusque-là, tout chiffre de ce tableau est à reconf
 | 14/02/2025 | Loi n° 2025-127, art. 38 | Supprime le régime simplifié de TVA au 01/01/2027 | non relu en ligne à ce jour |
 | 19/02/2026 | Loi n° 2026-103 de finances pour 2026 | Aucun changement des plafonds de la franchise relevé ; un projet de plafond de 25 000 € pour les travaux du bâtiment, écarté pendant les débats selon des sources secondaires | sources secondaires seulement, non relues |
 | 17/12/2025 | Ordonnance n° 2025-1247 | Recodifie la TVA dans le code des impositions sur les biens et services (CIBS) | relevé du 20/07/2026 (veille) |
-| 27/07/2026 | Ordonnance n° 2026-671 portant divers ajustements du CIBS | Reporterait du 01/09/2026 au 01/01/2027 l'entrée en vigueur de la TVA dans le CIBS | résultat de recherche sur Légifrance, page non ouverte |
+| 27/07/2026 | Ordonnance n° 2026-671 portant divers ajustements du CIBS | Art. 17 : reporte du 01/09/2026 au 01/01/2027 l'entrée en vigueur de la recodification de la TVA dans le CIBS (ordonnance n° 2025-1247, art. 49) et du 31/12/2027 au 30/06/2028 l'admission des références du CGI | texte lu sur Légifrance le 03/10/2026 |
 | fin 09/2026 | Projet de loi de finances pour 2027 | Annoncé ; son contenu sur la franchise n'est pas connu | source secondaire seulement |
 
 ## Les désaccords et les incertitudes entre les sources
 
-- **Date d'entrée en vigueur du CIBS pour la TVA** : 01/09/2026 (BOFiP BOI-RES-TVA-000253 du 18/02/2026 ; veille du
-  20/07/2026 ; nos fiches TVA) contre 01/01/2027 (ordonnance n° 2026-671 du 27/07/2026, postérieure).
-  Le texte le plus récent est probablement celui qui l'emporte, mais rien n'a été ouvert : **non tranché**. La
-  mention « art. 293 B du CGI » reste celle relevée, et les anciennes références du CGI restent admises jusqu'à fin
-  2027 selon le BOFiP du 18/02/2026.
+- **Date d'entrée en vigueur du CIBS pour la TVA** : tranchée au 01/01/2027. Le BOFiP BOI-RES-TVA-000253 du 18/02/2026
+  et nos relevés du 20/07/2026 donnaient le 01/09/2026 ; l'ordonnance n° 2026-671 du 27/07/2026 (art. 17, texte lu le
+  03/10/2026), postérieure, a reporté la date au 01/01/2027. La mention « art. 293 B du CGI » reste celle en vigueur
+  jusqu'au 31/12/2026, et les anciennes références du CGI restent admises jusqu'au 30/06/2028.
 - **Numéro du nouvel article** : « L. 223-3 du CIBS » selon un extrait attribué à une page de l'administration ;
   « L. 233-3 » selon une source secondaire. **Non tranché**, à lire sur Légifrance avant d'écrire une nouvelle mention.
 - **Plafond de 1 100 000 € pour l'année en cours** (CA3 trimestrielle dès 2027) : cité par une partie des extraits
