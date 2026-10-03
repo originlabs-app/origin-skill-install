@@ -112,7 +112,7 @@ L'outil calcule ; il ne choisit pas les canaux, ne note pas la qualité d'un can
 
 ## Lien avec la mémoire d'entreprise (abonnés)
 
-Le calcul se fait sans mémoire : on lui donne les chiffres des canaux. Aucun fait de la liste fermée de la mémoire d'entreprise n'est consommé ; un dossier de faits collé tel quel est accepté et ces faits sont ignorés sans bruit.
+Le calcul se fait sans mémoire : on lui donne les chiffres des canaux. Pour un abonné dont la mémoire est active, l'outil complète la valeur d'un client avec les faits validés de la liste fermée (panier moyen hors taxes, achats par client et par an, taux de marge brute sur le prix hors taxes, valeur d'une heure de travail hors taxes) et le dit en tête de sa réponse avec la date de la valeur. Les dépenses et les clients de chaque canal ne sont jamais lus en mémoire : ils changent d'une campagne à l'autre et se donnent dans l'appel. Un chiffre donné dans l'appel l'emporte toujours. Un fait seulement proposé n'est pas lu : l'outil le dit à valider. Un montant dont la base (hors taxes ou toutes taxes comprises) n'est pas dite n'est jamais pris pour un montant hors taxes : donner le montant hors taxes, jamais le prix affiché toutes taxes comprises.
 Les chiffres de canaux peuvent se déposer comme texte (mémoire brute, type `autre`) pour être retrouvés d'un mois à l'autre. Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
 
 ## Quatre usages
