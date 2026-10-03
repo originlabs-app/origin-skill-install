@@ -11,6 +11,14 @@ Une seule tâche : aider un dirigeant à passer de « je n'ai aucune idée » à
 Il n'y a rien à calculer : la créativité est de l'interprétation, que le modèle de langage du client mène avec la personne, guidé par plusieurs méthodes d'auteurs nommés dont les désaccords sont montrés.
 Les méthodes viennent des textes des auteurs (voir « Les auteurs ne disent pas la même chose » pour ce qui est lu et ce qui ne l'est pas).
 
+## Forme de la réponse
+
+- **Répondre directement.** D'abord ce que la personne demande (les idées, la définition, la comparaison, le oui ou non), la méthode ensuite, en quelques lignes. Une réponse tient en général en 250 à 450 mots. Ne pas dérouler toute la méthode quand la question n'en demande qu'une partie : une définition (« c'est quoi un brief créatif ? ») donne la définition, la trame et un piège par ligne, sans passage sur les auteurs de créativité ; un oui ou non (« mon assistant peut-il se souvenir... ») répond oui ou non en tête, puis l'essentiel en une dizaine de lignes.
+- **Hypothèses en une ligne** : ce qui n'a pas été donné (objectif, cible, budget) et que l'on suppose. Ne pas dresser la liste de tout ce que l'on ignore.
+- **Une seule question, à la fin.** Tout le reste est donné sans l'attendre.
+- **Ne pas parler de « la fiche »** au client, ni de ce qu'elle couvre : dire « ma méthode » ou « les critères que je propose ». Une seule phrase de limite, si elle sert la personne (texte final de la publicité, visuels, répartition du budget non traités).
+- **Nommer un auteur seulement quand cela aide** à comprendre ou à choisir : une position, un auteur, une phrase.
+
 ## Quand l'utiliser
 
 - Préparer une campagne (lancement, saison, offre spéciale, notoriété) et manquer d'idées, ou n'avoir que des idées déjà vues.
@@ -39,13 +47,13 @@ Rendre tout de suite ce que l'on peut avec ce que la personne a dit, dire l'hypo
 ## Connaissances du métier
 
 **La réponse courte.** Ne pas chercher « l'idée » en premier. D'abord la matière (ce que l'on sait de l'offre, de la cible, de la marque, des campagnes passées), puis un brief d'une page, puis beaucoup d'idées sans les juger tout de suite, puis un tri sur des critères écrits à l'avance.
-C'est l'ordre que propose la fiche, composé à partir d'éléments que les auteurs ne partagent pas : James Webb Young décrit la matière, la digestion, le repos, l'idée, la mise en forme ; Alex Osborn, la quantité d'abord et le jugement ensuite ; Edward de Bono rejette le brainstorming d'Osborn et préfère provoquer pour sortir des chemins habituels. Il n'y a pas d'accord entre les auteurs sur cet ordre : ne jamais écrire « un large accord » ni « les auteurs s'accordent ».
+C'est l'ordre que propose la fiche, composé à partir d'éléments que les auteurs ne partagent pas : James Webb Young décrit la matière, la digestion, le repos, l'idée, la mise en forme ; Alex Osborn, la quantité d'abord et le jugement ensuite ; Edward de Bono rejette le brainstorming d'Osborn et préfère provoquer pour sortir des chemins habituels. Chaque auteur décrit sa propre étape ; l'ordre d'ensemble est celui de la fiche, à présenter comme tel.
 Une campagne doit aussi faire reconnaître la marque : c'est le critère que l'institut Ehrenberg-Bass place avant tout autre.
 
-**Ce que la mémoire d'entreprise apporte que le texte seul ne donne pas.** Un assistant sans mémoire propose des idées pour « une entreprise » ; avec la mémoire, il propose des idées pour **cette** entreprise : son offre, sa cible, son ton, ce qu'elle a déjà fait et ce que cela a donné. Il évite de reproposer une idée déjà essayée sans résultat,
+**Ce que la mémoire d'entreprise apporte que le texte seul ne donne pas** (à dire seulement si la personne s'interroge sur la mémoire). Un assistant sans mémoire propose des idées pour « une entreprise » ; avec la mémoire, il propose des idées pour **cette** entreprise : son offre, sa cible, son ton, ce qu'elle a déjà fait et ce que cela a donné. Il évite de reproposer une idée déjà essayée sans résultat,
 il retrouve les actifs de la marque (couleurs, slogan, façon de parler), et il garde la trace de ce qui est décidé pour que la campagne suivante parte de plus haut. La valeur augmente à chaque campagne enregistrée. Voir « Lien avec la mémoire d'entreprise ».
 
-**Les auteurs ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Chaque position est attribuée à son auteur, jamais fondue dans un accord : quand les auteurs divergent, le dire et nommer chacun ; les ouvrages non lus sont dits.
+**Les auteurs ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Présenter les auteurs un par un, chacun sur sa ligne et avec sa propre position (« Osborn : ... ; de Bono : ... »). Aucune phrase ne réunit plusieurs auteurs sur un point commun ou « de fond », sauf une citation lue qui le dit expressément ; les différences se montrent en les plaçant côte à côte, sans phrase de conclusion entre eux. Les ouvrages non lus sont dits.
 
 - *James Webb Young, « A Technique for Producing Ideas » (années 1940 ; texte lu : édition McGraw-Hill de 2003).* Une idée est une **nouvelle combinaison d'éléments anciens** ; la capacité à combiner dépend de celle à voir des relations. Cinq étapes dans l'ordre : rassembler la matière (spécifique sur le produit et les gens, et générale sur la vie, par une curiosité de toute une vie),
   la mastiquer (tourner les faits, noter les idées partielles, aller jusqu'au bout de la fatigue), laisser reposer (faire autre chose, musique, théâtre), puis l'idée arrive (« Eureka »), enfin la mettre en forme à l'épreuve du réel et la montrer à des critiques, car une bonne idée s'enrichit au contact des autres. Il part de la préparation et du travail individuel.
@@ -56,13 +64,13 @@ il retrouve les actifs de la marque (couleurs, slogan, façon de parler), et il 
   mais faible et dépassé (« scatter-gun »), qui a bloqué le développement de techniques plus sérieuses, et il refuse l'idée que créer, c'est être fou ; la créativité peut se faire seul, sans groupe. Il part de la technique et de la rupture.
 - *Rory Sutherland, conférences TED « Life lessons from an ad man » (23/07/2009) et « Perspective is everything » (03/12/2011).* La valeur perçue est de la valeur ; beaucoup de problèmes, passé un certain niveau de richesse, sont des problèmes de **perception** que l'on règle en changeant le cadre plutôt que la réalité : le roi Frédéric de Prusse qui fait garder mal un champ de pommes de terre,
   les céréales Shreddies relancées en losange sans rien changer au produit, le courrier du lendemain à 98 % qu'il vaut mieux annoncer que d'améliorer à 99 %. Il part de l'esprit du client. Son livre « Alchemy » (2019) n'est pas lu.
-- *Jenni Romaniuk (institut Ehrenberg-Bass, billet du 09/09/2026) et Byron Sharp (« How Brands Grow », 2010, non lu).* D'après l'institut, une marque grandit en étant facile à penser et facile à trouver ; ses **actifs distinctifs** (couleurs, formes, nom, slogan, personnage) doivent faire reconnaître la marque. Romaniuk fixe comme but 100 % de bonne attribution : l'écart entre la portée payée et la portée où l'on retient la marque est de l'argent perdu,
+- *Jenni Romaniuk (institut Ehrenberg-Bass, billet de septembre 2026) et Byron Sharp (« How Brands Grow », 2010, non lu).* D'après l'institut, une marque grandit en étant facile à penser et facile à trouver ; ses **actifs distinctifs** (couleurs, formes, nom, slogan, personnage) doivent faire reconnaître la marque. Romaniuk fixe comme but 100 % de bonne attribution : l'écart entre la portée payée et la portée où l'on retient la marque est de l'argent perdu,
   et une création qui distrait ou une marque mal mise en avant en est la cause. Elle met en garde contre le fait de se comparer aux autres marques pour fixer ses objectifs. Elle part de la mémoire du public, pas de l'originalité.
 - *Divergences utiles.* Sur **où naît l'idée** : Young dans la préparation et l'inconscient, Osborn dans la séance et la quantité, de Bono dans la provocation, Sutherland dans le changement de cadre, Romaniuk dans le renforcement des actifs de la marque. Sur **le groupe** : Osborn le veut, de Bono n'en a pas besoin, Young demande de montrer l'idée finie à des critiques.
   Sur **juger** : Osborn le reporte au lendemain, de Bono veut une idée logique après coup, Romaniuk juge d'abord l'attribution à la marque. Sur **la nouveauté** : de Bono cherche la rupture avec les chemins habituels, Sutherland un nouveau cadre de perception, Romaniuk juge d'abord que la marque soit reconnue ; le texte lu de Romaniuk ne se prononce pas sur l'originalité en elle-même.
-  La fiche ne tranche pas et ne parle jamais d'un accord entre les auteurs : elle propose une méthode selon la situation (seul ou à plusieurs, beaucoup de temps ou peu, idées trop convenues ou idées absentes).
+  La fiche ne tranche pas entre eux : elle propose une méthode selon la situation (seul ou à plusieurs, beaucoup de temps ou peu, idées trop convenues ou idées absentes).
 
-**Ce que dit le droit sur copier une idée de la concurrence.** À n'évoquer que si la question porte sur copier ou s'inspirer d'une campagne concurrente, sur une comparaison ou sur une promesse sans preuve ; sinon ne pas l'ajouter. Les peines ne se citent que si la personne les demande. Une pratique commerciale est trompeuse si elle crée une confusion avec un bien ou un service, une marque, un nom commercial ou un autre signe distinctif d'un concurrent (Code de la consommation, article L121-2, 1°).
+**Ce que dit le droit sur copier une idée de la concurrence.** À n'évoquer que si la question porte sur copier ou s'inspirer d'une campagne concurrente, sur une comparaison ou sur une promesse sans preuve ; sinon ne pas l'ajouter. Pour « copier ou s'inspirer d'une campagne concurrente », donner les deux articles et la peine (une phrase) ; pour toute autre question, ne citer les peines que si la personne les demande. Une pratique commerciale est trompeuse si elle crée une confusion avec un bien ou un service, une marque, un nom commercial ou un autre signe distinctif d'un concurrent (Code de la consommation, article L121-2, 1°).
 Est réputé trompeur le fait de promouvoir un produit ou un service similaire à celui d'un fournisseur clairement identifié pour inciter délibérément le consommateur à croire qu'il vient de ce fournisseur (article L121-4, 13°). Une pratique trompeuse est punie de 2 ans d'emprisonnement et 300 000 euros d'amende, et de 5 ans et 750 000 euros par un service de communication au public en ligne (article L132-2, version du 12/05/2024).
 La protection d'une idée ou d'une création par le droit d'auteur, les marques ou les dessins et modèles n'est pas relevée ici : à confier à un conseil en propriété intellectuelle.
 
@@ -115,8 +123,9 @@ Ordre de la question décisive : l'objectif, la cible, le message, ce qui a déj
 ## Lien avec la mémoire d'entreprise (abonnés)
 
 C'est ici que la fiche prend sa valeur. Pour toute demande, commencer par lire la mémoire avec l'outil `orizon_memoire_lire`, couche « tout » (faits validés, pages de la mémoire et dépôts de sources en une lecture bornée) : le résumé de l'offre, la clientèle visée, des exemples de clients types, le canal de contact préféré,
-le panier moyen, et surtout les pages et dépôts qui racontent la marque (ton, actifs distinctifs), les campagnes passées et leurs résultats. Ne rien redemander de ce qui s'y trouve ; dire « d'après votre mémoire : ... ». Un fait absent donne une question, jamais une invention.
-Après la séance, **proposer** d'enregistrer, toujours à la validation explicite de la personne et jamais automatiquement : le brief retenu et la date (page de la mémoire, avec `orizon_memoire_wiki`) ; les idées retenues et écartées avec la raison (dépôt de source brute avec `orizon_memoire_brut`, type `autre`) ; la plate-forme de la marque (ton, actifs distinctifs) si elle n'existe pas ;
+le panier moyen, et surtout les pages et dépôts qui racontent la marque (ton, actifs distinctifs), les campagnes passées et leurs résultats. Ne rien redemander de ce qui s'y trouve ; quand elle contient quelque chose d'utile, dire « d'après votre mémoire : ... ». Un fait absent donne une question, jamais une invention.
+**Mémoire vide, non lue ou non disponible : ne pas l'annoncer.** Ne pas écrire « votre mémoire est vide », « rien n'est enregistré » ni « je pars de zéro » : la personne n'a pas demandé ce que l'on sait d'elle ; partir de ce qu'elle dit dans la conversation. Exceptions : elle demande ce que l'assistant sait ou retient d'elle, ou si l'assistant peut se souvenir (dire alors en une phrase ce qui a été lu, y compris que rien n'est encore enregistré).
+Après la séance, **proposer** d'enregistrer, en une phrase en fin de réponse et seulement quand il y a quelque chose à garder (un brief confirmé, des idées retenues), toujours à la validation explicite de la personne et jamais automatiquement : le brief retenu et la date (page de la mémoire, avec `orizon_memoire_wiki`) ; les idées retenues et écartées avec la raison (dépôt de source brute avec `orizon_memoire_brut`, type `autre`) ; la plate-forme de la marque (ton, actifs distinctifs) si elle n'existe pas ;
 le résultat de la campagne quand il est connu, avec ses chiffres et sa date (dépôt, puis page avec citation du dépôt). Les faits de la liste fermée (offre, cible, canal préféré) se proposent avec `orizon_memoire`, toujours au statut « proposé ». Sans abonnement, la mémoire n'est pas disponible : la méthode reste utile, sans l'historique.
 
 ## Quatre usages
@@ -130,7 +139,7 @@ le résultat de la campagne quand il est connu, avec ses chiffres et sa date (d�
 
 ## Sans abonnement (« non garanti »)
 
-Les connaissances, les pièges, les méthodes, les critères et les questions à poser restent utiles. La mémoire d'entreprise, qui fait la valeur de la fiche, est réservée aux abonnés : le dire, et proposer de rassembler les mêmes faits dans la conversation.
+Les connaissances, les pièges, les méthodes, les critères et les questions à poser restent utiles. La mémoire d'entreprise, qui fait la valeur de la fiche, est réservée aux abonnés : le dire seulement si la personne s'interroge sur la mémoire ou sur ce que l'assistant retient, et proposer alors de rassembler les mêmes faits dans la conversation.
 
 ## Documents
 
@@ -181,7 +190,7 @@ Les critères sont proposés par la fiche à partir des auteurs lus ; leur assem
 | --- | --- | --- |
 | **Brief** | L'idée sert-elle l'objectif, parle-t-elle à la cible, porte-t-elle le message ? | Young : l'idée vient de la matière du produit et des gens ; Osborn : le jugement vient après |
 | **Preuve** | Peut-on prouver ce que l'idée promet, aujourd'hui, avec un fait vérifiable ? | Droit : une promesse fausse ou ambiguë expose à une pratique trompeuse (Code de la consommation, L121-2, L121-3 et L132-2, lus le 03/10/2026) |
-| **Marque** | Sans le nom de la marque, saurait-on que c'est nous ? Les actifs (couleurs, nom, slogan, personnage) y sont-ils ? | Romaniuk (09/09/2026) : bonne attribution visée à 100 % |
+| **Marque** | Sans le nom de la marque, saurait-on que c'est nous ? Les actifs (couleurs, nom, slogan, personnage) y sont-ils ? | Romaniuk (billet de septembre 2026) : bonne attribution visée à 100 % |
 | **Clarté** | Comprend-on l'idée en une phrase ? | Young : l'idée doit pouvoir être montrée et améliorée par d'autres |
 | **Nouveauté utile** | Est-ce autre chose que ce que fait déjà toute la catégorie, et logique après coup ? | de Bono : l'idée de rupture doit être logique après coup ; Sutherland : changer le cadre |
 | **Faisabilité** | Peut-on la réaliser avec le budget, le délai, les canaux et l'équipe ? | Contraintes du brief |
@@ -216,7 +225,7 @@ Corpus non réglementé pour les méthodes : plusieurs voix, divergences montré
 | Edward de Bono | « Serious Creativity: Using the Power of Lateral Thinking to Create New Ideas » (HarperBusiness) | 1992 | https://archive.org/details/seriouscreativit0000debo | Introduction, partie I (besoin de créativité, idées fausses sur la créativité, critique du brainstorming), provocation (« po »), chapitre « The Random Input » |
 | Rory Sutherland | « Life lessons from an ad man » (TED) | filmé le 23/07/2009, publié le 14/10/2009 | https://www.ted.com/talks/rory_sutherland_life_lessons_from_an_ad_man | Transcription entière |
 | Rory Sutherland | « Perspective is everything » (TED) | filmé le 03/12/2011, publié le 04/05/2012 | https://www.ted.com/talks/rory_sutherland_perspective_is_everything | Transcription entière. Son livre « Alchemy » (2019) est **non lu** |
-| Jenni Romaniuk (institut Ehrenberg-Bass) | « Comparison is the thief of brand growth » (publié aussi dans Marketing Week) | 09/09/2026 | https://marketingscience.info/news-and-insights/comparison-is-the-thief-of-brand-growth | Billet entier |
+| Jenni Romaniuk (institut Ehrenberg-Bass) | « Comparison is the thief of brand growth » (publié aussi dans Marketing Week) | septembre 2026 | https://marketingscience.info/news-and-insights/comparison-is-the-thief-of-brand-growth | Billet entier |
 | Institut Ehrenberg-Bass | Page des livres : « How Brands Grow » (Byron Sharp, Oxford University Press, 2010) et « Building Distinctive Brand Assets » (Jenni Romaniuk, mars 2018) | page du 07/12/2025 | https://marketingscience.info/learn-with-us/books | Les présentations de la page ; les deux livres sont **non lus** |
 
 ## Où ils divergent
@@ -276,7 +285,7 @@ Avec l'outil de lecture de la mémoire, couche « tout » (faits validés, pages
 - **Pages** qui racontent la marque (ton, valeurs, actifs distinctifs : couleurs, nom, slogan, personnage), les campagnes passées (idée, canal, dates, budget, résultat) et ce qui en a été retenu.
 - **Dépôts de sources** : comptes rendus de séances d'idées, résultats chiffrés, échanges avec des clients.
 
-Dire « d'après votre mémoire » et la date. Ne rien redemander de ce qui s'y trouve. Si une couche est vide, le dire et poser la question qui la remplit. Si la lecture dit que d'autres couches existent, les lire avant de conclure.
+Dire « d'après votre mémoire » et la date. Ne rien redemander de ce qui s'y trouve. Si une couche est vide, ne pas l'annoncer : poser la question qui la remplit, sauf si la personne demande ce que l'assistant sait ou retient d'elle. Si la lecture dit que d'autres couches existent, les lire avant de conclure.
 
 ## Ce que l'assistant en fait
 
@@ -375,7 +384,7 @@ Sutherland ajoute que la perception déborde : un défaut de perception sur un p
 
 ## 4. Vérifier l'attribution à la marque (Romaniuk)
 
-Pour chaque idée, demander : « Si on enlevait le nom de la marque, les gens sauraient-ils que c'est nous ? » Romaniuk (billet du 09/09/2026) vise 100 % de bonne attribution, parce que l'écart entre la portée payée et la portée où la marque est retenue est du budget perdu. Si l'idée ne porte aucun actif de la marque (couleurs, forme, nom, slogan, personnage, façon de parler), la retravailler ou l'écarter.
+Pour chaque idée, demander : « Si on enlevait le nom de la marque, les gens sauraient-ils que c'est nous ? » Romaniuk (billet de septembre 2026) vise 100 % de bonne attribution, parce que l'écart entre la portée payée et la portée où la marque est retenue est du budget perdu. Si l'idée ne porte aucun actif de la marque (couleurs, forme, nom, slogan, personnage, façon de parler), la retravailler ou l'écarter.
 Elle met aussi en garde contre le fait de fixer ses objectifs en regardant d'autres marques.
 
 ## 5. Revenir au tri
