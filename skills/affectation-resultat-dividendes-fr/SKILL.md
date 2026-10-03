@@ -41,6 +41,17 @@ source et leur date. La fiche n'en fige aucun.
 - **Doter la réserve légale au-delà de son plafond**, ou l'oublier quand il n'est pas atteint.
 - **Distribuer plus que le distribuable** : c'est un dividende fictif, avec des conséquences
   pour les dirigeants.
+- **Proposer une avance, un prêt ou un compte courant débiteur au dirigeant** pour « patienter »
+  avant le vote du dividende. Dans une SARL ou une EURL, il est interdit, à peine de nullité, aux
+  gérants et aux associés personnes physiques de se faire consentir par la société un emprunt ou
+  un découvert, en compte courant ou autrement (Code de commerce, art. L223-21, texte lu sur
+  Légifrance le 03/10/2026). La seule voie est d'approuver les comptes, puis de voter le
+  dividende ; ne jamais présenter une avance comme solution d'attente.
+- **Parler d'acompte sur dividendes sans ses conditions.** Il suppose un bilan établi au cours ou
+  à la fin de l'exercice, certifié par un commissaire aux comptes, qui fait apparaître un
+  bénéfice, et il ne peut pas dépasser ce bénéfice (Code de commerce, art. L232-12, texte lu sur
+  Légifrance le 03/10/2026). Sans ce bilan certifié, on n'annonce pas d'acompte : on approuve les
+  comptes (si le délai pour les approuver est dépassé, on régularise sans attendre) puis on vote.
 - **Prélever sur des réserves sans le dire** dans la résolution.
 - **Rater l'échéance du prélèvement à la source**, qui court du mois de la mise en paiement.
 - **Oublier les cotisations** sur la part des dividendes d'un gérant majoritaire de SARL
@@ -61,13 +72,11 @@ La personne peut ignorer la méthode, en changer, sauter une étape ou revenir e
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 

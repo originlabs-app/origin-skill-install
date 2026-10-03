@@ -6,8 +6,10 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 - BOFiP - Dispense de prélèvement forfaitaire non libératoire, relevée le 14/07/2026
 - Conseil national de l'ordre des experts-comptables, relevée le 18/07/2026
+- Legifrance - Code de commerce L223-21 (interdiction des emprunts et découverts des gérants et associés de SARL), relevée le 03/10/2026
 - Legifrance - Code de commerce L232-10, relevée le 03/10/2026
 - Legifrance - Code de commerce L232-11, relevée le 03/10/2026
+- Legifrance - Code de commerce L232-12 (acomptes sur dividendes), relevée le 03/10/2026
 - PFNL au paiement, dispense et prelevements sociaux selon la date de paiement, relevée le 13/07/2026
 - base TNS de 10% avec soldes moyens annuels et date de reference, relevée le 13/07/2026
 - date limite IFU 2561 selon campagne tiers declarants, relevée le 08/07/2026
@@ -23,6 +25,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Infogreffe - Informations et formalités des entreprises, relevée le 18/07/2026
 - Le Coin des Entrepreneurs - Guides de gestion, relevée le 18/07/2026
 - Legifrance - Assemblées d'actionnaires de SA, relevée le 14/07/2026
+- Legifrance - CGI art. 1668 (solde d'IS au plus tard le 15 du quatrième mois suivant la clôture), relevée le 03/10/2026
 - Legifrance - Code civil art. 1852 (decisions: statuts, a defaut unanimite), relevée le 18/07/2026
 - Legifrance - Code civil art. 1856 (reddition de comptes du gerant), relevée le 03/10/2026
 - Legifrance - Code de commerce D.223-27 (seuils CAC, renvoi D.221-5), relevée le 03/10/2026
@@ -83,6 +86,37 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Service-Public Entreprendre F32106 - Remettre la réponse et échanger avec l'acheteur public, relevée le 20/07/2026
 - Service-Public Entreprendre F32137 - Répondre en groupement ou en sous-traitance, relevée le 20/07/2026
 - Service-Public Entreprendre F32154 - Préparer le dossier offre, relevée le 20/07/2026
+
+## Calculer la rémunération d'un apprenti ou d'un stagiaire (`apprentissage-stagiaire-fr`)
+
+- Code de l'éducation, art. D124-6 (durée du stage calculée sur la présence effective : sept heures valent un jour, vingt-deux jours valent un mois), relevée le 03/10/2026
+- Code de l'éducation, art. D124-8 (gratification due pour chaque heure de présence, dès le premier jour du premier mois, versée mensuellement), relevée le 03/10/2026
+- Code de l'éducation, art. L124-5 (durée maximale du stage : six mois par année d'enseignement dans un même organisme d'accueil), relevée le 03/10/2026
+- Code de l'éducation, art. L124-6 (gratification obligatoire au-delà de deux mois de stage dans le même organisme, d'au moins 15 % du plafond horaire de la Sécurité sociale, due dès le premier jour, versée mensuellement et forfaitaire), relevée le 03/10/2026
+- Code du travail, art. D6222-26 (salaire minimum de l'apprenti en pourcentage du SMIC selon l'âge et l'année d'exécution du contrat : 27, 39 et 55 % de seize à dix-sept ans ; 43, 51 et 67 % de dix-huit à vingt ans ; 53, 61 et 78 % du SMIC ou du minimum conventionnel s'il est supérieur de vingt et un à vingt-cinq ans ; 100 % à partir de vingt-six ans), relevée le 03/10/2026
+- Code du travail, art. D6222-28 (prolongation : salaire de la dernière année) et D6222-29 (nouveau contrat : au moins la rémunération de la dernière année du contrat précédent qui a conduit au diplôme), relevée le 03/10/2026
+- Code du travail, art. D6222-30 (majoration de 15 points pour un contrat d'un an au plus préparant un diplôme de même niveau en rapport direct) et D6222-31 (majoration à compter du premier jour du mois suivant le jour où l'apprenti atteint dix-huit, vingt et un ou vingt-six ans ; années déjà exécutées comptées ; jamais plus de 100 % du SMIC sauf disposition plus favorable), relevée le 03/10/2026
+- Code du travail, art. L6222-1 (apprenti : seize ans au moins et vingt-neuf ans révolus au plus au début de l'apprentissage ; quinze ans après la scolarité du premier cycle), relevée le 03/10/2026
+- Décret n° 2026-168 du 6 mars 2026 relatif à l'aide exceptionnelle aux employeurs d'apprentis (contrats conclus à compter du 8 mars 2026 et débutant avant le 1er janvier 2027), relevée le 03/10/2026
+- Service-Public (entreprises), Aides à l'embauche en contrat d'apprentissage (montants depuis le 8 mars 2026 selon l'effectif et le niveau du diplôme, 6 000 € pour un travailleur handicapé, versement mensuel pendant douze mois au plus), relevée le 03/10/2026
+- Service-Public (entreprises), Gratification minimale d'un stagiaire (4,50 € par heure en 2026, soit 15 % du plafond horaire de la Sécurité sociale de 30 € ; page mise à jour le 01/01/2026), relevée le 03/10/2026
+- Service-Public, Contrat d'apprentissage (durée du contrat : six mois au moins, trois ans au plus ou durée indéterminée ; page mise à jour le 08/09/2026), relevée le 03/10/2026
+
+## Gérer l'arrêt maladie d'un salarié (`arret-maladie-salarie-fr`)
+
+- Code de la sécurité sociale, art. R313-3 (conditions d'ouverture du droit : 150 heures sur trois mois ou cotisations équivalant à 1 015 fois le SMIC horaire ; au-delà de six mois, 600 heures sur douze mois ou 2 030 fois le SMIC horaire), relevée le 03/10/2026
+- Code de la sécurité sociale, art. R323-1 (délai de carence de trois jours, durée maximale, 360 indemnités journalières sur trois ans ; version du décret n° 2026-866 du 16 septembre 2026, applicable aux arrêts prescrits à compter du 15 octobre 2026), relevée le 03/10/2026
+- Code de la sécurité sociale, art. R323-11 (subrogation de l'employeur qui maintient le salaire), relevée le 03/10/2026
+- Code de la sécurité sociale, art. R323-4 (revenu d'activité antérieur : 1/91,25 des trois dernières paies, plafond de 1,4 fois le SMIC du dernier jour du mois précédant l'arrêt), relevée le 03/10/2026
+- Code de la sécurité sociale, art. R323-5 (l'indemnité journalière est égale à la moitié du revenu d'activité antérieur), relevée le 03/10/2026
+- Code du travail numérique, Indemnisation en cas d'arrêt maladie : ce qui change au 15 octobre 2026 (décret n° 2026-866 du 16 septembre 2026), relevée le 03/10/2026
+- Code du travail, art. D1226-1 (90 % de la rémunération brute pendant trente jours, puis deux tiers pendant trente jours), relevée le 03/10/2026
+- Code du travail, art. D1226-2 (dix jours de plus par période entière de cinq ans d'ancienneté au-delà d'un an, sans dépasser quatre-vingt-dix jours), relevée le 03/10/2026
+- Code du travail, art. D1226-3 (délai de carence de sept jours en cas de maladie, aucun en cas d'accident du travail ou de maladie professionnelle hors accident de trajet), relevée le 03/10/2026
+- Code du travail, art. D1226-4 (indemnités déjà perçues durant les douze mois antérieurs), relevée le 03/10/2026
+- Code du travail, art. D1226-6 (indemnités de la Sécurité sociale réduites, réputées servies intégralement), D1226-7 (rémunération de l'horaire pratiqué pendant l'absence) et D1226-8 (ancienneté appréciée au premier jour de l'absence), relevée le 03/10/2026
+- Code du travail, art. L1226-1 (indemnité complémentaire de l'employeur : un an d'ancienneté, justification sous quarante-huit heures, prise en charge par la Sécurité sociale ; version en vigueur depuis le 27/06/2026), relevée le 03/10/2026
+- Service-Public, Indemnités journalières de la Sécurité sociale : montants en 2026 (plafond de 42,97 € par jour pour les arrêts maladie à partir du 1er juillet 2026, salaire plafonné à 1,4 fois le SMIC), relevée le 03/10/2026
 
 ## Remplir le bilan annuel d'un organisme de formation (`bilan-pedagogique-financier-fr`)
 
@@ -277,6 +311,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 - INPI - Depot des comptes annuels au guichet unique, relevée le 18/07/2026
 - Infogreffe - Tarifs des formalités, relevée le 18/07/2026
+- Legifrance - CGI art. 1668 (solde d'IS au plus tard le 15 du quatrième mois suivant la clôture), relevée le 03/10/2026
 - Legifrance - Code de commerce D.123-200 (seuils micro/petite/moyenne), relevée le 03/10/2026
 - Legifrance - Code de commerce L.123-16 (petites et moyennes entreprises, persistance deux exercices), relevée le 03/10/2026
 - Legifrance - Code de commerce L.123-16-1 (micro-entreprises, persistance deux exercices), relevée le 03/10/2026
@@ -364,6 +399,21 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Légifrance - Code général des impôts article 289 bis, relevée le 03/10/2026
 - Légifrance - Livre des procédures fiscales article L102 B, relevée le 03/10/2026
 - OriginSkill - standard structured-v2, relevée le 28/08/2026
+
+## Calculer les heures supplémentaires et complémentaires (`heures-supplementaires-fr`)
+
+- Code de la sécurité sociale, art. L241-17 (réduction des cotisations salariales sur la rémunération des heures supplémentaires et des heures complémentaires) et art. D241-21 (taux : somme des cotisations vieillesse salariales, dans la limite de 11,31 %), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L241-18 (entreprises de moins de vingt salariés), L241-18-1 (entreprises d'au moins vingt salariés, version en vigueur depuis le 31/12/2025) et D241-24 (déduction forfaitaire patronale de 1,50 € ou 0,50 € par heure supplémentaire), relevée le 03/10/2026
+- Code du travail, art. D3121-24 (à défaut d'accord, contingent annuel de 220 heures supplémentaires par salarié), relevée le 03/10/2026
+- Code du travail, art. L3121-20 (quarante-huit heures par semaine au plus) et L3121-22 (quarante-quatre heures en moyenne sur douze semaines consécutives au plus), relevée le 03/10/2026
+- Code du travail, art. L3121-27 à L3121-31 (durée légale de 35 heures, heure supplémentaire au-delà, décompte par semaine, contingent et contrepartie obligatoire en repos), relevée le 03/10/2026
+- Code du travail, art. L3121-33 (accord : taux de majoration d'au moins 10 %, contingent, contrepartie obligatoire en repos d'au moins 50 % ou 100 % des heures au-delà du contingent selon que l'entreprise compte vingt salariés au plus ou plus de vingt), relevée le 03/10/2026
+- Code du travail, art. L3121-35 à L3121-40 (dispositions supplétives : semaine du lundi au dimanche, 25 % puis 50 %, repos compensateur de remplacement, contrepartie obligatoire de 50 % ou 100 %), relevée le 03/10/2026
+- Code du travail, art. L3121-36 (à défaut d'accord, majoration de 25 % pour chacune des huit premières heures supplémentaires, 50 % pour les suivantes), relevée le 03/10/2026
+- Code du travail, art. L3123-20 (accord : limite des heures complémentaires portée jusqu'au tiers de la durée du contrat) et L3123-21 (accord de branche étendu : majoration d'au moins 10 %), relevée le 03/10/2026
+- Code du travail, art. L3123-28 (à défaut d'accord, heures complémentaires limitées au dixième de la durée du contrat) et L3123-29 (10 % jusqu'au dixième, 25 % entre le dixième et le tiers), relevée le 03/10/2026
+- Code du travail, art. L3123-8 (chaque heure complémentaire est majorée) et L3123-9 (les heures complémentaires ne portent jamais la durée au niveau de la durée légale), relevée le 03/10/2026
+- Code général des impôts, art. 81 quater (exonération d'impôt sur le revenu des rémunérations d'heures supplémentaires et complémentaires, dans la limite annuelle de 7 500 €), relevée le 03/10/2026
 
 ## Payer le juste impôt sur les sociétés (`is-acomptes-solde-fr`)
 
@@ -478,6 +528,18 @@ Aucune source datée n'est rattachée à cette fiche.
 - Code du travail - Article R6332-26, relevée le 03/10/2026
 - France competences - Trouver mon OPCO, relevée le 30/08/2026
 - OPCO EP - Criteres de financement 2026, branche Librairie 184, relevée le 04/08/2026
+
+## Calculer une prime de partage de la valeur ou un intéressement (`ppv-interessement-fr`)
+
+- Code de la sécurité sociale, art. L136-8 (contribution sociale généralisée au taux de 9,2 % sur les revenus d'activité) et ordonnance n° 96-50 du 24 janvier 1996, art. 19 (contribution pour le remboursement de la dette sociale au taux de 0,5 %), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L137-15 (forfait social ; intéressement non assujetti sous 250 salariés) et L137-16 (taux de 20 %), relevée le 03/10/2026
+- Code du travail, art. L3312-3 (entreprises de un à moins de deux cent cinquante salariés : les dirigeants et le conjoint collaborateur peuvent bénéficier de l'intéressement), relevée le 03/10/2026
+- Code du travail, art. L3312-4 (sommes d'intéressement exclues de l'assiette des cotisations de Sécurité sociale, sans substitution à un élément de rémunération sauf délai de douze mois) et Code de la sécurité sociale, art. L242-1 II 1°, relevée le 03/10/2026
+- Code du travail, art. L3312-5 (accord d'intéressement conclu pour une durée d'un an à cinq ans, par accord collectif, accord avec les organisations syndicales, accord au sein du comité social et économique ou ratification aux deux tiers du personnel ; décision unilatérale possible dans une entreprise de moins de cinquante salariés sans délégué syndical ni comité social et économique), relevée le 03/10/2026
+- Code du travail, art. L3314-8 (intéressement : montant global au plus 20 % du total des salaires bruts ; par bénéficiaire et par exercice, au plus les trois quarts du plafond annuel moyen de la Sécurité sociale), relevée le 03/10/2026
+- Code du travail, art. L3315-1 (intéressement déductible pour l'entreprise, soumis à l'impôt sur le revenu du bénéficiaire) et L3315-2 (exonération d'impôt sur le revenu des sommes affectées à un plan d'épargne d'entreprise, dans la limite des trois quarts du plafond annuel de la Sécurité sociale), relevée le 03/10/2026
+- Code du travail, art. L3322-2 (participation aux résultats obligatoire dans les entreprises d'au moins cinquante salariés), relevée le 03/10/2026
+- Loi n° 2022-1158 du 16 août 2022, article 1, version de la loi n° 2023-1107 du 29 novembre 2023 (prime de partage de la valeur : plafonds de 3 000 € et 6 000 €, deux primes par an, exonération d'impôt et de CSG-CRDS sous cinquante salariés jusqu'au 31/12/2026), relevée le 03/10/2026
 
 ## Embaucher mon premier salarié (`premiere-embauche-fr`)
 
@@ -718,6 +780,16 @@ Aucune source datée n'est rattachée à cette fiche.
 - The Predictable Revenue Methodology, relevée le 09/08/2026
 - The Sales Development Playbook, relevée le 30/08/2026
 - The Science of Scaling, relevée le 09/08/2026
+
+## Vérifier le SMIC et le minimum de la convention collective (`smic-minimum-conventionnel-fr`)
+
+- Arrêté du 22 mai 2026 relatif au relèvement du salaire minimum de croissance (12,31 € brut de l'heure et 1 867,02 € pour 35 heures par semaine à compter du 1er juin 2026 ; minimum garanti de 4,35 €), relevée le 03/10/2026
+- Code du travail, art. D3231-6 (le salaire horaire comparé au SMIC est celui d'une heure de travail effectif, avec les avantages en nature et les majorations ayant le caractère d'un complément de salaire ; sont exclus les remboursements de frais, les majorations pour heures supplémentaires prévues par la loi et la prime de transport), relevée le 03/10/2026
+- Code du travail, art. L2253-1 (la convention de branche peut définir les salaires minima hiérarchiques et les classifications), relevée le 03/10/2026
+- Code du travail, art. L3231-12 (minimum garanti, notamment pour évaluer les avantages en nature), relevée le 03/10/2026
+- Code du travail, art. L3231-2 (le salaire minimum de croissance assure aux salariés les plus faiblement rémunérés la garantie de leur pouvoir d'achat et une participation au développement économique de la nation), relevée le 03/10/2026
+- Code du travail, art. L3245-1 (prescription de trois ans de l'action en paiement du salaire ; les sommes dues des trois dernières années, ou des trois années précédant la rupture du contrat), relevée le 03/10/2026
+- Service-Public, Salaire minimum de croissance (Smic) : montants, temps partiel calculé à l'heure, éléments qui comptent ou non dans la comparaison, jeunes de moins de 18 ans (page vérifiée le 01/06/2026), relevée le 03/10/2026
 
 ## Quel statut choisir pour créer mon entreprise (`statut-juridique-choisir-fr`)
 

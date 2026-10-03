@@ -100,13 +100,11 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 
