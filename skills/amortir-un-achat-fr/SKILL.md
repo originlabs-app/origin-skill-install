@@ -10,7 +10,7 @@ description: "Amortir un achat : sur combien d'années, et combien par an. Méth
 Une seule tâche : savoir ce que devient un achat dans les comptes. Soit il passe directement en charges, soit il s'inscrit à
 l'actif (immobilisation) et son coût est réparti sur plusieurs exercices : c'est l'amortissement. La première question est
 souvent la plus rentable (un achat de 450 € n'a pas à s'amortir) ; la seconde est un calcul de jours, d'exercices et de
-centimes qui ne se fait pas de tête. Fiche à jour au 30/09/2026.
+centimes qui ne se fait pas de tête. Fiche relue le 30/09/2026.
 
 ## Quand l'utiliser
 
@@ -152,7 +152,7 @@ changer, sauter une étape ou revenir en arrière. Exemples chiffrés : `exemple
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».

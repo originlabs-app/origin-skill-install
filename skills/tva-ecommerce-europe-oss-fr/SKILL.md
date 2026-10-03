@@ -9,7 +9,7 @@ description: "Facturer la TVA de mes ventes en Europe et déclarer au guichet un
 
 Une seule tâche : dire à un dirigeant qui vend en ligne à des particuliers d'autres pays de l'Union européenne quelle TVA il doit facturer, à partir de quelle vente, combien il doit
 à chaque pays et quand le déclarer. Le calcul est exact ; savoir si un produit précis a droit à un taux réduit dans un pays reste à lire dans la liste officielle de ce pays.
-Fiche à jour au 02/10/2026 ; chaque règle ou taux propre à la fiche est « relevé le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
+Fiche relue le 02/10/2026 ; chaque règle ou taux propre à la fiche est « relevé le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
 
 ## Quand l'utiliser
 
@@ -98,7 +98,7 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».

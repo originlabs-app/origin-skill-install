@@ -9,7 +9,7 @@ description: "Vérifier le SMIC et le minimum de la convention collective. Méth
 
 Une seule tâche : dire si un salaire est au moins égal au SMIC du mois et au minimum que la convention collective fixe pour le niveau du salarié, et sinon de combien le relever. Le SMIC se compare à l'heure, donc au prorata des heures payées ;
 le minimum de la convention est une grille que la personne lit (ou que les outils de convention collective aident à lire) et donne au calcul. Le calcul est exact ; ce qui dépend d'un fait que la personne n'a pas donné
-(heures payées, nature d'une prime, minimum de la grille) donne une question, jamais une valeur supposée. Fiche à jour au 03/10/2026 ; les textes cités ont été lus à cette date.
+(heures payées, nature d'une prime, minimum de la grille) donne une question, jamais une valeur supposée. Fiche relue le 03/10/2026 ; les textes cités ont été lus à cette date.
 
 ## Quand l'utiliser
 
@@ -83,7 +83,7 @@ La personne peut ignorer les méthodes, en changer, sauter une étape ou revenir
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».

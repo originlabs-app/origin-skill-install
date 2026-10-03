@@ -10,7 +10,7 @@ description: "Prévoir ma trésorerie sur 12 mois. Méthode professionnelle fran
 Une seule tâche : savoir, mois par mois, si l'argent suffira. Le résultat d'une entreprise ne le dit pas : un mois peut
 être bénéficiaire et laisser le compte à zéro, parce qu'un client paie à 60 jours, que la TVA part avant l'encaissement ou que les
 cotisations tombent le mois suivant. Le plan range chaque flux au mois où l'argent bouge réellement, en trésorerie, toutes taxes
-comprises. Fiche à jour au 30/09/2026.
+comprises. Fiche relue le 30/09/2026.
 
 ## Quand l'utiliser
 
@@ -156,7 +156,7 @@ ignorer les méthodes, en changer, sauter une étape ou revenir en arrière. Exe
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».

@@ -10,7 +10,7 @@ description: "Payer le juste impôt sur les sociétés. Méthode professionnelle
 Une seule tâche : dire à un dirigeant ce qu'il doit à l'impôt sur les sociétés cette année et quand, sans payer trop tôt ni trop. Les acomptes se calculent sur l'impôt du dernier exercice,
 le solde sur le bénéfice de l'exercice, et les déficits passés ou présents changent les deux. Le calcul est exact ; la décision (opter pour le report en arrière, réduire ses acomptes)
 reste celle de la personne, avec un expert-comptable quand l'enjeu est grand.
-Fiche à jour au 02/10/2026 ; chaque règle propre à la fiche est « relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
+Fiche relue le 02/10/2026 ; chaque règle propre à la fiche est « relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
 
 ## Quand l'utiliser
 
@@ -99,7 +99,7 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
@@ -115,7 +115,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur impot-societes.
 
 Entrées : `annee_exercice`, `date_cloture_exercice`, `date_debut_activite`, `date_premiere_cloture`, `dernier_exercice_clos` (`is`, `benefice_imposable`, `fraction_distribuee`, `fraction_imposee_par_credits`, `chiffre_affaires_ht`,
 `capital_entierement_libere`, `detention_75_pct_personnes_physiques`, `duree_mois`), `avant_dernier_exercice_clos` (`is`), `exercice_en_cours` (`benefice_fiscal`, `deficits_reportables`, `acomptes_verses`, mêmes conditions du taux réduit),
-`impot`, `date_reference`. Les montants s'écrivent comme la personne les donne (« 18 400 € »). Une entrée non comprise est dite dans `manquant`, jamais ignorée en silence.
+`impot`, `date_reference`. `acomptes_verses` est ce qui est payé : l'acompte non encore échu (par exemple celui du 15 décembre) est compté pour le solde avec l'hypothèse dite, et le solde sans lui est aussi donné. Les montants s'écrivent comme la personne les donne (« 18 400 € »). Une entrée non comprise est dite dans `manquant`, jamais ignorée en silence.
 
 Lire la réponse : `resultat.reponse` porte la synthèse en quelques phrases ; `acomptes` donne les échéances (date, montant, déjà échue ou non) ; `impot_de_l_exercice` les tranches à 15 % et 25 % ; `deficits.report_en_avant` et
 `deficits.report_en_arriere` ; `solde` ; `hypotheses` ce qui a été retenu faute de fait ; `questions` et `question_decisive` ce qu'il faut demander. Chaque appel répond sous la forme unique `resultat` / `regles` / `manquant` / `prudence` / `garanti`.
@@ -196,6 +196,11 @@ Les deux montants sont donnés, l'ordre d'imputation n'ayant pas pu être relu. 
 
 Société créée en mars 2025 : si son premier exercice se clôt le 31 décembre 2025, les acomptes de 2026 sont dus (impôt du premier exercice divisé par 4). S'il se clôt le 31 décembre 2026, aucun acompte en 2026 : le premier exercice se règle par le solde de mai 2027.
 Sans la date de première clôture, aucune date n'est annoncée et la question est posée.
+
+## 8. Solde en cours d'année : le dernier acompte n'est pas encore payé
+
+Impôt du dernier exercice clos : 25 250 €, soit quatre acomptes de 6 312,50 €. Au 12 octobre 2026, trois sont payés (18 937,50 €) ; le quatrième tombe le 15 décembre, avant le solde du 15 mai 2027. Bénéfice de 2026 : 135 000 €, impôt 6 375 € plus 25 % de 92 500 € (23 125 €) = 29 500 €.
+Le solde se compte avec les quatre acomptes : 29 500 € moins 25 250 € = 4 250 €. Compter seulement les trois payés donnerait 10 562,50 €, faux de 6 312,50 € si le quatrième est payé. L'outil donne les deux chiffres, retient le premier en disant l'hypothèse (le quatrième acompte sera payé à sa date), et la reprend dans `en_clair.non_verifie`. Si le total des acomptes versés ne correspond ni aux acomptes déjà échus ni au total de l'exercice, rien n'est deviné : le solde est calculé sur le seul montant donné et la limite est dite.
 
 ### Annexe : glossaire
 
