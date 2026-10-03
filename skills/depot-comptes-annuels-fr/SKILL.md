@@ -36,6 +36,19 @@ Délais, seuils de taille, options de confidentialité et frais viennent de l'ou
 ## Pièges fréquents
 
 - **Compter le délai depuis la clôture** au lieu de l'approbation.
+- **Conclure « hors délai » sur un jour de fin de mois.** Un délai en mois qui part d'une clôture au
+  dernier jour d'un mois de 30 jours (30 juin, 30 septembre, 30 avril, 30 novembre) ne se compte pas
+  pareil selon la convention : au même quantième (30 décembre pour une clôture au 30 juin) ou au dernier
+  jour du mois d'arrivée (31 décembre). Donner les deux dates, dire laquelle l'outil retient (le même
+  quantième), ne jamais déclarer en retard une décision signée le dernier jour du mois sans avoir
+  montré les deux lectures, et conseiller de signer avant la date la plus tôt ; si l'échéance est
+  dépassée, la prorogation se demande avant, pas après.
+- **Croire que le retard d'approbation est le seul retard.** La déclaration de résultats (liasse) et
+  le solde d'impôt sur les sociétés d'un exercice clos ont leurs propres dates, sans attendre
+  l'approbation : pour une clôture hors 31 décembre, la liasse est due trois mois après la clôture (plus
+  quinze jours si elle est télétransmise, fiche `calendrier-obligations-fr`), et le relevé de solde d'IS se dépose et se paie au plus
+  tard le 15 du quatrième mois qui suit la clôture (15 juillet pour une clôture au 31 mars, 15 mai pour le 31 décembre ; CGI art. 1668, texte lu sur Légifrance le 03/10/2026 ; calcul avec `is-acomptes-solde-fr`). Quand une approbation est en retard, demander si la liasse a été
+  déposée et le solde payé, et les traiter dans le plan de régularisation.
 - **Oublier de déclarer la confidentialité** : elle ne s'applique pas d'office.
 - **Se croire micro-entreprise sur un seul exercice** : la catégorie se juge sur des
   exercices consécutifs, et certaines sociétés en sont exclues.
@@ -58,13 +71,11 @@ La personne peut ignorer la méthode, en changer, sauter une étape ou revenir e
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 

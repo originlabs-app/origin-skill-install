@@ -57,7 +57,7 @@ textes non relus en ligne).
 
 **La déclaration du guichet unique.** Elle est trimestrielle : à déposer et à payer, en euros, au plus tard le dernier jour du mois qui suit la fin du trimestre : 30 avril, 31 juillet, 31 octobre, 31 janvier de l'année suivante.
 Le montant se donne pays par pays et taux par taux. Un résultat de recherche donne le 30 juillet pour le deuxième trimestre : la règle est le dernier jour du mois, donc le 31 juillet, à confirmer sur la page officielle ;
-le report d'une date qui tombe un week-end n'est pas relevé : déposer avant.
+la fiche officielle du guichet unique (impots.gouv.fr, avril 2022, lue le 03/10/2026) donne ces quatre dates et ne prévoit aucun report quand elles tombent un samedi, un dimanche ou un jour férié (le 31 octobre 2026 est un samedi, le 31 janvier 2027 un dimanche) : déposer et payer au plus tard la veille ouvrée ; l'outil rend la date avec le jour de la semaine et cette veille.
 
 **Ce qui est relevé et ce qui ne l'est pas.** La fiche le dit dans `divergences-des-sources` : la date de la deuxième échéance (30 ou 31 juillet), les taux réduits de la plupart des pays, la franchise en base.
 Un taux ou une date relevés par recherche se relisent sur la page officielle avant de déclarer.
@@ -98,13 +98,11 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 
@@ -152,7 +150,7 @@ Le calcul est rendu en chiffres dans la conversation : la fiche ne produit aucun
 ## Ce qui n'est pas relevé
 
 Le taux réduit d'un produit précis dans un pays (liste officielle de chaque pays) ; la TVA française des ventes d'avant le franchissement ; la conversion des ventes en devises ; les ventes depuis un stock situé dans un autre pays ;
-les importations de petits colis venant de pays tiers ; les places de marché qui deviennent redevables de la TVA ; les majorations en cas de retard ; le report d'une échéance qui tombe un week-end ; la correction d'une déclaration déjà déposée ;
+les importations de petits colis venant de pays tiers ; les places de marché qui deviennent redevables de la TVA ; les majorations en cas de retard ; un report éventuel d'une échéance qui tombe un week-end (aucun n'est relevé) ; la correction d'une déclaration déjà déposée ;
 les règles de facturation propres à chaque pays. Pour chacun, le dire et orienter vers un expert-comptable quand l'enjeu le justifie.
 
 ### Annexe : divergences-des-sources

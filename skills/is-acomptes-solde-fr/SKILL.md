@@ -32,8 +32,8 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 | Fait | Pourquoi il compte |
 | --- | --- |
 | **Impôt sur les sociétés du dernier exercice clos** (ou son bénéfice imposable) | C'est la base des quatre acomptes. Sans lui, aucun montant n'est donné. 0 est un vrai chiffre (pas de bénéfice), à demander, jamais à supposer. |
-| **Date de clôture de l'exercice** | Les dates de 15 mars, 15 juin, 15 septembre et 15 décembre valent pour une clôture au 31 décembre ; pour une autre clôture, les montants se calculent mais pas les dates. |
-| **Date de début d'activité et date de la première clôture** | Aucun acompte n'est dû tant qu'aucun exercice n'est clos : sans ces dates, aucune date d'acompte n'est annoncée. |
+| **Date de clôture de l'exercice** | Les dates de 15 mars, 15 juin, 15 septembre et 15 décembre valent pour une clôture au 31 décembre ; pour une autre clôture d'un exercice de douze mois, l'outil lit la table de l'annexe III au CGI (art. 360 bis) : les quatre dates changent d'ordre et d'année, et le solde se règle le 15 du quatrième mois après la clôture. Texte lu sur Légifrance le 03/10/2026. |
+| **Date de début d'activité et date de la première clôture** | Aucun acompte n'est dû tant qu'aucun exercice n'est clos : sans impôt d'un dernier exercice clos et sans ces dates, aucune date d'acompte n'est annoncée. Quand l'impôt (ou le bénéfice) du dernier exercice clos est donné, la société a forcément clos un exercice : ces dates ne sont pas demandées. |
 | **Conditions du taux réduit** : chiffre d'affaires de 10 millions d'euros au plus, capital entièrement libéré, capital détenu à 75 % au moins par des personnes physiques | Elles font passer l'impôt de 25 % à 15 % sur les 42 500 premiers euros. Si l'une manque, les deux impôts sont donnés et la question est posée. |
 | **Bénéfice de l'exercice, déficits reportables, acomptes déjà versés** | Donnent l'impôt de l'exercice, le solde et ce qui reste de déficits. |
 | **Pour un déficit : bénéfice de l'exercice précédent et part distribuée aux associés** | Donnent la base du report en arrière et la créance. |
@@ -75,7 +75,8 @@ quand les montants sont importants. La fiche calcule et montre les voies, elle n
 - **Oublier que les dividendes distribués réduisent le report en arrière.** La part du bénéfice distribuée aux associés ne compte pas dans la base.
 - **Confondre report en arrière et report en avant.** Le premier donne une créance sur l'État (remboursée après cinq ans ou utilisée avant) ; le second réduit l'impôt des bénéfices futurs, s'il y en a.
 - **Croire que les acomptes versés sont perdus en cas de déficit.** Ils s'imputent ou se restituent, et les acomptes à venir peuvent être réduits (modulation, non calculée ici).
-- **Transposer les dates du 15 à une clôture qui n'est pas au 31 décembre.** Pour une autre clôture, les dates se lisent dans l'échéancier de l'espace professionnel.
+- **Transposer les dates du 15 à une clôture qui n'est pas au 31 décembre.** Pour une autre clôture, les dates viennent de la table de l'annexe III au CGI (art. 360 bis), pas des quatre 15 du calendrier civil ; un exercice plus court ou plus long a un nombre d'acomptes différent, non calculé.
+- **Compter sur un report quand une échéance tombe un samedi, un dimanche ou un jour férié.** Aucun report n'est relevé dans les textes lus le 03/10/2026 (CGI art. 1668, annexe III art. 360 bis, BOFiP BOI-IS-DECLA-20-10 et 20-20, impots.gouv) : l'outil rend la date avec sa mention et la veille ouvrée.
 
 ## Méthodes proposées (jamais imposées)
 
@@ -98,13 +99,11 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 
@@ -112,7 +111,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur impot-societes.
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `is_acomptes_solde` (nom servi : `orizon_is_acomptes_solde`) | Les quatre acomptes avec leurs dates (gardes de l'année de création et de la première clôture), la dispense sous 3 000 €, la régularisation du deuxième acompte ; l'impôt de l'exercice à deux taux ; les déficits reportables imputés ; le solde ou l'excédent d'acomptes ; le report en arrière d'un déficit (créance, déficit qui reste) | Dès qu'on a l'impôt du dernier exercice, le bénéfice de l'exercice, ou un déficit |
+| `is_acomptes_solde` (nom servi : `orizon_is_acomptes_solde`) | Les quatre acomptes avec leurs dates (clôture au 31 décembre : gardes de l'année de création et de la première clôture, inutiles si l'impôt du dernier exercice clos est donné ; autre clôture : table de l'annexe III, art. 360 bis), la mention des échéances qui tombent un jour non ouvré, la dispense sous 3 000 €, la régularisation du deuxième acompte ; l'impôt de l'exercice à deux taux ; les déficits reportables imputés ; le solde ou l'excédent d'acomptes ; le report en arrière d'un déficit (créance, déficit qui reste) | Dès qu'on a l'impôt du dernier exercice, le bénéfice de l'exercice, ou un déficit |
 
 Entrées : `annee_exercice`, `date_cloture_exercice`, `date_debut_activite`, `date_premiere_cloture`, `dernier_exercice_clos` (`is`, `benefice_imposable`, `fraction_distribuee`, `fraction_imposee_par_credits`, `chiffre_affaires_ht`,
 `capital_entierement_libere`, `detention_75_pct_personnes_physiques`, `duree_mois`), `avant_dernier_exercice_clos` (`is`), `exercice_en_cours` (`benefice_fiscal`, `deficits_reportables`, `acomptes_verses`, mêmes conditions du taux réduit),
@@ -150,7 +149,7 @@ et `solde` ; il ne prétend jamais avoir créé un fichier ni payé quoi que ce 
 ## Ce qui n'est pas relevé
 
 Les crédits et réductions d'impôt (non déduits de l'impôt de référence) ; la modulation des acomptes ; les groupes de sociétés (intégration fiscale, appréciation du chiffre d'affaires du groupe) ; les contributions supplémentaires des grandes entreprises ;
-les acomptes d'un exercice qui ne dure pas douze mois et leurs dates pour une clôture hors 31 décembre ; la perte des déficits après un changement d'activité ou un changement de contrôle ; les règles propres à une entreprise en difficulté ; les pénalités de retard.
+les acomptes d'un exercice qui ne dure pas douze mois ; la perte des déficits après un changement d'activité ou un changement de contrôle ; les règles propres à une entreprise en difficulté ; les pénalités de retard.
 Pour chacun, le dire et orienter vers un expert-comptable quand l'enjeu le justifie.
 
 ### Annexe : exemples-calcules

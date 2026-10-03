@@ -1,10 +1,10 @@
 # OriginSkill : les fiches gratuites
 
-![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![50 fiches](https://img.shields.io/badge/fiches-50-green) ![Règles relevées du 26/06/2026 au 03/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2003--10--2026-orange)
+![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![55 fiches](https://img.shields.io/badge/fiches-55-green) ![Règles relevées du 26/06/2026 au 03/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2003--10--2026-orange)
 
 **Votre assistant d'intelligence artificielle répond comme un professionnel français : il connaît les règles, les pièges et les questions à poser.**
 
-50 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 03/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
+55 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 03/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
 
 ## Ce que je veux régler : la fiche qu'il me faut
 
@@ -62,6 +62,11 @@
 | Embaucher mon premier salarié | [`premiere-embauche-fr`](skills/premiere-embauche-fr) |
 | Calculer les congés payés d'un salarié | [`conges-payes-fr`](skills/conges-payes-fr) |
 | Vérifier ma fiche de paie, ligne par ligne | [`controle-fiche-de-paie-fr`](skills/controle-fiche-de-paie-fr) |
+| Gérer l'arrêt maladie d'un salarié | [`arret-maladie-salarie-fr`](skills/arret-maladie-salarie-fr) |
+| Calculer les heures supplémentaires et complémentaires | [`heures-supplementaires-fr`](skills/heures-supplementaires-fr) |
+| Calculer la rémunération d'un apprenti ou d'un stagiaire | [`apprentissage-stagiaire-fr`](skills/apprentissage-stagiaire-fr) |
+| Vérifier le SMIC et le minimum de la convention collective | [`smic-minimum-conventionnel-fr`](skills/smic-minimum-conventionnel-fr) |
+| Calculer une prime de partage de la valeur ou un intéressement | [`ppv-interessement-fr`](skills/ppv-interessement-fr) |
 
 ### Mettre mon entreprise en règle (assemblées, documents légaux)
 
@@ -113,7 +118,7 @@ Un banc est un essai chiffré : les mêmes questions sont posées à l'assistant
 
 Les questions, les réponses et les verdicts complets : [https://originskill.ai/bancs](https://originskill.ai/bancs).
 
-24 essais publiés à ce jour. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
+26 essais publiés à ce jour. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
 
 <details>
 <summary>Voir tous les résultats, essai par essai</summary>
@@ -144,12 +149,16 @@ Les questions, les réponses et les verdicts complets : [https://originskill.ai/
 | 30/09/2026 | Mémoire x calendrier, banc 2 | SAS fictive de 47 salariés, clôture au 31/12, statuts à 4 mois ; 6 questions nouvelles ; 4 bras, 24 instances neuves | moyennes A 5,17 ; A+ 6,17 ; B 6,25 ; C 8,42 ; C gagne 5 (toutes clairement), perd 1 : thèse confirmée, mémoire justifiée contre A+ ; part du gain sans payer 33 % |
 | 30/09/2026 | Concurrent réel : LLM + fiche + internet + Python | 36 questions de 5 bancs (calendrier, CDD, relance de devis, TVA européenne, mémoire), quatre bras rejugés ensemble dont le concurrent réel | 24 questions sans mémoire : A 6,1 ; B 8,4 ; D 7,9 ; C 8,8 ; banc mémoire : A+ 6,7 ; D+ 7,5 ; C0+ 8,3 ; C 8,8 ; **C bat le concurrent réel 23 fois, égalise 8, perd 5** |
 | 30/09/2026 | Lot 1 des fiches créateurs, quatre bras | 5 bancs de 6 questions (trésorerie, rémunération du dirigeant, première embauche, TVA franchise ou réel, aides à la création), bras A, B, C et D (concurrent réel) | lot : A 4,83 ; B 8,46 ; C 8,67 ; D 7,43 ; C contre A et B : gagne 10, égalise 12, perd 8 (première embauche sous le critère d'entrée) ; **C bat le concurrent réel 27 fois sur 30** ; part du gain sans payer 77 % à plus de 100 % |
+| 03/10/2026 | Lot 4 des fiches de : IS, autoliquidation de TVA, guichet unique OSS, contrôle de fiche de paie | dirigeant de TPE fictif, 4 fiches payantes, 6 questions chacune, A, B (fiche servie) et C (banc MCP local), claude -p par abonnement, un juge neuf par question, rejeu de C après correctif | premier passage : A 5,5 ; B 8,33 ; C 7,62 sur 24 questions ; C gagne 7, égalise 1, perd 16 (brut) ; avec le bruit du juge ±1,0 : 0 victoire, 17 égalités dans le bruit, 7 défaites au-delà ; **aucune fiche ne bat A et B** ; cause commune : un calcul du serveur ne livrait pas le texte de la fiche à Claude Code (corrigé) ; après rejeu des 16 questions perdues, lecture consolidée A 5,58 ; B 8,21 ; C 8,21 : égalité dans le bruit sur les 4 fiches ; part du gain sans payer 133 % |
+| 03/10/2026 | Lot 2 des fiches de : statut juridique, congés payés, CFE, notes de frais, amortissement | dirigeant de TPE fictif, 5 fiches payantes, 6 questions chacune, A, B (fiche servie) et C (banc MCP local), claude -p par abonnement, un juge neuf par question, rejeu de C après correctif ; aucun banc archivé n'existait | premier passage : A 5,42 ; B 8,7 ; C 7,64 sur 30 questions ; C gagne 5, égalise 4, perd 21 (brut) ; avec le bruit du juge ±1,0 : 0 victoire, 21 égalités dans le bruit, 9 défaites au-delà (congés payés et statut perdent au-delà du bruit à l'échelle de la fiche) ; **aucune fiche ne bat A et B** ; après rejeu des 21 questions perdues, lecture consolidée A 5,52 ; B 8,37 ; C 8,34 : égalité dans le bruit sur les 5 fiches ; part du gain sans payer 147 % |
 
 </details>
 
-### Comparaison avec Paperasse : banc en cours
+### Comparaison avec Paperasse : égalité, nous ne faisons pas encore mieux
 
-Paperasse est un autre dépôt libre de fiches pour la paperasse française. Nous voulons que nos fiches gratuites, puis nos fiches avec le serveur, fassent mieux sur les sujets que nous couvrons tous les deux. **Ce banc n'est pas encore joué : aucun chiffre n'est annoncé ici.** Le résultat sera publié à cet endroit, gagné ou perdu.
+[Paperasse](https://github.com/romainsimon/paperasse) (licence MIT, Romain Simon) est un autre dépôt libre de fiches pour la paperasse française. Banc du 03/10/2026, 20 questions sur les sujets que nous couvrons tous les deux, un juge par question qui ne sait pas d'où vient la réponse. Après nos corrections, moyennes sur 10 : assistant seul 7,3 ; avec Paperasse 7,0 ; avec notre fiche gratuite 7,1 ; avec le serveur OriginSkill 7,2.
+
+**Nous ne faisons pas mieux que Paperasse aujourd'hui.** Notre juge peut se tromper d'un point : un écart d'un point ou moins compte comme une égalité. Avec cette règle, le serveur OriginSkill gagne 4 questions, fait jeu égal sur 13 et en perd 3 face à Paperasse ; la fiche gratuite seule en gagne 4, fait jeu égal sur 9 et en perd 7. Nous corrigeons nos fiches et rejouerons ce banc ; le résultat sera publié ici, gagné ou perdu.
 
 ## Licence et sources
 

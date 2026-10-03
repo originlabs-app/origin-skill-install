@@ -62,6 +62,21 @@ de finances pour 2026.
 Une facture ne se corrige jamais en la modifiant : on émet un avoir ou une facture
 rectificative qui renvoie à la facture d'origine.
 
+**Facture émise au mauvais client.** On n'efface pas la facture et on ne réutilise pas son
+numéro (la numérotation suit une séquence chronologique continue, CGI annexe II art. 242 nonies A).
+On émet un avoir qui reprend ses montants en négatif (HT, TVA, TTC) et renvoie à son numéro, puis
+une nouvelle facture au bon client, au numéro suivant de la série des factures et à la date du jour.
+Le client erroné est prévenu qu'il peut ignorer la première facture. La TVA d'une prestation de
+services n'est en principe exigible qu'à l'encaissement, sauf option pour les débits : demander
+si la société a opté, car la TVA a pu être déclarée dès l'émission et l'avoir la régularise alors
+sur la déclaration en cours.
+
+**Conservation : toujours donner les deux durées.** Les documents comptables et leurs pièces
+justificatives, dont les factures, se conservent dix ans (Code de commerce art. L123-22, texte lu
+sur Légifrance le 03/10/2026). La durée fiscale de conservation des factures et pièces est de six
+ans (Livre des procédures fiscales art. L102 B, relevé Légifrance du 20/07/2026). Une réponse qui
+n'en donne qu'une des deux est incomplète.
+
 ## Pièges fréquents
 
 - **Vérifier la présence des totaux sans refaire les calculs.** Une TVA à 210 EUR sur
@@ -71,6 +86,9 @@ rectificative qui renvoie à la facture d'origine.
 - **Oublier les mentions commerciales entre professionnels.** Pénalités de retard et indemnité
   de 40 EUR sont les plus souvent absentes.
 - **Prendre un numéro de TVA bien formé pour un numéro valide.** La clé se calcule depuis le SIREN.
+  Un SIREN qui échoue au contrôle de clé (Luhn) et une clé de TVA incohérente sont deux constats
+  distincts : le dire tel que l'outil le détaille, sans déclarer faux un numéro de TVA dont la clé
+  est cohérente.
 - **Confondre PDF envoyé par e-mail et facture électronique.** Un PDF n'est pas une facture électronique. Un émetteur déjà soumis à l'émission électronique doit envoyer une facture structurée par une plateforme agréée ; avant sa date (`reforme_calendrier`), le PDF reste admis.
 - **Qualifier « non conforme » une facture reçue** alors que le point est à confirmer avec le
   fournisseur : distinguer ce qui est absent de ce qui dépend d'un fait inconnu.
@@ -97,13 +115,11 @@ bonnes habitudes quand la personne veut agir, pas des obligations.
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, en une ou deux phrases, avec la règle ou le chiffre ; les détails viennent ensuite.
-2. Quand un fait manque, donner la réponse pour chaque cas (par exemple les plafonds pour chaque catégorie), puis poser la question en fin de réponse. Ne jamais refuser de donner des règles stables faute d'un fait.
-3. Ne poser une question que si la réponse change selon la réponse, et jamais en tête de réponse.
-4. Ne jamais parler au dirigeant de la mécanique interne : pas de « l'outil », « le moteur », « le serveur », « relevé de N jours », d'identifiants de règles ni de champs techniques ; parler le langage du métier. Le champ `garanti` est un marqueur technique : ne jamais recopier le mot « garanti ». La fraîcheur se dit en une phrase simple, et seulement si `garanti` vaut `non` : « règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » (la date figure dans la source de chaque règle). Quand la source porte « non relu en ligne à ce jour », ne jamais écrire « vérifiée » : écrire « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Une source citée n'est pas une vérification : ne pas l'écrire comme telle.
-5. Donner l'utile concret : un exemple chiffré, la démarche (où et comment), la sanction ou le risque, la prochaine action.
-6. Ne jamais inventer un fait absent pour appeler un outil.
-7. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne (article, blog, extrait de moteur de recherche). En cas d'écart, le dire au dirigeant sans trancher : donner les deux valeurs, leurs sources et leurs dates.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
+3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
+5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Outils (description ouverte)
 
