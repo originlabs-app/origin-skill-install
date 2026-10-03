@@ -87,7 +87,8 @@ des lignes de taux et de la TVA brute. Si VIES avait répondu « non valide » e
   « Autoliquidation ».
 - Entre professionnels, s'ajoutent la date d'échéance, l'escompte (ou son absence), le taux des
   pénalités de retard et l'indemnité forfaitaire de 40 EUR (Code de commerce L441-9, relevé le
-  20/07/2026 ; une nouvelle version s'applique depuis le 01/09/2026, à relire avant d'affirmer).
+  20/07/2026, texte lu le 03/10/2026 ; une nouvelle version, qui renvoie au CIBS, s'applique à compter du
+  01/01/2027).
 - Une facture en langue étrangère est admise, avec traduction en français exigible en contrôle ;
   les montants peuvent être dans une autre monnaie si la TVA est déterminée en euros (article
   289, IV).
@@ -113,14 +114,17 @@ facturer les acomptes ne s'applique pas à une livraison intracommunautaire exon
   intracommunautaire (base en B2, TVA aussi en ligne 17, déduction en ligne 19 ou 20) ; l'achat
   d'un service à un prestataire non établi en France s'autoliquide en A3 (articles 259-1 et 283-2 du
   CGI, notice CA3 2026, relevé le 27/09/2026). C'est le pendant côté acheteur.
-- Conservation des pièces : six ans pour les factures et pièces fiscales (Livre des procédures
-  fiscales L102 B, relevé le 20/07/2026), dix ans pour les documents comptables (Code de commerce
+- Conservation des pièces : six ans pour les factures et pièces fiscales jusqu'au 31/12/2026, dix ans à compter du 01/01/2027
+  pour les documents dont le délai expire après cette date (Livre des procédures fiscales L102 B,
+  texte lu le 03/10/2026 ; loi n° 2026-534 du 25/06/2026, art. 36), dix ans pour les documents comptables (Code de commerce
   L123-22). La durée de conservation de la preuve VIES elle-même n'est pas confirmée : la vérifier.
 
-**Vigilance : la TVA est recodifiée.** Depuis le 01/09/2026, les règles de TVA sont dans le code des
-impositions sur les biens et services (CIBS), à droit constant, et non plus dans le CGI ; les
-anciennes références du CGI restent admises jusqu'à fin 2027 (ordonnance n° 2025-1247 du
-17/12/2025, doctrine BOFiP du 18/02/2026, relevés du 20/07/2026 et du 27/09/2026). Les articles
+**Vigilance : la TVA est recodifiée.** À compter du 01/01/2027 (et non du 01/09/2026 : report par l'ordonnance
+n° 2026-671 du 27/07/2026, art. 17), les règles de TVA sont dans le code des impositions sur les biens
+et services (CIBS), à droit constant, et non plus dans le CGI ; d'ici là, ce sont les articles du CGI
+qui s'appliquent. Les anciennes références du CGI restent admises jusqu'au 30/06/2028 (ordonnance
+n° 2025-1247 du 17/12/2025, art. 46, dans sa rédaction de 2026-671, texte lu le 03/10/2026 ; doctrine
+BOFiP du 18/02/2026, antérieure au report). Les articles
 cités ici (262 ter, 289, 242 nonies A, 259-1, 283-2) sont des références CGI : à dire comme telles,
 et la mention « art. 262 ter I du CGI » d'une facture pourra devoir changer de numéro. Les nouveaux
 numéros ne sont pas relevés : ne jamais les deviner, les lire en direct.
@@ -253,7 +257,7 @@ déclaration.
 | État récapitulatif de TVA | Déclaration à part des livraisons intracommunautaires de biens. |
 | DES | Déclaration européenne de services : déclaration à part des services rendus à un client professionnel de l'Union. |
 | Fait générateur | Événement qui donne naissance à la TVA ; en principe la livraison pour un bien. |
-| CIBS | Code des impositions sur les biens et services, qui recodifie la TVA depuis le 01/09/2026 ; les références du CGI restent admises jusqu'à fin 2027. |
+| CIBS | Code des impositions sur les biens et services, qui recodifie la TVA à compter du 01/01/2027 (report du 01/09/2026 par l'ordonnance n° 2026-671) ; les références du CGI restent admises jusqu'au 30/06/2028. |
 
 ### Annexe : methode-avant-de-facturer
 
@@ -357,9 +361,9 @@ qu'elle est à confirmer sur le texte officiel (l'article se lit en direct à la
 | Facture en langue étrangère admise, traduction en français exigible en contrôle ; montants dans toute monnaie si la TVA est déterminée en euros. | CGI, article 289, IV | 31/12/2023 | 20/07/2026 ; texte lu le 03/09/2026 |
 | Mentions : nom et adresse des parties (1°) ; numéro de TVA du vendeur (2°) ; numéros de TVA du vendeur et de l'acquéreur pour les livraisons du I de l'article 262 ter (3°) ; numéros de TVA du prestataire et du preneur quand le preneur est redevable (4°) ; date d'émission (6°), numéro unique et continu (7°), adresse de livraison si elle diffère (7° bis) ; quantité, dénomination, prix unitaire HT, taux ou bénéfice d'une exonération (8°) ; biens, services ou les deux (8° bis) ; date de livraison si elle diffère (10°) ; montant de la taxe (11°) ; en cas d'exonération, référence à la disposition du CGI ou de la directive 2006/112/CE, ou toute mention indiquant l'exonération (12°) ; « Autoliquidation » quand l'acquéreur ou le preneur est redevable (13°). | CGI, annexe II, article 242 nonies A, I (LEGIARTI000050811276) | 01/01/2025 | 20/07/2026 ; texte lu le 03/09/2026 |
 | La dispense de certaines mentions (numéro de TVA du vendeur, référence d'exonération) pour les factures de 150 EUR HT ou moins ne s'applique pas aux livraisons exonérées au titre du I de l'article 262 ter. | CGI, annexe II, article 242 nonies A, II | 01/01/2025 | 20/07/2026 ; texte lu le 03/09/2026 |
-| Facture entre professionnels : date d'échéance, taux des pénalités de retard, indemnité forfaitaire de 40 EUR. Une nouvelle version s'applique depuis le 01/09/2026, à relire avant d'affirmer. | Code de commerce, article L441-9 (LEGIARTI000038414397) | 26/04/2019 | 20/07/2026 |
+| Facture entre professionnels : date d'échéance, taux des pénalités de retard, indemnité forfaitaire de 40 EUR. Une nouvelle version, qui renvoie au code des impositions sur les biens et services, s'applique à compter du 01/01/2027 (LEGIARTI000054567625). | Code de commerce, article L441-9 (LEGIARTI000038414397) | 26/04/2019 | 20/07/2026 ; texte lu le 03/10/2026 |
 | Fait générateur de la taxe : en principe le moment où la livraison est effectuée ; règles particulières pour les livraisons continues sur plus d'un mois. | CGI, article 269, 1 (LEGIARTI000044983827), version du 01/01/2023 | 01/01/2023 | texte lu le 03/09/2026 |
-| Conservation des factures et pièces fiscales : six ans. | Livre des procédures fiscales, article L102 B (LEGIARTI000046869194) | 01/05/2026 | 20/07/2026 |
+| Conservation des factures et pièces fiscales : six ans jusqu'au 31/12/2026 ; dix ans à compter du 01/01/2027 pour les documents dont le délai de conservation expire après cette date (loi n° 2026-534 du 25/06/2026, art. 36). | Livre des procédures fiscales, article L102 B (LEGIARTI000046869194, nouvelle version LEGIARTI000054566874) | 01/05/2026 | 20/07/2026 ; texte lu le 03/10/2026 |
 | Conservation des documents comptables et pièces justificatives : dix ans. | Code de commerce, article L123-22 (LEGIARTI000005634355) | 21/09/2000 | 20/07/2026 |
 
 ## CA3 : lignes concernées, règles relevées
@@ -378,12 +382,16 @@ Source : notice 3310-NOT-CA3-SD de la CA3, millésime 2026, et impots.gouv, cons
 
 ## Vigilance : recodification de la TVA au CIBS
 
-Depuis le 01/09/2026, la TVA est codifiée dans le code des impositions sur les biens et services, à
-droit constant ; les anciennes références du CGI restent admises jusqu'à fin 2027. Sources :
-BOFiP BOI-RES-TVA-000253 du 18/02/2026 (consulté le 27/09/2026) ; ordonnance n° 2025-1247 du
-17/12/2025, article 49 (relevé le 20/07/2026, article 289 du CGI concerné). Les relevés des
-articles 269 et 289 du CGI signalent une abrogation au 01/01/2027, certaines dispositions étant maintenues
-jusqu'à leur reprise dans le CIBS. Les
+À compter du 01/01/2027, la TVA est codifiée dans le code des impositions sur les biens et services, à
+droit constant ; les anciennes références du CGI restent admises jusqu'au 30/06/2028. Jusqu'au
+31/12/2026, ce sont les articles du CGI qui s'appliquent. La date du 01/09/2026, antérieurement prévue,
+a été reportée au 01/01/2027 par l'ordonnance n° 2026-671 du 27/07/2026, article 17 (texte lu le
+03/10/2026) ; elle ne touche pas le calendrier de la facturation électronique (01/09/2026 et
+01/09/2027). Sources : ordonnance n° 2025-1247 du 17/12/2025, articles 46 et 49, dans leur rédaction de
+l'ordonnance n° 2026-671 (lue le 03/10/2026) ; BOFiP BOI-RES-TVA-000253 du 18/02/2026 (consulté le
+27/09/2026, antérieur au report). Les relevés des articles 269, 289, 289 bis et 293 B du CGI
+signalent une abrogation au 01/01/2027, certaines dispositions (289 bis, 3 du I, IV et VII de
+l'article 289) étant maintenues jusqu'à leur reprise par des mesures réglementaires. Les
 numéros des nouveaux articles ne sont pas relevés ici : ne pas les deviner, lire l'article en
 direct.
 
