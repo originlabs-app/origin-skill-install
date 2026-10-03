@@ -1,10 +1,10 @@
 # OriginSkill : les fiches gratuites
 
-![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![55 fiches](https://img.shields.io/badge/fiches-55-green) ![Règles relevées du 26/06/2026 au 03/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2003--10--2026-orange)
+![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![60 fiches](https://img.shields.io/badge/fiches-60-green) ![Règles relevées du 26/06/2026 au 03/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2003--10--2026-orange)
 
 **Votre assistant d'intelligence artificielle répond comme un professionnel français : il connaît les règles, les pièges et les questions à poser.**
 
-55 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 03/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
+60 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 03/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
 
 ## Ce que je veux régler : la fiche qu'il me faut
 
@@ -19,6 +19,11 @@
 | Ai-je le droit de contacter ce prospect ? | [`droit-de-contacter-fr`](skills/droit-de-contacter-fr) |
 | Relancer un devis resté sans réponse | [`relance-devis-fr`](skills/relance-devis-fr) |
 | Me situer face à mes concurrents | [`analyse-concurrence-fr`](skills/analyse-concurrence-fr) |
+| Utiliser les réseaux sociaux sans y passer sa vie | [`reseaux-sociaux-fr`](skills/reseaux-sociaux-fr) |
+| Avoir des idées créatives pour une campagne | [`idees-creatives-campagne-fr`](skills/idees-creatives-campagne-fr) |
+| Trouver des clients | [`plan-acquisition-clients-fr`](skills/plan-acquisition-clients-fr) |
+| Augmenter mon chiffre d'affaires | [`augmenter-chiffre-affaires-fr`](skills/augmenter-chiffre-affaires-fr) |
+| Lancer une publicité en ligne rentable et conforme | [`publicite-en-ligne-fr`](skills/publicite-en-ligne-fr) |
 
 ### Dépenser moins et mieux, piloter mon argent
 
@@ -118,7 +123,7 @@ Un banc est un essai chiffré : les mêmes questions sont posées à l'assistant
 
 Les questions, les réponses et les verdicts complets : [https://originskill.ai/bancs](https://originskill.ai/bancs).
 
-26 essais publiés à ce jour. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
+29 essais publiés à ce jour. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
 
 <details>
 <summary>Voir tous les résultats, essai par essai</summary>
@@ -151,6 +156,9 @@ Les questions, les réponses et les verdicts complets : [https://originskill.ai/
 | 30/09/2026 | Lot 1 des fiches créateurs, quatre bras | 5 bancs de 6 questions (trésorerie, rémunération du dirigeant, première embauche, TVA franchise ou réel, aides à la création), bras A, B, C et D (concurrent réel) | lot : A 4,83 ; B 8,46 ; C 8,67 ; D 7,43 ; C contre A et B : gagne 10, égalise 12, perd 8 (première embauche sous le critère d'entrée) ; **C bat le concurrent réel 27 fois sur 30** ; part du gain sans payer 77 % à plus de 100 % |
 | 03/10/2026 | Lot 4 des fiches de : IS, autoliquidation de TVA, guichet unique OSS, contrôle de fiche de paie | dirigeant de TPE fictif, 4 fiches payantes, 6 questions chacune, A, B (fiche servie) et C (banc MCP local), claude -p par abonnement, un juge neuf par question, rejeu de C après correctif | premier passage : A 5,5 ; B 8,33 ; C 7,62 sur 24 questions ; C gagne 7, égalise 1, perd 16 (brut) ; avec le bruit du juge ±1,0 : 0 victoire, 17 égalités dans le bruit, 7 défaites au-delà ; **aucune fiche ne bat A et B** ; cause commune : un calcul du serveur ne livrait pas le texte de la fiche à Claude Code (corrigé) ; après rejeu des 16 questions perdues, lecture consolidée A 5,58 ; B 8,21 ; C 8,21 : égalité dans le bruit sur les 4 fiches ; part du gain sans payer 133 % |
 | 03/10/2026 | Lot 2 des fiches de : statut juridique, congés payés, CFE, notes de frais, amortissement | dirigeant de TPE fictif, 5 fiches payantes, 6 questions chacune, A, B (fiche servie) et C (banc MCP local), claude -p par abonnement, un juge neuf par question, rejeu de C après correctif ; aucun banc archivé n'existait | premier passage : A 5,42 ; B 8,7 ; C 7,64 sur 30 questions ; C gagne 5, égalise 4, perd 21 (brut) ; avec le bruit du juge ±1,0 : 0 victoire, 21 égalités dans le bruit, 9 défaites au-delà (congés payés et statut perdent au-delà du bruit à l'échelle de la fiche) ; **aucune fiche ne bat A et B** ; après rejeu des 21 questions perdues, lecture consolidée A 5,52 ; B 8,37 ; C 8,34 : égalité dans le bruit sur les 5 fiches ; part du gain sans payer 147 % |
+| 03/10/2026 | Rejeu complet des lots 2 et 4 de : neuf fiches, trois bras rejugés ensemble | dirigeant de TPE fictif, mêmes 54 questions et références figées que les bancs du 03/10, A, B (fiche servie ce jour) et C (banc MCP local) rejoués puis rejugés ensemble (un juge neuf par question), ; les 54 réponses C ont lu la fiche (30 750 octets au moins) | moyennes A 5,64 ; B 8,19 ; C 8,0 ; C gagne 15 (dont 2 de peu), égalise 13, perd 26 (brut) ; avec le bruit ±1,0 : 4 victoires, 42 égalités, 8 défaites au-delà ; **aucune des 9 fiches ne passe le critère d'entrée** (lot 4 : C 7,71 contre B 8,19 ; lot 2 : C 8,23 contre B 8,19) ; part du gain sans payer 108 % ; défaites : restitution (erreurs d'arithmétique, débordement, échéances de week-end) |
+| 03/10/2026 | Lot 5 de : arrêt maladie, heures supplémentaires, apprentissage et stage, SMIC et minimum conventionnel, prime de partage de la valeur | dirigeant de TPE fictif, 5 fiches payantes, 6 questions chacune (références figées avant le jeu), A, B (fiche servie) et C (banc MCP local), un juge neuf par question, premier banc | moyennes A 5,02 ; B 7,77 ; C 8,22 sur 30 questions ; C gagne 14 (dont 3 de peu), égalise 10, perd 6 (brut) ; avec le bruit ±1,0 : 3 victoires, 26 égalités, 1 défaite au-delà ; **1 fiche sur 5 passe le critère d'entrée, de justesse** (heures supplémentaires, +1,08) ; part du gain sans payer 86 % |
+| 03/10/2026 | Suivi dans le temps : paie, TVA, impôt sur les sociétés | SAS fictive (opticien, 19 salariés) donnée une fois, 12 questions courtes de séances suivantes dont 4 où un fait a changé, 5 fiches (heures supplémentaires, TVA CA3, fiche de paie, congés payés, IS), références figées avant le jeu ; 4 bras : A+ (dossier collé), B+ (fiche + dossier collé), C (serveur avec mémoire), C0 (serveur sans mémoire) ; claude -p par abonnement, un juge neuf par question, 2 passes de jugement | passe 1 : A+ 7,75 ; B+ 8,63 ; C 5,96 ; C0 3,75 ; C perd 10 contre le meilleur de A+ et B+ en brut (9 au-delà du bruit ±1,0), n'en gagne aucune au-delà ; passe 2 (juge corrigé) : A+ 8,29 ; B+ 8,38 ; C 5,83 ; C0 3,46 ; **la mémoire n'est pas démontrée sur ces fiches** : C bat C0 de +2,2 mais perd contre le dossier collé, parce que dans 8 questions sur 12 l'assistant n'a lu que les faits à clé (ni salaires, ni congés, ni crédit de TVA, ni IS) ; diagnostic C1 (mémoire lue en entier) 8,08 = A+ et B+ dans le bruit |
 
 </details>
 

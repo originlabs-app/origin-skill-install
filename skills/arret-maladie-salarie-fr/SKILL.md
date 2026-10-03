@@ -9,7 +9,7 @@ description: "Gérer l'arrêt maladie d'un salarié. Méthode professionnelle fr
 
 Une seule tâche : savoir ce qui est dû quand un salarié est en arrêt maladie. La Sécurité sociale verse des indemnités journalières à partir du quatrième jour ; l'employeur doit, sous conditions,
 compléter pour maintenir une partie du salaire. Le calcul des deux parts est exact ; ce qui dépend d'un fait que la personne n'a pas donné (date de début, salaire, ancienneté, maladie ou accident du travail)
-donne une question, jamais une valeur supposée. Fiche à jour au 03/10/2026 ; les articles cités ont été lus sur Légifrance à cette date.
+donne une question, jamais une valeur supposée. Fiche relue le 03/10/2026 ; les articles cités ont été lus sur Légifrance à cette date.
 
 ## Quand l'utiliser
 
@@ -24,13 +24,13 @@ Quand **ne pas** l'utiliser : contrôler la fiche de paie du mois (fiche `contro
 
 ## Les faits du calcul
 
-Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fait absent, puis poser en fin de réponse la question qui change le résultat, une seule d'abord.
+Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fait absent, puis poser en fin de réponse la question qui change le résultat, une seule d'abord. Pour « combien me coûte cet arrêt ? » sans autre précision, c'est l'ancienneté qui décide d'abord (sous un an, aucun complément légal) : la poser avant le salaire, et dire d'emblée ce qui vaut dans les deux cas.
 
 | Fait | Pourquoi il compte |
 | --- | --- |
+| **L'ancienneté au premier jour de l'arrêt** (le fait qui décide d'abord) | Moins d'un an : pas de complément légal, la réponse change du tout au tout. Au-delà, elle allonge les paliers par tranche de cinq ans. |
 | **Le premier jour de l'arrêt** (et le dernier, ou la durée) | Il fixe le SMIC retenu pour le plafond (celui du dernier jour du mois précédent), la carence et les dates des paliers. |
 | **Le salaire brut** (idéalement les trois dernières paies) | L'indemnité de la Sécurité sociale en est la moitié du 91,25e des trois dernières paies, plafonnées ; le complément se calcule sur la rémunération brute que le salarié aurait touchée. |
-| **L'ancienneté au premier jour de l'arrêt** | Moins d'un an : pas de complément légal. Au-delà, elle allonge les paliers par tranche de cinq ans. |
 | **Maladie ordinaire ou accident du travail / maladie professionnelle** | La carence de l'employeur est de sept jours en maladie, nulle en accident du travail ou maladie professionnelle. |
 | **Les jours de complément déjà versés sur douze mois** | Ils sont déduits des paliers : plusieurs arrêts dans l'année ne donnent pas plusieurs fois les mêmes droits. |
 | **Les heures travaillées sur trois mois** | 150 heures ouvrent le droit aux indemnités ; en dessous, il faut regarder les cotisations. |
@@ -52,7 +52,7 @@ indemnités de la Sécurité sociale comprises. Les chiffres et dates viennent d
 - *L'ancienneté.* Six ans d'ancienneté donnent 40 jours par palier au lieu de 30 ; seize ans, 60 ; plus de trente ans, 90 au maximum.
 - *Les arrêts répétés.* Si 40 jours de complément ont déjà été versés sur les douze derniers mois (salarié de six ans), il ne reste que le palier des deux tiers.
 
-**Ce qui change et prête à confusion.** Le plafond du salaire retenu est de 1,4 SMIC depuis les arrêts du 1er avril 2025 (il était de 1,8). Pour les arrêts prescrits à partir du 15 octobre 2026, une affection de longue durée qui n'est
+**Ce qui change et prête à confusion.** Le plafond du salaire retenu est de 1,4 SMIC depuis les arrêts du 1er avril 2025 (il était de 1,8). Ce changement ne concerne que les affections de longue durée : n'en parler que si l'arrêt en est une. Pour les arrêts prescrits à partir du 15 octobre 2026, une affection de longue durée qui n'est
 pas prise en charge à 100 % n'est plus indemnisée qu'un an au lieu de trois (décret du 16 septembre 2026). L'article L1226-1 du Code du travail a une version en vigueur depuis le 27 juin 2026, qui écarte la fraude avérée.
 Une convention collective ou un accord prévoit souvent mieux que le minimum légal : le calcul donne le minimum.
 
@@ -68,7 +68,7 @@ Une convention collective ou un accord prévoit souvent mieux que le minimum lé
 
 ## Méthodes proposées (jamais imposées)
 
-1. **Chiffrer l'arrêt en deux temps** : d'abord la part de la Sécurité sociale (indemnité, carence, plafond), puis le complément de l'employeur (conditions, paliers, dates, total) ; rendre le total mensuel par palier pour la paie.
+1. **Chiffrer l'arrêt en deux temps** : d'abord savoir si le complément de l'employeur est dû (l'ancienneté), puis la part de la Sécurité sociale (indemnité, carence, plafond), puis le complément (paliers, dates, total) ; rendre le total mensuel par palier pour la paie.
    Détails : `methode-deux-temps`.
 2. **Choisir entre subrogation et versement direct** : comparer ce que l'entreprise avance, ce qu'elle récupère et le décalage de trésorerie. Détails : `methode-subrogation`.
 
@@ -85,7 +85,7 @@ La personne peut ignorer les méthodes, en changer, sauter une étape ou revenir
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
@@ -176,14 +176,15 @@ Le SMIC retenu est celui du 31 mai (1 823,03 €), plafond de salaire 2 552,24 �
 
 # Méthode : chiffrer l'arrêt en deux temps
 
-Une méthode possible, au choix de la personne. Elle suit l'ordre dans lequel l'argent circule : d'abord la caisse, ensuite l'employeur.
+Une méthode possible, au choix de la personne. Elle commence par la question qui décide de tout (l'ancienneté, donc le droit au complément), puis suit l'ordre dans lequel l'argent circule : la caisse, ensuite l'employeur.
 
-1. **La part de la Sécurité sociale.** Demander la date de début de l'arrêt et le salaire brut (les trois dernières paies si on les a). Appeler `arret_maladie_calculer` : lire la carence, le SMIC retenu, le plafond, l'indemnité par jour,
+1. **Ce qui décide d'abord : l'ancienneté.** Demander depuis quand le salarié est dans l'entreprise, avant le salaire. Moins d'un an au premier jour de l'arrêt : pas de complément légal, seule la caisse paie (après la carence). Un an ou plus : le complément est dû sous conditions. Si la personne ne le sait pas encore, donner les deux cas.
+2. **La part de la Sécurité sociale.** Demander la date de début de l'arrêt et le salaire brut (les trois dernières paies si on les a). Appeler `arret_maladie_calculer` : lire la carence, le SMIC retenu, le plafond, l'indemnité par jour,
    les jours indemnisés et le total. Si le droit aux indemnités n'est pas certain (moins de 150 heures sur trois mois), dire que la caisse décide et poser la question des cotisations.
-2. **La part de l'employeur.** Vérifier les conditions du complément légal (un an d'ancienneté au premier jour, justification sous 48 heures, pas de statut exclu), puis lire les paliers : début (huitième jour en maladie,
+3. **La part de l'employeur.** Vérifier les conditions du complément légal (un an d'ancienneté au premier jour, justification sous 48 heures, pas de statut exclu), puis lire les paliers : début (huitième jour en maladie,
    premier jour en accident du travail), jours à 90 % puis aux deux tiers, jours déjà consommés sur douze mois, montant par jour et total.
-3. **Le maintien reconstitué.** Pour la paie, additionner par période : indemnité de la caisse (si subrogation, elle revient à l'entreprise) et complément. Vérifier que le total par jour est bien 90 % puis deux tiers du brut.
-4. **Le texte plus favorable.** Demander la convention collective et son régime de maintien de salaire : elle peut prévoir mieux que le minimum légal ; le calcul sert alors de plancher.
+4. **Le maintien reconstitué.** Pour la paie, additionner par période : indemnité de la caisse (si subrogation, elle revient à l'entreprise) et complément. Vérifier que le total par jour est bien 90 % puis deux tiers du brut.
+5. **Le texte plus favorable.** Demander la convention collective et son régime de maintien de salaire : elle peut prévoir mieux que le minimum légal ; le calcul sert alors de plancher.
 
 Ce que la personne décide : la subrogation, l'application d'une convention plus favorable, la suite à donner à un arrêt long. Ce que l'outil ne fait pas : écrire l'attestation de salaire ou contacter la caisse.
 
@@ -212,8 +213,8 @@ Une question n'est posée que si la réponse change le résultat, jamais en têt
 
 | Fait manquant | Question | Ce que la réponse change |
 | --- | --- | --- |
+| Ancienneté (la première à poser quand rien n'est précisé) | Depuis quelle date le salarié est-il dans l'entreprise ? | Le droit au complément (un an) et la longueur des paliers. |
 | Date de début de l'arrêt | À quelle date l'arrêt a-t-il commencé, et jusqu'à quand est-il prescrit ? | Le SMIC retenu, la carence, les dates des paliers. |
-| Ancienneté | Depuis quelle date le salarié est-il dans l'entreprise ? | Le droit au complément (un an) et la longueur des paliers. |
 | Nature de l'arrêt | Maladie ordinaire, ou accident du travail / maladie professionnelle ? | La carence de l'employeur (sept jours ou aucune) et le calcul de la caisse. |
 | Salaire | Quel est le salaire brut, idéalement les trois dernières paies ? | L'indemnité de la caisse et le complément. |
 | Arrêts récents | Le salarié a-t-il déjà reçu un complément sur les douze derniers mois, pour combien de jours ? | Les jours de palier restants. |

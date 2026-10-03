@@ -9,7 +9,7 @@ description: "Calculer les heures supplémentaires et complémentaires. Méthode
 
 Une seule tâche : dire ce que valent les heures faites au-delà du contrat ou de la durée légale, et ce qui change pour l'employeur et le salarié (majoration, repos, cotisations, impôt). Le calcul est exact ;
 ce qui dépend d'un fait que la personne n'a pas donné (heures de chaque semaine, taux horaire, effectif, accord applicable) donne une question, jamais une valeur supposée.
-Fiche à jour au 03/10/2026 ; les articles cités ont été lus sur Légifrance à cette date.
+Fiche relue le 03/10/2026 ; les articles cités ont été lus sur Légifrance à cette date.
 
 ## Quand l'utiliser
 
@@ -31,7 +31,7 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 | **Les heures de chaque semaine** (lundi au dimanche) | Les heures supplémentaires se comptent par semaine, jamais sur le mois en bloc. |
 | **Le taux horaire brut** | Il donne le montant ; sans lui, les heures sont découpées mais aucun montant n'est calculé. |
 | **La durée du contrat** | Au-dessous de 35 heures, les heures au-delà du contrat sont des heures complémentaires, pas des heures supplémentaires. |
-| **L'accord applicable** (entreprise ou branche) | Il peut fixer des majorations différentes (au moins 10 %), un autre contingent, une limite à un tiers pour les heures complémentaires. |
+| **L'accord applicable** (entreprise ou branche) | Il peut fixer des majorations différentes (au moins 10 %), un autre contingent, une limite à un tiers pour les heures complémentaires. Pour cette limite, c'est l'accord d'entreprise ou d'établissement, ou à défaut l'accord de branche étendu ; le taux de majoration des heures complémentaires ne vient que d'un accord de branche étendu. |
 | **Le nombre de salariés** | Le seuil de vingt salariés change la contrepartie obligatoire en repos et la déduction patronale. |
 | **Les heures supplémentaires déjà faites dans l'année** | Elles comptent dans le contingent annuel. |
 | **Paiement ou repos** | Un repos compensateur peut remplacer le paiement sous conditions. |
@@ -40,7 +40,7 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 
 **La réponse courte.** La durée légale est de 35 heures par semaine ; chaque heure au-delà est une heure supplémentaire. Sans accord, les huit premières (36e à 43e) sont majorées de 25 %, les suivantes de 50 % ;
 un accord peut fixer un autre taux, jamais en dessous de 10 %. Pour un temps partiel, les heures au-delà du contrat sont des heures complémentaires, majorées de 10 % jusqu'au dixième du contrat, 25 % entre le dixième et le tiers
-(si un accord ouvre cette limite). Les chiffres et dates viennent de l'outil avec leur source.
+(si un accord d'entreprise ou d'établissement, ou à défaut un accord de branche étendu, ouvre cette limite ; art. L3123-20). Les chiffres et dates viennent de l'outil avec leur source.
 
 **Ce que le calcul apporte que le texte seul ne donne pas.**
 
@@ -84,7 +84,7 @@ La personne peut ignorer les méthodes, en changer, sauter une étape ou revenir
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».

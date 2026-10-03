@@ -31,13 +31,14 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Legifrance - Code de commerce D.223-27 (seuils CAC, renvoi D.221-5), relevée le 03/10/2026
 - Legifrance - Code de commerce L.223-26, relevée le 03/10/2026
 - Legifrance - Code de commerce L.225-100, relevée le 03/10/2026
+- Legifrance - Code de commerce L.227-1 (renvoi aux règles de la SA, exclusion de L.225-17 à L.225-126), relevée le 03/10/2026
 - Legifrance - Code de commerce L.227-9, relevée le 03/10/2026
 - Legifrance - Code de commerce L612-1 (personnes morales non commerçantes à activité économique), relevée le 03/10/2026
 - Legifrance - Code de commerce R.225-106, relevée le 03/10/2026
 - Prise de decisions en SASU (F39283), relevée le 18/07/2026
 - SCI a l'IS: existence d'une reserve (legale ou statutaire) et obligation de depot des comptes (controverses, non tranche, relevée le 26/06/2026
 - Service-Public - Décisions en société anonyme, relevée le 26/06/2026
-- Service-Public - Dépôt des comptes annuels (F31214), relevée le 18/07/2026
+- Service-Public - Dépôt des comptes annuels (F31214), relevée le 03/10/2026
 - Service-Public - Prise de decisions SARL/EURL (F36714), relevée le 18/07/2026
 - capital minimum de la SA 37 000 EUR; cas derogatoire a qualifier et prouver, relevée le 03/10/2026
 - communications electroniques aux actionnaires nominatifs pour les assemblees convoquees a compter du 1er juillet 2026; o, relevée le 03/10/2026
@@ -94,8 +95,10 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Code de l'éducation, art. L124-5 (durée maximale du stage : six mois par année d'enseignement dans un même organisme d'accueil), relevée le 03/10/2026
 - Code de l'éducation, art. L124-6 (gratification obligatoire au-delà de deux mois de stage dans le même organisme, d'au moins 15 % du plafond horaire de la Sécurité sociale, due dès le premier jour, versée mensuellement et forfaitaire), relevée le 03/10/2026
 - Code du travail, art. D6222-26 (salaire minimum de l'apprenti en pourcentage du SMIC selon l'âge et l'année d'exécution du contrat : 27, 39 et 55 % de seize à dix-sept ans ; 43, 51 et 67 % de dix-huit à vingt ans ; 53, 61 et 78 % du SMIC ou du minimum conventionnel s'il est supérieur de vingt et un à vingt-cinq ans ; 100 % à partir de vingt-six ans), relevée le 03/10/2026
-- Code du travail, art. D6222-28 (prolongation : salaire de la dernière année) et D6222-29 (nouveau contrat : au moins la rémunération de la dernière année du contrat précédent qui a conduit au diplôme), relevée le 03/10/2026
-- Code du travail, art. D6222-30 (majoration de 15 points pour un contrat d'un an au plus préparant un diplôme de même niveau en rapport direct) et D6222-31 (majoration à compter du premier jour du mois suivant le jour où l'apprenti atteint dix-huit, vingt et un ou vingt-six ans ; années déjà exécutées comptées ; jamais plus de 100 % du SMIC sauf disposition plus favorable), relevée le 03/10/2026
+- Code du travail, art. D6222-28 (prolongation : salaire de la dernière année), relevée le 03/10/2026
+- Code du travail, art. D6222-29 (nouveau contrat : au moins la rémunération de la dernière année du contrat précédent qui a conduit au diplôme), relevée le 03/10/2026
+- Code du travail, art. D6222-30 (majoration de 15 points pour un contrat d'un an au plus préparant un diplôme de même niveau en rapport direct), relevée le 03/10/2026
+- Code du travail, art. D6222-31 (majoration à compter du premier jour du mois suivant le jour où l'apprenti atteint dix-huit, vingt et un ou vingt-six ans ; années déjà exécutées comptées ; jamais plus de 100 % du SMIC sauf disposition plus favorable), relevée le 03/10/2026
 - Code du travail, art. L6222-1 (apprenti : seize ans au moins et vingt-neuf ans révolus au plus au début de l'apprentissage ; quinze ans après la scolarité du premier cycle), relevée le 03/10/2026
 - Décret n° 2026-168 du 6 mars 2026 relatif à l'aide exceptionnelle aux employeurs d'apprentis (contrats conclus à compter du 8 mars 2026 et débutant avant le 1er janvier 2027), relevée le 03/10/2026
 - Service-Public (entreprises), Aides à l'embauche en contrat d'apprentissage (montants depuis le 8 mars 2026 selon l'effectif et le niveau du diplôme, 6 000 € pour un travailleur handicapé, versement mensuel pendant douze mois au plus), relevée le 03/10/2026
@@ -114,9 +117,18 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Code du travail, art. D1226-2 (dix jours de plus par période entière de cinq ans d'ancienneté au-delà d'un an, sans dépasser quatre-vingt-dix jours), relevée le 03/10/2026
 - Code du travail, art. D1226-3 (délai de carence de sept jours en cas de maladie, aucun en cas d'accident du travail ou de maladie professionnelle hors accident de trajet), relevée le 03/10/2026
 - Code du travail, art. D1226-4 (indemnités déjà perçues durant les douze mois antérieurs), relevée le 03/10/2026
-- Code du travail, art. D1226-6 (indemnités de la Sécurité sociale réduites, réputées servies intégralement), D1226-7 (rémunération de l'horaire pratiqué pendant l'absence) et D1226-8 (ancienneté appréciée au premier jour de l'absence), relevée le 03/10/2026
+- Code du travail, art. D1226-6 (indemnités de la Sécurité sociale réduites, réputées servies intégralement), relevée le 03/10/2026
+- Code du travail, art. D1226-7 (rémunération de l'horaire pratiqué pendant l'absence), relevée le 03/10/2026
+- Code du travail, art. D1226-8 (ancienneté appréciée au premier jour de l'absence), relevée le 03/10/2026
 - Code du travail, art. L1226-1 (indemnité complémentaire de l'employeur : un an d'ancienneté, justification sous quarante-huit heures, prise en charge par la Sécurité sociale ; version en vigueur depuis le 27/06/2026), relevée le 03/10/2026
 - Service-Public, Indemnités journalières de la Sécurité sociale : montants en 2026 (plafond de 42,97 € par jour pour les arrêts maladie à partir du 1er juillet 2026, salaire plafonné à 1,4 fois le SMIC), relevée le 03/10/2026
+
+## Augmenter mon chiffre d'affaires (`augmenter-chiffre-affaires-fr`)
+
+- Frederick Reichheld et W. Earl Sasser, Zero Defections: Quality Comes to Services (Harvard Business Review, septembre 1990), page de présentation de Bain & Company, relevée le 03/10/2026
+- Institut Ehrenberg-Bass pour la science du marketing, How do you measure « How Brands Grow » (page sans date ni auteur), relevée le 03/10/2026
+- Jay Abraham, Jay Abraham's Philosophy (LinkedIn, 13/09/2018) : trois façons de faire croître une entreprise, relevée le 03/10/2026
+- Résumé de $100M Offers d'Alex Hormozi (Belt Course, 16/08/2025, auteur non indiqué) : équation de la valeur, prix, offre irrésistible, relevée le 03/10/2026
 
 ## Remplir le bilan annuel d'un organisme de formation (`bilan-pedagogique-financier-fr`)
 
@@ -131,7 +143,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 ## Toutes mes échéances d'entreprise des prochains mois (`calendrier-obligations-fr`)
 
-- BOFiP, BOI-BIC-DECLA-30-10-10-20 (delai de depot de la declaration de resultats, version du 17/02/2017), § 60, relevée le 27/09/2026
+- BOFiP, BOI-BIC-DECLA-30-10-10-20 (delai de depot de la declaration de resultats, version du 17/02/2017), § 60, relevée le 03/10/2026
 - BOFiP, BOI-BIC-DECLA-30-20-10 (obligations du regime simplifie, version du 17/02/2017), § 230 (CGI, art. 175 et 223 ; ann. III, art. 344 I-0 bis), relevée le 27/09/2026
 - BOFiP, BOI-TVA-DECLA-40-10-20 (franchise en base, consequences, 01/07/2026), relevée le 27/09/2026
 - CGI art. 289 bis, relevée le 03/10/2026
@@ -302,6 +314,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 ## Calculer une date limite et connaître les jours fériés (`delais-jours-feries-fr`)
 
+- Code de procedure civile, articles 640, 641 et 642 (computation et report des delais de procedure), relevée le 03/10/2026
 - Code du travail, article L1232-2 (entretien prealable : au moins 5 jours ouvrables), relevée le 03/10/2026
 - Code du travail, article L1332-2 (sanction disciplinaire : au moins 2 jours ouvrables et au plus un mois apres l'entretien), relevée le 03/10/2026
 - Code du travail, article L3133-1 (jours feries legaux), relevée le 03/10/2026
@@ -320,7 +333,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Legifrance - Code de commerce L.232-25 (confidentialite des comptes), relevée le 03/10/2026
 - Legifrance - Code de commerce L.611-2 (injonction du president du tribunal), relevée le 03/10/2026
 - Legifrance - Code de commerce R.247-3 (contravention defaut de depot), relevée le 03/10/2026
-- Service-Public Entreprendre - Depot des comptes annuels d'une societe, relevée le 18/07/2026
+- Service-Public Entreprendre - Depot des comptes annuels d'une societe, relevée le 03/10/2026
 
 ## Suis-je concerné par la facture électronique, et quand ? (`diagnostic-facture-electronique`)
 
@@ -402,18 +415,37 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 ## Calculer les heures supplémentaires et complémentaires (`heures-supplementaires-fr`)
 
+- Code de la sécurité sociale, art. D241-24 (déduction forfaitaire patronale de 1,50 € ou 0,50 € par heure supplémentaire), relevée le 03/10/2026
 - Code de la sécurité sociale, art. L241-17 (réduction des cotisations salariales sur la rémunération des heures supplémentaires et des heures complémentaires) et art. D241-21 (taux : somme des cotisations vieillesse salariales, dans la limite de 11,31 %), relevée le 03/10/2026
-- Code de la sécurité sociale, art. L241-18 (entreprises de moins de vingt salariés), L241-18-1 (entreprises d'au moins vingt salariés, version en vigueur depuis le 31/12/2025) et D241-24 (déduction forfaitaire patronale de 1,50 € ou 0,50 € par heure supplémentaire), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L241-18 (entreprises de moins de vingt salariés), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L241-18-1 (entreprises d'au moins vingt salariés, version en vigueur depuis le 31/12/2025), relevée le 03/10/2026
 - Code du travail, art. D3121-24 (à défaut d'accord, contingent annuel de 220 heures supplémentaires par salarié), relevée le 03/10/2026
-- Code du travail, art. L3121-20 (quarante-huit heures par semaine au plus) et L3121-22 (quarante-quatre heures en moyenne sur douze semaines consécutives au plus), relevée le 03/10/2026
+- Code du travail, art. L3121-20 (quarante-huit heures par semaine au plus), relevée le 03/10/2026
+- Code du travail, art. L3121-22 (quarante-quatre heures en moyenne sur douze semaines consécutives au plus), relevée le 03/10/2026
 - Code du travail, art. L3121-27 à L3121-31 (durée légale de 35 heures, heure supplémentaire au-delà, décompte par semaine, contingent et contrepartie obligatoire en repos), relevée le 03/10/2026
 - Code du travail, art. L3121-33 (accord : taux de majoration d'au moins 10 %, contingent, contrepartie obligatoire en repos d'au moins 50 % ou 100 % des heures au-delà du contingent selon que l'entreprise compte vingt salariés au plus ou plus de vingt), relevée le 03/10/2026
 - Code du travail, art. L3121-35 à L3121-40 (dispositions supplétives : semaine du lundi au dimanche, 25 % puis 50 %, repos compensateur de remplacement, contrepartie obligatoire de 50 % ou 100 %), relevée le 03/10/2026
 - Code du travail, art. L3121-36 (à défaut d'accord, majoration de 25 % pour chacune des huit premières heures supplémentaires, 50 % pour les suivantes), relevée le 03/10/2026
 - Code du travail, art. L3123-20 (accord : limite des heures complémentaires portée jusqu'au tiers de la durée du contrat) et L3123-21 (accord de branche étendu : majoration d'au moins 10 %), relevée le 03/10/2026
-- Code du travail, art. L3123-28 (à défaut d'accord, heures complémentaires limitées au dixième de la durée du contrat) et L3123-29 (10 % jusqu'au dixième, 25 % entre le dixième et le tiers), relevée le 03/10/2026
-- Code du travail, art. L3123-8 (chaque heure complémentaire est majorée) et L3123-9 (les heures complémentaires ne portent jamais la durée au niveau de la durée légale), relevée le 03/10/2026
+- Code du travail, art. L3123-28 (à défaut d'accord, heures complémentaires limitées au dixième de la durée du contrat), relevée le 03/10/2026
+- Code du travail, art. L3123-29 (10 % jusqu'au dixième, 25 % entre le dixième et le tiers), relevée le 03/10/2026
+- Code du travail, art. L3123-8 (chaque heure complémentaire est majorée), relevée le 03/10/2026
+- Code du travail, art. L3123-9 (les heures complémentaires ne portent jamais la durée au niveau de la durée légale), relevée le 03/10/2026
 - Code général des impôts, art. 81 quater (exonération d'impôt sur le revenu des rémunérations d'heures supplémentaires et complémentaires, dans la limite annuelle de 7 500 €), relevée le 03/10/2026
+
+## Avoir des idées créatives pour une campagne (`idees-creatives-campagne-fr`)
+
+- Alex Osborn, Your Creative Power: How to Use Imagination, Charles Scribner's Sons, New York, 1948, relevée le 03/10/2026
+- Bob Eberle, Developing Imagination Through SCAMPER, Journal of Creative Behavior 6 (3), 199-203, septembre 1972, relevée le 03/10/2026
+- Code de la consommation, article L121-2, 1° (Légifrance, version du 28/05/2022), relevée le 03/10/2026
+- Code de la consommation, article L121-4, 13° (Légifrance, version du 28/05/2022), relevée le 03/10/2026
+- Code de la consommation, article L132-2 (Légifrance, version du 12/05/2024), relevée le 03/10/2026
+- Edward de Bono, Serious Creativity: Using the Power of Lateral Thinking to Create New Ideas, HarperBusiness, 1992, relevée le 03/10/2026
+- Institut Ehrenberg-Bass, page des livres : How Brands Grow (Byron Sharp, Oxford University Press, 2010), Building Distinctive Brand Assets (Jenni Romaniuk, mars 2018) ; page du 07/12/2025, relevée le 03/10/2026
+- James Webb Young, A Technique for Producing Ideas (première édition dans les années 1940 ; édition McGraw-Hill 2003, avant-propos de William Bernbach et Keith Reinhard), relevée le 03/10/2026
+- Jenni Romaniuk, Comparison is the thief of brand growth, institut Ehrenberg-Bass (marketingscience.info), 09/09/2026, aussi publié dans Marketing Week, relevée le 03/10/2026
+- Rory Sutherland, Life lessons from an ad man, TED, filmé le 23/07/2009, publié le 14/10/2009, relevée le 03/10/2026
+- Rory Sutherland, Perspective is everything, TED, filmé le 03/12/2011, publié le 04/05/2012, relevée le 03/10/2026
 
 ## Payer le juste impôt sur les sociétés (`is-acomptes-solde-fr`)
 
@@ -421,7 +453,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 
 ## Remplir et relire la déclaration de résultats 2033 (`liasse-2033-fr`)
 
-- BIC - Obligations fiscales et comptables dans le cadre du régime du réel normal d'imposition - Forme et contenu de la déclaration spéciale de résultats, relevée le 30/08/2026
+- BIC - Obligations fiscales et comptables dans le cadre du régime du réel normal d'imposition - Forme et contenu de la déclaration spéciale de résultats, relevée le 03/10/2026
 - BOFiP - BIC - Frais et charges - Pénalités et amendes, relevée le 09/07/2026
 - BOFiP - BIC - Provisions - Caractère précis de la perte ou de la charge, relevée le 30/08/2026
 - BOFiP - BIC - Provisions - Conditions de constitution - Conditions de fond, relevée le 30/08/2026
@@ -435,7 +467,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Légifrance - Code général des impôts, article 302 septies A bis, relevée le 03/10/2026
 - Légifrance - Code général des impôts, article 39, relevée le 09/07/2026
 - Service-Public Entreprendre - Liasse fiscale du régime réel simplifié BIC/IS, relevée le 08/07/2026
-- impots.gouv - Calendrier fiscal des professionnels, relevée le 20/07/2026
+- impots.gouv - Calendrier fiscal des professionnels, relevée le 03/10/2026
 - impots.gouv - Formulaire 2033-SD, relevée le 08/07/2026
 - impots.gouv - Formulaire 2033-SD 2026, relevée le 08/07/2026
 - impots.gouv - Notice 2033-NOT-SD 2026, relevée le 08/07/2026
@@ -529,17 +561,30 @@ Aucune source datée n'est rattachée à cette fiche.
 - France competences - Trouver mon OPCO, relevée le 30/08/2026
 - OPCO EP - Criteres de financement 2026, branche Librairie 184, relevée le 04/08/2026
 
+## Trouver des clients (`plan-acquisition-clients-fr`)
+
+- Aaron Ross, entretien avec David Skok sur la spécialisation des équipes de vente (forEntrepreneurs.com, date non indiquée), relevée le 03/10/2026
+- Collin Stewart, 15-Minute Summary of Predictable Revenue (Predictable Revenue, 07/02/2022), résumé de l'ouvrage d'Aaron Ross et Marylou Tyler, relevée le 03/10/2026
+- David Skok, SaaS Metrics 2.0: a guide to measuring and improving what matters (forEntrepreneurs.com, vers 2012-2013, date non indiquée), relevée le 03/10/2026
+- Institut Ehrenberg-Bass pour la science du marketing, How do you measure « How Brands Grow » (page sans date ni auteur), relevée le 03/10/2026
+- Jessica Cox, Hit Your Customer Bullseye With This Three-Step Framework (Tech.co, 02/01/2017), résumé du cadre Bullseye de Weinberg et Mares, relevée le 03/10/2026
+- Oxford University Press, How Brands Grow: What Marketers Don't Know, Byron Sharp (2010), notice de l'éditeur, relevée le 03/10/2026
+
 ## Calculer une prime de partage de la valeur ou un intéressement (`ppv-interessement-fr`)
 
-- Code de la sécurité sociale, art. L136-8 (contribution sociale généralisée au taux de 9,2 % sur les revenus d'activité) et ordonnance n° 96-50 du 24 janvier 1996, art. 19 (contribution pour le remboursement de la dette sociale au taux de 0,5 %), relevée le 03/10/2026
-- Code de la sécurité sociale, art. L137-15 (forfait social ; intéressement non assujetti sous 250 salariés) et L137-16 (taux de 20 %), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L136-8 (contribution sociale généralisée au taux de 9,2 % sur les revenus d'activité), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L137-15 (forfait social ; intéressement non assujetti sous 250 salariés), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L137-16 (taux de 20 % de la contribution de l'article L137-15), relevée le 03/10/2026
+- Code de la sécurité sociale, art. L242-1 II 1° (sont exclues de l'assiette des cotisations de Sécurité sociale les sommes allouées au salarié au titre de l'intéressement prévu à l'article L3312-4 du Code du travail), relevée le 03/10/2026
 - Code du travail, art. L3312-3 (entreprises de un à moins de deux cent cinquante salariés : les dirigeants et le conjoint collaborateur peuvent bénéficier de l'intéressement), relevée le 03/10/2026
-- Code du travail, art. L3312-4 (sommes d'intéressement exclues de l'assiette des cotisations de Sécurité sociale, sans substitution à un élément de rémunération sauf délai de douze mois) et Code de la sécurité sociale, art. L242-1 II 1°, relevée le 03/10/2026
+- Code du travail, art. L3312-4 (sommes d'intéressement exclues de l'assiette des cotisations de Sécurité sociale, sans substitution à un élément de rémunération sauf délai de douze mois), relevée le 03/10/2026
 - Code du travail, art. L3312-5 (accord d'intéressement conclu pour une durée d'un an à cinq ans, par accord collectif, accord avec les organisations syndicales, accord au sein du comité social et économique ou ratification aux deux tiers du personnel ; décision unilatérale possible dans une entreprise de moins de cinquante salariés sans délégué syndical ni comité social et économique), relevée le 03/10/2026
 - Code du travail, art. L3314-8 (intéressement : montant global au plus 20 % du total des salaires bruts ; par bénéficiaire et par exercice, au plus les trois quarts du plafond annuel moyen de la Sécurité sociale), relevée le 03/10/2026
-- Code du travail, art. L3315-1 (intéressement déductible pour l'entreprise, soumis à l'impôt sur le revenu du bénéficiaire) et L3315-2 (exonération d'impôt sur le revenu des sommes affectées à un plan d'épargne d'entreprise, dans la limite des trois quarts du plafond annuel de la Sécurité sociale), relevée le 03/10/2026
+- Code du travail, art. L3315-1 (intéressement déductible pour l'entreprise, soumis à l'impôt sur le revenu du bénéficiaire), relevée le 03/10/2026
+- Code du travail, art. L3315-2 (exonération d'impôt sur le revenu des sommes affectées à un plan d'épargne d'entreprise, dans la limite des trois quarts du plafond annuel de la Sécurité sociale), relevée le 03/10/2026
 - Code du travail, art. L3322-2 (participation aux résultats obligatoire dans les entreprises d'au moins cinquante salariés), relevée le 03/10/2026
 - Loi n° 2022-1158 du 16 août 2022, article 1, version de la loi n° 2023-1107 du 29 novembre 2023 (prime de partage de la valeur : plafonds de 3 000 € et 6 000 €, deux primes par an, exonération d'impôt et de CSG-CRDS sous cinquante salariés jusqu'au 31/12/2026), relevée le 03/10/2026
+- Ordonnance n° 96-50 du 24 janvier 1996, art. 19 (contribution pour le remboursement de la dette sociale au taux de 0,5 %), relevée le 03/10/2026
 
 ## Embaucher mon premier salarié (`premiere-embauche-fr`)
 
@@ -636,6 +681,27 @@ Aucune source datée n'est rattachée à cette fiche.
 - Why B2B Sales Feels Harder Than Ever, relevée le 09/08/2026
 - Why lead scoring doesn't work, and what to do instead, relevée le 09/08/2026
 
+## Lancer une publicité en ligne rentable et conforme (`publicite-en-ligne-fr`)
+
+- Alex Murrell, Les Binet and Peter Field, The Long and the Short of It (résumé, date non indiquée), relevée le 03/10/2026
+- Alison Hoad (Publicis Poke), The next chapter for The Long and the Short of It (IPA, 13/09/2023), sur les travaux de Les Binet et Peter Field, relevée le 03/10/2026
+- Avinash Kaushik, The Best Marketing ROI Formula: Incremental Net Profit ROI (Occam's Razor, date non relevée), relevée le 03/10/2026
+- Code de la consommation, art. L112-1-1 (annonce de réduction de prix), relevée le 03/10/2026
+- Code de la consommation, art. L121-2 (pratique commerciale trompeuse), relevée le 03/10/2026
+- Code de la consommation, art. L121-20 (opérations promotionnelles par tirage au sort), relevée le 03/10/2026
+- Code de la consommation, art. L121-3 (omission d'information substantielle, intention commerciale), relevée le 03/10/2026
+- Code de la consommation, art. L121-4 (pratiques réputées trompeuses en toutes circonstances), relevée le 03/10/2026
+- Code de la consommation, art. L122-1 (publicité comparative : conditions de licéité), relevée le 03/10/2026
+- Code de la consommation, art. L122-2 (limites de la publicité comparative), relevée le 03/10/2026
+- Code de la consommation, art. L122-5 (preuve de l'exactitude), relevée le 03/10/2026
+- Code de la consommation, art. L132-1 (délit constitué en France), relevée le 03/10/2026
+- Code de la consommation, art. L132-2 (peines), relevée le 03/10/2026
+- Google Ads, aide : Return on investment (ROI), relevée le 03/10/2026
+- Google Ads, aide : À propos des enchères au CPA cible (About Target CPA bidding, page sans date), relevée le 03/10/2026
+- Google Ads, aide : À propos des enchères au ROAS cible (About Target ROAS bidding, page sans date), relevée le 03/10/2026
+- LinkedIn, aide Marketing Solutions : Campaign bidding strategies, relevée le 03/10/2026
+- LinkedIn, aide Marketing Solutions : LinkedIn's advertising cost and pricing, relevée le 03/10/2026
+
 ## Faire voter les associés et préparer le procès-verbal (`pv-decisions-associes-fr`)
 
 - Corpus des assemblées générales gelé le 29/07/2026 (CORPUS-v1.md, DECISIONS-RATIFIEES.md), relevée le 29/07/2026
@@ -685,6 +751,25 @@ Aucune source datée n'est rattachée à cette fiche.
 - Arrêté du 22 décembre 2025 portant fixation du plafond de la sécurité sociale pour 2026, relevée le 03/10/2026
 - Déclaration de revenus 2026 des indépendants - notice, relevée le 13/07/2026
 - Les revenus mobiliers, relevée le 13/07/2026
+
+## Utiliser les réseaux sociaux sans y passer sa vie (`reseaux-sociaux-fr`)
+
+- Code civil, article 9 (Légifrance, version du 19/07/1970), relevée le 03/10/2026
+- Code de la consommation, article L121-20 (Légifrance, version du 01/07/2016), relevée le 03/10/2026
+- Code de la consommation, article L121-4 (Légifrance, version du 28/05/2022), 11°, relevée le 03/10/2026
+- Code de la consommation, article L132-2 (Légifrance, version du 12/05/2024), relevée le 03/10/2026
+- Code de la sécurité intérieure, article L320-1 (Légifrance, version du 01/01/2020), relevée le 03/10/2026
+- Gary Vaynerchuk, Document, Don't create: Creating Content that Builds Your Personal Brand, garyvaynerchuk.com, 01/12/2016 (mis à jour le 11/11/2022), relevée le 03/10/2026
+- Joe Pulizzi, 7 Steps to Build a Successful Long-Term Content Model, Content Marketing Institute, 24/05/2021, relevée le 03/10/2026
+- Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, article 20 (Légifrance), relevée le 03/10/2026
+- Loi n° 2023-451 du 9 juin 2023 visant à encadrer l'influence commerciale, article 1er (Légifrance, version du 08/11/2024), relevée le 03/10/2026
+- Loi n° 2023-451 du 9 juin 2023, article 4 (Légifrance, version du 01/07/2026 au 31/12/2026 ; version du 01/01/2027 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054402940), relevée le 03/10/2026
+- Loi n° 2023-451 du 9 juin 2023, article 5 (Légifrance, version du 08/11/2024), relevée le 03/10/2026
+- Loi n° 2023-451 du 9 juin 2023, article 5-2 (Légifrance, version du 08/11/2024) et Code de la consommation, article L121-3 (version du 28/05/2022), relevée le 03/10/2026
+- Loi n° 2023-451 du 9 juin 2023, article 8 (Légifrance, version du 11/06/2023), relevée le 03/10/2026
+- Rand Fishkin, Zero Clicks Does Not Mean Zero Sales, SparkToro, 20/05/2025 ; 4 Ways to Distribute Content on Social Media, SparkToro, 16/08/2023, relevée le 03/10/2026
+- Rochi Zalani, How Often to Post on Social Media in 2026: A Data-Backed Guide, Buffer, 13/01/2026, relevée le 03/10/2026
+- Seth Godin, The minimum viable audience, Seth's Blog, 20/03/2019, relevée le 03/10/2026
 
 ## Tenir le registre des données personnelles (RGPD) (`rgpd-registre-traitements-fr`)
 

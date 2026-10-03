@@ -9,7 +9,7 @@ description: "Vérifier ma fiche de paie, ligne par ligne. Méthode professionne
 
 Une seule tâche : dire à un employeur si une fiche de paie est juste, et nommer chaque écart : la ligne, la base, le taux, le montant attendu et le montant indiqué. Le calcul est exact ;
 ce qui dépend d'un fait que la personne n'a pas donné (taux d'accident du travail, effectif, cadre ou non, Alsace-Moselle, versement mobilité, taux de prélèvement à la source) donne une question, jamais une valeur supposée.
-Fiche à jour au 02/10/2026 ; chaque taux ou règle propre à la fiche est « relevé le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
+Fiche relue le 02/10/2026 ; chaque taux ou règle propre à la fiche est « relevé le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
 
 ## Quand l'utiliser
 
@@ -54,7 +54,7 @@ Les taux de cotisations viennent de l'Urssaf et d'Agirc-Arrco (résultats de rec
   Cotisations patronales contrôlées : 1 033 €.
 - *Au-dessus du plafond.* Pour un cadre à 5 000 € brut, la tranche 1 est de 4 005 € et la tranche 2 de 995 € : retraite complémentaire à 8,64 % sur 995 € (85,97 €), contribution d'équilibre technique à 0,14 % sur 5 000 €, cotisation Apec.
   Total salarial 1 038,38 €, net à payer avant impôt 3 961,62 €.
-- *Le SMIC se compare à l'heure.* À 35 heures par semaine, 151,67 heures par mois : en septembre 2026, 12,31 € x 151,67 = 1 867,02 €. Un salaire de base de 1 850 € est de 17,02 € sous le SMIC. Une prime n'entre dans la comparaison que si elle est
+- *Le SMIC se compare à l'heure.* À 35 heures par semaine, 151,67 heures par mois (151,6667 exactement : 35 x 52 / 12) : en septembre 2026, 12,31 € x 151,6667 = 1 867,02 €, le montant publié au décret. Avec l'heure arrondie à 151,67 on trouverait 1 867,06 € : l'écart de 4 centimes vient de l'arrondi, le montant publié fait foi. Un salaire de base de 1 850 € est de 17,02 € sous le SMIC. Une prime n'entre dans la comparaison que si elle est
   la contrepartie directe du travail : l'outil demande laquelle.
 - *Le minimum conventionnel est souvent au-dessus du SMIC.* Un salaire de base de 1 900 € est de 50 € sous un minimum de 1 950 € ; avec 100 € de prime d'ancienneté il le dépasse, mais seule la convention dit quelles primes comptent.
 - *Chaque écart est nommé* : ligne absente, ligne non due (une Apec pour un non-cadre), base fausse, taux faux, montant qui ne correspond pas à la base multipliée par le taux, total qui n'est pas la somme des lignes.
@@ -100,7 +100,7 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
@@ -210,7 +210,7 @@ Contribution d'équilibre technique sur 5 000 € : 7 € et 10,50 €. Apec : 1
 
 ## 3. Le SMIC en septembre 2026
 
-35 heures par semaine = 151,67 heures par mois ; SMIC horaire 12,31 € : 1 867,02 €. Un salaire de base de 1 850 € est de 17,02 € sous le SMIC. En mars 2026 (SMIC à 12,02 €), le SMIC mensuel était de 1 823,03 €.
+35 heures par semaine = 151,67 heures par mois (151,6667 exactement) ; SMIC horaire 12,31 € : 12,31 € x 151,6667 = 1 867,02 €, le montant publié au décret (avec 151,67 arrondi : 1 867,06 €, 4 centimes d'écart d'arrondi, le montant publié fait foi). Un salaire de base de 1 850 € est de 17,02 € sous le SMIC. En mars 2026 (SMIC à 12,02 €), le SMIC mensuel était de 1 823,03 €.
 Si une prime de 50 € est la contrepartie directe du travail, 1 900 € dépassent le SMIC : l'outil demande si elle compte.
 
 ## 4. Le minimum conventionnel
@@ -313,6 +313,7 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Ces calculs sont inclus dans l'abonnement. OriginSkill les fait pour vous, avec des règles à jour et sourcées, et la réponse est garantie.
 
+- **Lire le texte officiel d'un article de loi** (outil `orizon_article_texte`) : Va chercher, au moment de la question, le texte officiel d'un article de loi sur le site de l'État, tel qu'il est en vigueur à la date voulue.
 - **Contrôler une fiche de paie ligne par ligne** (outil `orizon_controle_fiche_de_paie`) : À partir des lignes de la fiche de paie, refait le brut, les cotisations et le net, compare au SMIC et au minimum de la convention collective, et nomme chaque écart et chaque mention obligatoire manquante.
 
 ### Avec l'abonnement, en plus

@@ -9,7 +9,7 @@ description: "Calculer une prime de partage de la valeur ou un intéressement. M
 
 Une seule tâche : savoir ce que coûte à l'entreprise et ce que touche le salarié quand on partage une partie de la valeur créée, par une prime ou par un intéressement. La prime de partage de la valeur (PPV) est exonérée de cotisations
 jusqu'à un plafond ; l'exonération d'impôt et de CSG-CRDS est réservée aux petites entreprises et aux salaires modestes, jusqu'au 31 décembre 2026. L'intéressement est exclu des cotisations mais soumis à la CSG-CRDS et, selon la taille de l'entreprise,
-au forfait social. Le calcul est exact ; ce qui dépend d'un fait que la personne n'a pas donné (effectif, rémunération sur douze mois, versements déjà faits) donne une question, jamais une valeur supposée. Fiche à jour au 03/10/2026.
+au forfait social. Le calcul est exact ; ce qui dépend d'un fait que la personne n'a pas donné (effectif, rémunération sur douze mois, versements déjà faits) donne une question, jamais une valeur supposée. Fiche relue le 03/10/2026.
 
 ## Quand l'utiliser
 
@@ -42,7 +42,7 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 **La réponse courte.** La prime de partage de la valeur est exonérée de cotisations jusqu'à 3 000 € par salarié et par année civile (6 000 € avec un intéressement ou une participation), deux fois par an au plus.
 Jusqu'au 31 décembre 2026, une entreprise de moins de 50 salariés qui la verse à un salarié payé moins de trois fois le SMIC annuel l'exonère aussi d'impôt sur le revenu et de CSG-CRDS ; sinon elle reste soumise à la CSG-CRDS
 et à l'impôt. L'intéressement est facultatif (accord de un à cinq ans), plafonné à 20 % de la masse salariale et, par salarié, aux trois quarts du plafond annuel de la Sécurité sociale (36 045 € en 2026) ; il est exclu
-des cotisations mais soumis à la CSG-CRDS, et au forfait social de 20 % à partir de 250 salariés. Les chiffres et dates viennent de l'outil avec leur source.
+des cotisations mais soumis à la CSG-CRDS, et au forfait social de 20 % à partir de 250 salariés. La prime y est assimilée à l'intéressement (loi du 16 août 2022, art. 1, V, pour l'article L137-15) : même forfait social de 20 % à partir de 250 salariés, sur la part exonérée de cotisations, aucun en dessous. Les chiffres et dates viennent de l'outil avec leur source.
 
 **Ce que le calcul apporte que le texte seul ne donne pas.**
 
@@ -52,10 +52,12 @@ des cotisations mais soumis à la CSG-CRDS, et au forfait social de 20 % à part
   la CSG-CRDS (9,7 %) pèse sur les 4 000 € : 388 €, soit 3 612 € avant impôt.
 - *Un intéressement dans une entreprise de 300 salariés.* 5 000 € par salarié : sous le plafond individuel de 36 045 €, CSG-CRDS de 485 € (net 4 515 € avant impôt), forfait social de 1 000 € pour l'employeur,
   soit 6 000 € de coût par salarié. Dans une entreprise de moins de 250 salariés, pas de forfait social.
+- *Une prime dans une entreprise de 300 salariés.* 4 000 € sans intéressement : plafond de 3 000 €, donc 3 000 € exonérés de cotisations et 1 000 € soumis comme un salaire ; forfait social de 20 % de la part exonérée
+  (la prime est assimilée à l'intéressement), soit 600 €, et 4 600 € de coût hors cotisations sur le dépassement. Dans une entreprise de moins de 250 salariés, pas de forfait social sur la prime.
 - *Un intéressement placé sur un plan d'épargne.* Jusqu'à 36 045 €, il est exonéré d'impôt sur le revenu ; versé en espèces, il est imposable.
 
 **Ce qui change et prête à confusion.** L'exonération d'impôt et de CSG-CRDS de la prime est temporaire : elle s'arrête aux primes versées après le 31 décembre 2026, rien n'est relevé au-delà. Le relèvement à 6 000 € suppose un
-intéressement (ou une participation volontaire sous 50 salariés selon l'Urssaf, texte non relu). Le forfait social de la prime n'est pas relevé.
+intéressement (ou une participation volontaire sous 50 salariés selon l'Urssaf, texte non relu). Le forfait social de la prime suit celui de l'intéressement (texte lu) ; seul le taux de 20 % à partir de 250 salariés est relevé, pas les cas particuliers de l'article L137-16 (8 %, 10 %, 16 %).
 
 ## Pièges fréquents
 
@@ -86,7 +88,7 @@ La personne peut ignorer les méthodes, en changer, sauter une étape ou revenir
 
 **Restitution au dirigeant.**
 
-1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé.
+1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
 3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
@@ -135,8 +137,8 @@ attendues (durée de un à cinq ans, bénéficiaires, formule de calcul, répart
 
 ## Ce qui n'est pas relevé
 
-La participation aux résultats, les plans d'épargne salariale, les abondements et le plan de partage de la valorisation ; l'impôt sur le revenu au barème ; les cotisations sur la part de prime au-delà du plafond ; le forfait social
-de la prime de partage de la valeur ; la valeur annuelle du SMIC de 1 820 heures et le relèvement à 6 000 € selon l'effectif (résultat de recherche, texte non relu) ; l'assiette exacte de la CSG-CRDS ; le régime avant 2024 et après 2026.
+La participation aux résultats, les plans d'épargne salariale, les abondements et le plan de partage de la valorisation ; l'impôt sur le revenu au barème ; les cotisations sur la part de prime au-delà du plafond ; les taux particuliers de forfait social (8 %, 10 %, 16 %) ;
+la valeur annuelle du SMIC de 1 820 heures et le relèvement à 6 000 € selon l'effectif (résultat de recherche, texte non relu) ; l'assiette exacte de la CSG-CRDS ; le régime avant 2024 et après 2026.
 Pour chacun, le dire et orienter vers l'Urssaf, un expert-comptable ou un gestionnaire de paie quand l'enjeu le justifie.
 
 ### Annexe : exemples-calcules
@@ -161,6 +163,8 @@ Forfait social de 20 % : 1 000,00 € ; coût total 6 000,00 €. Dans une entre
 **Exemple 7. Dépassement.** 40 000 € par salarié dépassent le plafond individuel de 3 955 € ; une enveloppe de 250 000 € sur 1 000 000 € dépasse de 50 000 € le plafond de 20 %.
 
 **Exemple 8. Plan d'épargne.** 40 000 € placés : 36 045 € exonérés d'impôt, 3 955 € imposables.
+
+**Exemple 8. Prime de 4 000 €, 300 salariés, sans intéressement.** Plafond de 3 000 € : 3 000 € exonérés de cotisations, 1 000 € soumis comme un salaire. Forfait social de 20 % de la part exonérée (la prime est assimilée à l'intéressement pour L137-15) : 600,00 € ; coût 4 600,00 € hors cotisations sur le dépassement. À 120 salariés ou à 12 salariés : pas de forfait social.
 
 ### Annexe : glossaire
 
@@ -197,7 +201,7 @@ Une méthode possible, au choix de la personne. Elle va du plafond au régime pu
 
 1. **Le plafond.** Demander si l'entreprise a un accord d'intéressement (ou une participation volontaire sous 50 salariés), l'effectif et les primes déjà versées à ce salarié dans l'année civile. Appeler `ppv_interessement_calculer` avec `montant_ppv` : lire le plafond (3 000 € ou 6 000 €), la part exonérée de cotisations, la part soumise.
 2. **Le régime d'impôt et de CSG-CRDS.** Sous 50 salariés et pour une rémunération des douze derniers mois inférieure à trois fois le SMIC annuel, la prime est exonérée d'impôt et de CSG-CRDS jusqu'au 31 décembre 2026 ; sinon elle est soumise à la CSG-CRDS et à l'impôt. Demander la rémunération des douze mois et la durée du contrat (temps partiel).
-3. **Le coût et le net.** Lire le montant versé, la CSG-CRDS le cas échéant et le net avant impôt du salarié. Le forfait social de la prime n'est pas relevé : le dire.
+3. **Le coût et le net.** Lire le montant versé, la CSG-CRDS le cas échéant et le net avant impôt du salarié. Le forfait social de la prime est celui de l'intéressement (la loi l'y assimile pour L137-15) : 20 % de la part exonérée de cotisations à partir de 250 salariés, rien en dessous ; la valeur vient de l'outil, avec l'effectif.
 4. **Le calendrier.** Deux primes au plus par année civile, au plus une par trimestre ; vérifier la date de versement par rapport au 31 décembre 2026.
 5. **La formalité.** Prime décidée par accord ou décision unilatérale selon l'entreprise ; le LLM rédige le projet à partir des clauses attendues.
 
