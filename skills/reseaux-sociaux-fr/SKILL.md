@@ -86,6 +86,7 @@ ou « collaboration commerciale » (loi du 9 juin 2023, article 5-2, version du 
 - **Choisir ses réseaux parce qu'ils sont à la mode.** Partir de l'endroit où les clients cherchent, regardent ou parlent déjà ; leur demander leur réseau fait gagner des mois.
 - **Planifier sans compter le temps.** Une fréquence tenue trois semaines puis abandonnée est pire qu'une fréquence plus basse tenue un an. Compter aussi les réponses aux commentaires et aux messages.
 - **Se disperser.** Pulizzi y voit la plus grosse erreur ; commencer par un réseau, en ajouter un second quand le premier tient sans effort.
+- **Appliquer un taux de marge à un prix toutes taxes comprises.** Un taux de marge se calcule sur le prix hors taxes : un panier de 60 € toutes taxes comprises fait 50 € hors taxes à 20 % de TVA (prix TTC ÷ (1 + taux de TVA)), et c'est sur 50 € que la marge s'applique. Pour une vente en ligne, retirer aussi les frais variables connus (expédition, paiement) avant de parler de marge d'une commande. Dire de quel côté (HT ou TTC) est chaque chiffre repris.
 - **Mesurer les mentions « j'aime » et rien d'autre.** Suivre au moins une mesure qui touche l'argent (demandes, ventes) ou l'audience qu'on contrôle (abonnés à une lettre d'information).
 - **Comparer deux réseaux avec des définitions différentes.** La portée n'est pas la même partout ; comparer des chiffres de même nature.
 - **Oublier de signaler une collaboration.** Un produit offert en échange d'une publication entre dans le contrat écrit et appelle la mention de l'intention commerciale ; ne pas supposer que « c'est juste un cadeau ».
@@ -141,7 +142,8 @@ L'outil calcule et contrôle ; il n'accède à aucun compte de réseau social, n
 
 Le calcul se fait sans mémoire : on lui donne les faits. En revanche, pour choisir un réseau et une ligne éditoriale, commencer par lire la mémoire (outil `orizon_memoire_lire`, couche « tout ») : le résumé de l'offre, la clientèle visée, des exemples de clients types, le canal de contact préféré
 et la zone géographique, et les pages de la mémoire qui racontent les campagnes passées et leurs résultats, au lieu de les redemander. Un dossier de faits collé tel quel est accepté par l'outil et ces faits sont ignorés sans bruit.
-À la fin d'une méthode, proposer d'enregistrer : le ou les réseaux retenus et pourquoi, la ligne éditoriale en une phrase, le rythme tenable (publications et heures par semaine), les chiffres mensuels de chaque réseau avec leur date. Le texte est déposé comme source brute (type `autre`) ou proposé comme page de mémoire, toujours **proposé** et jamais validé sans l'accord explicite de la personne.
+Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
+Quand la personne demande de garder la trace d'une méthode, proposer d'enregistrer : le ou les réseaux retenus et pourquoi, la ligne éditoriale en une phrase, le rythme tenable (publications et heures par semaine), les chiffres mensuels de chaque réseau avec leur date. Le texte est déposé comme source brute (type `autre`) ou proposé comme page de mémoire, toujours **proposé** et jamais validé sans l'accord explicite de la personne.
 
 ## Quatre usages
 

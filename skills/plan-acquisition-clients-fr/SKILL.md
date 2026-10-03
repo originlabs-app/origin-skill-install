@@ -60,6 +60,7 @@ puis concentrer le temps et l'argent sur ce qui marche (cadre Bullseye de Gabrie
 - **Compter seulement la dépense.** Les heures passées sont un coût ; sans elles, un canal « gratuit » paraît imbattable. Donner la valeur d'une heure.
 - **Juger un canal sur trop peu de clients.** En dessous d'une dizaine de clients, un coût par client est un repère, pas une mesure.
 - **Confondre chiffre d'affaires et marge.** Un client qui rapporte 3 000 € de chiffre d'affaires en rapporte 1 200 € de marge à 40 % : c'est la marge qu'on compare au coût d'acquisition.
+- **Appliquer un taux de marge à un prix toutes taxes comprises.** Un taux de marge se calcule sur le prix hors taxes : un panier de 60 € toutes taxes comprises fait 50 € hors taxes à 20 % de TVA (prix TTC ÷ (1 + taux de TVA)), et c'est sur 50 € que la marge s'applique. Pour une vente en ligne, retirer aussi les frais variables connus (expédition, paiement) avant de parler de marge d'une commande. Dire de quel côté (HT ou TTC) est chaque chiffre repris.
 - **Prendre le repère de 3 fois pour une loi.** Il vient d'abonnements logiciels. Pour un commerce ou une prestation, la bonne question est : en combien de mois ce client a-t-il remboursé ce qu'il a coûté ?
 - **Croire qu'un canal tiendra ses taux en changeant d'échelle.** Doubler le budget d'un canal fait souvent monter son coût par client.
 - **Tout essayer en même temps.** Sans deux ou trois canaux testés proprement, on ne sait pas lequel a donné quoi.
@@ -112,7 +113,7 @@ L'outil calcule ; il ne choisit pas les canaux, ne note pas la qualité d'un can
 ## Lien avec la mémoire d'entreprise (abonnés)
 
 Le calcul se fait sans mémoire : on lui donne les chiffres des canaux. Aucun fait de la liste fermée de la mémoire d'entreprise n'est consommé ; un dossier de faits collé tel quel est accepté et ces faits sont ignorés sans bruit.
-Les chiffres de canaux peuvent se déposer comme texte (mémoire brute, type `autre`) pour être retrouvés d'un mois à l'autre. Rien n'est écrit dans la mémoire sans validation humaine.
+Les chiffres de canaux peuvent se déposer comme texte (mémoire brute, type `autre`) pour être retrouvés d'un mois à l'autre. Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
 
 ## Quatre usages
 

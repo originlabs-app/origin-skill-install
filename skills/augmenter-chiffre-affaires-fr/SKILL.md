@@ -62,6 +62,7 @@ des achats plus fréquents) et insiste sur leur combinaison : un seul levier agi
 ## Pièges fréquents
 
 - **Compter le chiffre d'affaires et oublier la marge.** +12 000 € de chiffre d'affaires par un panier plus haut ne rapportent que 4 800 € de marge à 40 % ; le même point de prix rapporte 12 000 €.
+- **Appliquer un taux de marge à un prix toutes taxes comprises.** Un taux de marge se calcule sur le prix hors taxes : un panier de 60 € toutes taxes comprises fait 50 € hors taxes à 20 % de TVA (prix TTC ÷ (1 + taux de TVA)), et c'est sur 50 € que la marge s'applique. Pour une vente en ligne, retirer aussi les frais variables connus (expédition, paiement) avant de parler de marge d'une commande. Dire de quel côté (HT ou TTC) est chaque chiffre repris.
 - **Additionner les leviers.** Ils se multiplient : l'effet combiné dépasse la somme des effets pris un à un.
 - **Oublier ce que la hausse de prix peut faire perdre.** Une hausse n'est bonne que si la perte réelle de clients reste sous ce qu'elle supporte (11,11 % pour 5 % de hausse à 40 % de marge).
 - **Prendre l'ordre à variation égale pour l'ordre de difficulté.** Gagner 10 % de clients et relever un prix de 10 % ne demandent pas le même travail.
@@ -117,7 +118,7 @@ L'outil calcule ; il ne prévoit pas, ne mesure pas l'effort et ne choisit pas �
 ## Lien avec la mémoire d'entreprise (abonnés)
 
 Le calcul se fait sans mémoire : on lui donne les chiffres de la période. Aucun fait de la liste fermée de la mémoire d'entreprise n'est consommé ; un dossier de faits collé tel quel est accepté et ces faits sont ignorés sans bruit.
-Rien n'est écrit dans la mémoire sans validation humaine.
+Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
 
 ## Quatre usages
 
