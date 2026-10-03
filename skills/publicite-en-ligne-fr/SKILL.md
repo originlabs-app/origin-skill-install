@@ -135,7 +135,7 @@ L'outil calcule et rappelle les textes ; il ne lit pas le texte réel d'une anno
 ## Lien avec la mémoire d'entreprise (abonnés)
 
 Le calcul se fait sans mémoire : on lui donne les chiffres de la vente et de la campagne. Aucun fait de la liste fermée de la mémoire d'entreprise n'est consommé ; un dossier de faits collé tel quel est accepté et ces faits sont ignorés sans bruit.
-Rien n'est écrit dans la mémoire sans validation humaine.
+Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
 
 ## Quatre usages
 
