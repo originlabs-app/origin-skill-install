@@ -8,7 +8,7 @@ description: "Augmenter mon chiffre d'affaires. Méthode professionnelle frança
 # Augmenter mon chiffre d'affaires
 
 Une seule tâche : dire à un dirigeant quels leviers font monter son chiffre d'affaires et sa marge, de combien sur ses propres chiffres, et lequel rapporte le plus à variation égale. Le calcul est exact ;
-le jugement (quel levier est réaliste, ce qu'il demande d'effort, de temps, de risque) reste celui de la personne, avec les voix d'experts côte à côte. Fiche relue le 03/10/2026.
+le jugement (quel levier est réaliste, ce qu'il demande d'effort, de temps, de risque) reste celui de la personne, avec les voix d'experts côte à côte.
 
 ## Quand l'utiliser
 
@@ -41,7 +41,7 @@ des achats plus fréquents) et insiste sur leur combinaison : un seul levier agi
 **Ce que le calcul apporte que l'assistant seul ne donne pas.** Base : 200 clients, 4 achats par an, panier de 150 € hors taxes, 40 % de marge : 120 000 € de chiffre d'affaires, 48 000 € de marge.
 
 - *À variation égale de 10 %.* Plus de clients, plus d'achats par client ou un panier plus haut de 10 % font chacun +12 000 € de chiffre d'affaires et +4 800 € de marge. Le même point de prix fait +12 000 € de chiffre d'affaires et +12 000 € de marge, parce que les coûts ne bougent pas : à variation égale, le prix rapporte plus de marge, avant la perte de clients qu'il peut provoquer.
-- *Ce que le prix supporte.* Une hausse de 5 % avec 40 % de marge garde au moins la même marge tant qu'on ne perd pas plus de 11,11 % de volume (0,05 / 0,45). Une baisse de 10 % demande 33,33 % de volume en plus pour garder la même marge (0,10 / 0,30).
+- *Ce que le prix supporte.* Une hausse de 5 % avec 40 % de marge garde au moins la même marge tant qu'on ne perd pas plus de 11,11 % de volume (0,05 / 0,45). Une baisse de 10 % demande 33,33 % de volume en plus pour garder la même marge (0,10 / 0,30). Ces pourcentages sont des parts du volume : 11,11 % de volume, c'est 11,11 % de clients en moins (22 sur 200) ou 11,11 % d'achats en moins par client (0,44 sur 4), pas 11 clients ni 11 achats. Plus le taux de marge est faible, plus la hausse supporte de perte de volume : 5 % de prix supportent 11,11 % de volume à 40 % de marge et 20 % à 20 % de marge (0,05 / (marge + 0,05)). La tolérance ne se resserre pas quand la marge baisse, elle s'élargit.
 - *Les gains se multiplient.* +10 % de clients, +10 % d'achats par client et +5 % de prix donnent 152 460 € de chiffre d'affaires (+32 460 €) et 65 340 € de marge (+17 340 €), alors que la somme des gains pris un à un est de 30 000 € de chiffre d'affaires : l'effet de composition vaut 2 460 €.
 - *La conversion et la rétention.* 5 points de conversion sur 400 prospects font 20 clients de plus (+12 000 € de chiffre d'affaires, +4 800 € de marge). 10 points de rétention sur 180 clients de début de période font 18 clients de plus (+10 800 €, +4 320 € de marge).
 - *Le résultat.* Avec 30 000 € de charges fixes, le résultat passe de 18 000 € à 24 000 € avec 5 % de prix.
@@ -82,11 +82,13 @@ Désaccords des auteurs : `divergences-des-sources`. Fiches voisines : `voir-aus
 
 ## Contrat de réponse (3 règles fixes)
 
-1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : les voix d'experts viennent du calcul avec leur source et leur date de lecture ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
+1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : les voix d'experts viennent du calcul avec leur source et la date de leur publication ; ce qui n'a pas pu être relu le dit, jamais une mention de vérification.
 2. **Ne jamais inventer** : ne jamais produire un nombre de clients, un panier, un taux de marge ou une perte de clients que la personne n'a pas donné ; dire l'hypothèse retenue faute de fait et ce qui n'est pas relevé. L'effort d'un levier n'est jamais calculé.
 3. **Prévenir** quand une règle vient de changer (champ `prudence`).
 
 « Plan d'action d'abord », « deux questions au maximum » et l'ordre des étapes sont de bonnes habitudes quand la personne veut agir, pas des obligations.
+
+**Dates dans la réponse.** Pour une règle, donner sa date (version en vigueur, publication de la source), jamais une date de lecture : ne pas écrire « lu le JJ/MM/AAAA », « relu le », « consulté le » ni « j'ai lu » à propos des sources de la fiche, sauf si la personne demande quand elles ont été relues. Une source qui n'a pas pu être relue se dit « non relue ».
 
 **Restitution au dirigeant.**
 
@@ -102,7 +104,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur marketing.
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `leviers_ca_simuler` (nom servi : `orizon_leviers_ca_simuler`) | Chiffre d'affaires, marge et résultat après chaque levier (clients, conversion, rétention, fréquence, panier, prix) ; effet combiné et effet de composition ; variation de volume qui garde la même marge quand le prix change ; classement des leviers par gain de marge à variation égale | Dès que la personne donne sa base (clients, panier, achats) et veut savoir ce qu'un levier ou une variation de prix ferait |
+| `leviers_ca_simuler` (nom servi : `orizon_leviers_ca_simuler`) | Chiffre d'affaires, marge et résultat après chaque levier (clients, conversion, rétention, fréquence, panier, prix) ; effet combiné et effet de composition ; variation de volume qui garde la même marge quand le prix change ; classement des leviers par gain de marge à variation égale | Dès qu'une question chiffre un levier ou un prix (« si je monte mes prix de 5 % », « 10 % de clients en plus »), même sans la base complète : l'outil rend ce qu'il peut (la perte de volume qu'une hausse supporte selon la marge) et dit ce qui manque. Une question chiffrée ne se calcule pas à la main |
 
 Entrées : `clients`, `panier_moyen_ht`, `achats_par_client` (ou `chiffre_affaires_ht` avec deux des trois) ; `taux_marge_pct` ou `cout_variable_par_achat_ht` ; `charges_fixes_ht` ; `prospects`, `clients_nouveaux` ; `clients_debut_periode`, `taux_retention_pct` ;
 `leviers` (`clients_plus_pct` ou `clients_plus`, `conversion_plus_points`, `retention_plus_points`, `frequence_plus_pct` ou `frequence_plus`, `panier_plus_pct` ou `panier_plus_ht`, `prix_plus_pct`, `perte_volume_prix_pct`) ; `variation_test_pct`.
@@ -144,7 +146,7 @@ la saisonnalité et la tendance ; la valeur d'un client actualisée ; l'effet de
 
 # Désaccords des auteurs et des sources
 
-Corpus non réglementé : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur. Pages lues le 03/10/2026 quand elles se sont ouvertes ; les ouvrages et articles eux-mêmes n'ont pas été relus.
+Corpus non réglementé : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur. Pages relevées quand elles se sont ouvertes ; les ouvrages et articles eux-mêmes n'ont pas été relus.
 
 | Sujet | Voix 1 | Voix 2 | Ce que fait le calcul |
 | --- | --- | --- | --- |

@@ -8,8 +8,8 @@ description: "Avoir des idées créatives pour une campagne. Méthode profession
 # Avoir des idées créatives pour une campagne
 
 Une seule tâche : aider un dirigeant à passer de « je n'ai aucune idée » à un brief clair, de nombreuses idées, et un tri argumenté, en s'appuyant sur ce que l'entreprise sait déjà d'elle-même (sa marque, son offre, ses clients, ses campagnes passées et leurs résultats).
-Il n'y a rien à calculer : la créativité est de l'interprétation, que le modèle de langage du client mène avec la personne, guidé par plusieurs méthodes d'auteurs nommés dont les désaccords sont montrés. Fiche relue le 03/10/2026.
-Les méthodes ont été lues dans les textes des auteurs (voir « Les auteurs ne disent pas la même chose » pour ce qui est lu et ce qui ne l'est pas) ; les textes de droit ont été lus sur Légifrance le 03/10/2026.
+Il n'y a rien à calculer : la créativité est de l'interprétation, que le modèle de langage du client mène avec la personne, guidé par plusieurs méthodes d'auteurs nommés dont les désaccords sont montrés.
+Les méthodes viennent des textes des auteurs (voir « Les auteurs ne disent pas la même chose » pour ce qui est lu et ce qui ne l'est pas).
 
 ## Quand l'utiliser
 
@@ -39,13 +39,13 @@ Rendre tout de suite ce que l'on peut avec ce que la personne a dit, dire l'hypo
 ## Connaissances du métier
 
 **La réponse courte.** Ne pas chercher « l'idée » en premier. D'abord la matière (ce que l'on sait de l'offre, de la cible, de la marque, des campagnes passées), puis un brief d'une page, puis beaucoup d'idées sans les juger tout de suite, puis un tri sur des critères écrits à l'avance.
-C'est l'ordre que décrivent, chacun à sa manière, James Webb Young (matière, digestion, repos, idée, mise en forme), Alex Osborn (quantité d'abord, jugement ensuite) et Edward de Bono (provoquer pour sortir des chemins habituels).
+C'est l'ordre que propose la fiche, composé à partir d'éléments que les auteurs ne partagent pas : James Webb Young décrit la matière, la digestion, le repos, l'idée, la mise en forme ; Alex Osborn, la quantité d'abord et le jugement ensuite ; Edward de Bono rejette le brainstorming d'Osborn et préfère provoquer pour sortir des chemins habituels. Il n'y a pas d'accord entre les auteurs sur cet ordre : ne jamais écrire « un large accord » ni « les auteurs s'accordent ».
 Une campagne doit aussi faire reconnaître la marque : c'est le critère que l'institut Ehrenberg-Bass place avant tout autre.
 
 **Ce que la mémoire d'entreprise apporte que le texte seul ne donne pas.** Un assistant sans mémoire propose des idées pour « une entreprise » ; avec la mémoire, il propose des idées pour **cette** entreprise : son offre, sa cible, son ton, ce qu'elle a déjà fait et ce que cela a donné. Il évite de reproposer une idée déjà essayée sans résultat,
 il retrouve les actifs de la marque (couleurs, slogan, façon de parler), et il garde la trace de ce qui est décidé pour que la campagne suivante parte de plus haut. La valeur augmente à chaque campagne enregistrée. Voir « Lien avec la mémoire d'entreprise ».
 
-**Les auteurs ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Lecture faite des textes cités le 03/10/2026 ; les ouvrages non lus sont dits.
+**Les auteurs ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Chaque position est attribuée à son auteur, jamais fondue dans un accord : quand les auteurs divergent, le dire et nommer chacun ; les ouvrages non lus sont dits.
 
 - *James Webb Young, « A Technique for Producing Ideas » (années 1940 ; texte lu : édition McGraw-Hill de 2003).* Une idée est une **nouvelle combinaison d'éléments anciens** ; la capacité à combiner dépend de celle à voir des relations. Cinq étapes dans l'ordre : rassembler la matière (spécifique sur le produit et les gens, et générale sur la vie, par une curiosité de toute une vie),
   la mastiquer (tourner les faits, noter les idées partielles, aller jusqu'au bout de la fatigue), laisser reposer (faire autre chose, musique, théâtre), puis l'idée arrive (« Eureka »), enfin la mettre en forme à l'épreuve du réel et la montrer à des critiques, car une bonne idée s'enrichit au contact des autres. Il part de la préparation et du travail individuel.
@@ -60,9 +60,9 @@ il retrouve les actifs de la marque (couleurs, slogan, façon de parler), et il 
   et une création qui distrait ou une marque mal mise en avant en est la cause. Elle met en garde contre le fait de se comparer aux autres marques pour fixer ses objectifs. Elle part de la mémoire du public, pas de l'originalité.
 - *Divergences utiles.* Sur **où naît l'idée** : Young dans la préparation et l'inconscient, Osborn dans la séance et la quantité, de Bono dans la provocation, Sutherland dans le changement de cadre, Romaniuk dans le renforcement des actifs de la marque. Sur **le groupe** : Osborn le veut, de Bono n'en a pas besoin, Young demande de montrer l'idée finie à des critiques.
   Sur **juger** : Osborn le reporte au lendemain, de Bono veut une idée logique après coup, Romaniuk juge d'abord l'attribution à la marque. Sur **la nouveauté** : de Bono cherche la rupture avec les chemins habituels, Sutherland un nouveau cadre de perception, Romaniuk juge d'abord que la marque soit reconnue ; le texte lu de Romaniuk ne se prononce pas sur l'originalité en elle-même.
-  La fiche ne tranche pas : elle propose une méthode selon la situation (seul ou à plusieurs, beaucoup de temps ou peu, idées trop convenues ou idées absentes).
+  La fiche ne tranche pas et ne parle jamais d'un accord entre les auteurs : elle propose une méthode selon la situation (seul ou à plusieurs, beaucoup de temps ou peu, idées trop convenues ou idées absentes).
 
-**Ce que dit le droit sur copier une idée de la concurrence (textes lus sur Légifrance le 03/10/2026).** Une pratique commerciale est trompeuse si elle crée une confusion avec un bien ou un service, une marque, un nom commercial ou un autre signe distinctif d'un concurrent (Code de la consommation, article L121-2, 1°).
+**Ce que dit le droit sur copier une idée de la concurrence.** À n'évoquer que si la question porte sur copier ou s'inspirer d'une campagne concurrente, sur une comparaison ou sur une promesse sans preuve ; sinon ne pas l'ajouter. Les peines ne se citent que si la personne les demande. Une pratique commerciale est trompeuse si elle crée une confusion avec un bien ou un service, une marque, un nom commercial ou un autre signe distinctif d'un concurrent (Code de la consommation, article L121-2, 1°).
 Est réputé trompeur le fait de promouvoir un produit ou un service similaire à celui d'un fournisseur clairement identifié pour inciter délibérément le consommateur à croire qu'il vient de ce fournisseur (article L121-4, 13°). Une pratique trompeuse est punie de 2 ans d'emprisonnement et 300 000 euros d'amende, et de 5 ans et 750 000 euros par un service de communication au public en ligne (article L132-2, version du 12/05/2024).
 La protection d'une idée ou d'une création par le droit d'auteur, les marques ou les dessins et modèles n'est pas relevée ici : à confier à un conseil en propriété intellectuelle.
 
@@ -96,6 +96,8 @@ Ce que l'assistant lit et propose d'enregistrer : `memoire-et-campagnes`. Questi
 3. **Prévenir** quand une règle vient de changer.
 
 « Plan d'action d'abord », « deux questions au maximum » et l'ordre des étapes sont de bonnes habitudes quand la personne veut agir, pas des obligations.
+
+**Dates dans la réponse.** Pour une règle, donner sa date (version en vigueur, publication de la source), jamais une date de lecture : ne pas écrire « lu le JJ/MM/AAAA », « relu le », « consulté le » ni « j'ai lu » à propos des sources de la fiche, sauf si la personne demande quand elles ont été relues. Une source qui n'a pas pu être relue se dit « non relue ».
 
 **Restitution au dirigeant.**
 

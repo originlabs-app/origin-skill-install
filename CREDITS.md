@@ -68,6 +68,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 ## Me situer face à mes concurrents (`analyse-concurrence-fr`)
 
 - Code de la consommation, article L122-1 (Légifrance) : publicité comparative, conditions de licéité (version du 01/07/2016), relevée le 03/10/2026
+- Code de la consommation, article L132-2 : pratique commerciale trompeuse (Légifrance), relevée le 03/10/2026
 
 ## Répondre ou non à un appel d'offres public (`appel-offres-public-fr`)
 

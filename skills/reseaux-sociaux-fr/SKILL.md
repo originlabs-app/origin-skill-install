@@ -8,7 +8,7 @@ description: "Utiliser les réseaux sociaux sans y passer sa vie. Méthode profe
 # Utiliser les réseaux sociaux sans y passer sa vie
 
 Une seule tâche : aider un dirigeant à décider où publier, quoi publier et à quel rythme, avec un temps qu'il peut vraiment tenir, à mesurer ce que cela rapporte, et à ne pas se mettre en infraction.
-Le calcul est exact (calendrier, temps, taux) ; le jugement (quel réseau, quel ton, quelle fréquence) reste celui de la personne, avec les voix d'auteurs côte à côte. Fiche relue le 03/10/2026.
+Le calcul est exact (calendrier, temps, taux) ; le jugement (quel réseau, quel ton, quelle fréquence) reste celui de la personne, avec les voix d'auteurs côte à côte.
 Les textes de droit ont été lus sur Légifrance le 03/10/2026 ; les billets et articles des auteurs ont été lus en ligne le 03/10/2026, mais pas leurs livres.
 
 ## Quand l'utiliser
@@ -41,8 +41,8 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 ## Connaissances du métier
 
 **La réponse courte.** Commencer par où se trouvent vos clients, pas par les réseaux à la mode : un ou deux réseaux tenus avec régularité valent mieux que cinq abandonnés au bout d'un mois. Fixer d'abord le temps que l'on peut vraiment donner, en déduire un rythme,
-puis regarder les ventes et les demandes que cela apporte, pas seulement les mentions « j'aime ». Côté droit, une publicité doit pouvoir être identifiée comme telle (loi du 21 juin 2004, article 20, lu le 03/10/2026) ; une collaboration rémunérée avec un influenceur s'annonce par « publicité »
-ou « collaboration commerciale » (loi du 9 juin 2023, article 5-2, version du 08/11/2024, lue le 03/10/2026) ; un jeu qui mêle hasard et dépense exigée des participants est un jeu d'argent prohibé (Code de la sécurité intérieure, article L320-1, lu le 03/10/2026).
+puis regarder les ventes et les demandes que cela apporte, pas seulement les mentions « j'aime ». Côté droit, une publicité doit pouvoir être identifiée comme telle (loi du 21 juin 2004, article 20) ; une collaboration rémunérée avec un influenceur s'annonce par « publicité »
+ou « collaboration commerciale » (loi du 9 juin 2023, article 5-2, version du 08/11/2024) ; un jeu qui mêle hasard et dépense exigée des participants est un jeu d'argent prohibé (Code de la sécurité intérieure, article L320-1).
 
 **Ce que le calcul apporte que le texte seul ne donne pas.**
 
@@ -52,7 +52,7 @@ ou « collaboration commerciale » (loi du 9 juin 2023, article 5-2, version du 
   Instagram 5 fois par semaine à 60 minutes, avec 120 minutes de réponses, pour 4 heures disponibles : 7 heures nécessaires, il en manque 3, et au même temps par contenu on tient 2 publications par semaine.
 - *Des taux calculés, jamais devinés.* 240 interactions pour 8 000 personnes atteintes et 1 200 abonnés : 3 % d'engagement sur la portée, 20 % sur les abonnés. 120 clics : 1,5 % de clic. 6 ventes pour 120 clics : 5 % de conversion. 10 heures valorisées à 50 euros hors taxes : 500 euros pour 6 ventes,
   soit 83,33 euros de temps par vente. Une portée à 0 ou plus de clics que de personnes atteintes est dit, jamais remplacé par un taux inventé.
-- *Les repères d'un éditeur d'outil, dits repères.* Buffer, qui vend un outil de programmation, donne (tableau lu le 03/10/2026) : Instagram 3 à 5 publications par semaine, LinkedIn 2 à 5, TikTok 2 à 5, X 3 à 4 par jour, Facebook 1 à 2 par jour, YouTube 1 vidéo par semaine. L'outil situe votre rythme par rapport à ces repères
+- *Les repères d'un éditeur d'outil, dits repères.* Buffer, qui vend un outil de programmation, donne (tableau de son site, sans date relevée) : Instagram 3 à 5 publications par semaine, LinkedIn 2 à 5, TikTok 2 à 5, X 3 à 4 par jour, Facebook 1 à 2 par jour, YouTube 1 vidéo par semaine. L'outil situe votre rythme par rapport à ces repères
   en disant que ce ne sont pas des règles.
 
 **Les auteurs ne disent pas la même chose.** La fiche les montre côte à côte ; elle ne tranche pas à la place de la personne. Lecture faite des billets et articles cités, pas des livres.
@@ -67,7 +67,7 @@ ou « collaboration commerciale » (loi du 9 juin 2023, article 5-2, version du 
   contenu par contenu. Sur la **mesure**, Godin ne parle pas de chiffres, Pulizzi compte les abonnés, Fishkin les ventes, Buffer l'engagement : c'est pourquoi l'outil calcule les quatre familles de taux sur les chiffres de la personne.
 - *Données d'un éditeur d'outil.* Buffer écrit que publier régulièrement donne cinq fois plus d'engagement (plus de 100 000 utilisateurs de son outil). C'est un chiffre d'un vendeur d'outil de programmation, pas une étude indépendante.
 
-**Ce que dit le droit, textes lus le 03/10/2026.**
+**Ce que dit le droit** (à n'évoquer que si la question touche la publicité, une collaboration, un jeu ou les images ; les textes sont donnés avec leur date de version).
 
 - *Publicité identifiable.* Toute publicité accessible en ligne doit pouvoir être clairement identifiée comme telle et rendre identifiable la personne pour le compte de laquelle elle est faite (loi du 21 juin 2004, article 20). Un contenu rédactionnel que le professionnel a lui-même financé, sans l'indiquer clairement, est réputé trompeur (Code de la consommation, article L121-4, 11°).
 - *Collaboration rémunérée ou produit offert.* Exerce l'activité d'influence commerciale celui qui, à titre onéreux, mobilise sa notoriété pour promouvoir un bien, un service ou une cause (loi du 9 juin 2023, article 1er). L'absence de mention de l'intention commerciale, quand elle ne ressort pas du contexte, est une pratique commerciale trompeuse par omission ; l'intention peut s'indiquer par
@@ -104,11 +104,13 @@ Désaccords des auteurs : `divergences-des-sources`. Droit lu : `regles-legales-
 
 ## Contrat de réponse (3 règles fixes)
 
-1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : le droit et les méthodes d'auteurs viennent du calcul avec leur source ; ce qui n'est pas relu le dit, jamais une mention de vérification qui n'a pas eu lieu.
+1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : le droit et les méthodes d'auteurs viennent du calcul avec leur source et la date de leur texte ou de leur version ; ce qui n'est pas relu le dit, jamais une mention de vérification qui n'a pas eu lieu.
 2. **Ne jamais inventer** : ne jamais produire un chiffre d'audience, un taux ou un meilleur jour de publication que la personne n'a pas donné ou que l'outil ne calcule pas ; dire l'hypothèse retenue faute de fait et ce qui n'est pas relevé (meilleures heures, algorithmes, jurisprudence).
 3. **Prévenir** quand une règle vient de changer (champ `prudence`).
 
 « Plan d'action d'abord », « deux questions au maximum » et l'ordre des étapes sont de bonnes habitudes quand la personne veut agir, pas des obligations.
+
+**Dates dans la réponse.** Pour une règle, donner sa date (version en vigueur, publication de la source), jamais une date de lecture : ne pas écrire « lu le JJ/MM/AAAA », « relu le », « consulté le » ni « j'ai lu » à propos des sources de la fiche, sauf si la personne demande quand elles ont été relues. Une source qui n'a pas pu être relue se dit « non relue ».
 
 **Restitution au dirigeant.**
 
@@ -124,7 +126,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur reseaux-sociaux.
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `reseaux_sociaux_planifier` (nom servi : `orizon_reseaux_sociaux_planifier`) | Le calendrier de publications daté (jour, réseau, semaine, jours fériés signalés ou évités, temps forts, début de préparation), le temps hebdomadaire nécessaire comparé au temps disponible, les repères de fréquence d'un éditeur d'outil, les taux (engagement, clic, conversion, interactions par publication, coût du temps par vente) et leur classement entre réseaux, les points de droit à vérifier selon l'usage | Dès qu'il y a des réseaux avec un rythme, des chiffres de période, ou un usage à vérifier |
+| `reseaux_sociaux_planifier` (nom servi : `orizon_reseaux_sociaux_planifier`) | Le calendrier de publications daté (jour, réseau, semaine, jours fériés signalés ou évités, temps forts, début de préparation), le temps hebdomadaire nécessaire comparé au temps disponible, les repères de fréquence d'un éditeur d'outil, les taux (engagement, clic, conversion, interactions par publication, coût du temps par vente) et leur classement entre réseaux, les points de droit à vérifier selon l'usage | Dès qu'une question donne des réseaux avec un rythme de publication, des chiffres d'un compte (abonnés, interactions, clics, ventes, heures) ou un usage à vérifier (« combien de temps me prend 3 publications par semaine ? », « mon taux d'engagement est-il bon ? ») : appeler l'outil plutôt que calculer à la main |
 
 Entrées : `reseaux` (nom, `publications_par_semaine` ou `jours`, `minutes_par_publication`), `date_debut`, `semaines`, `zone`, `si_ferie` (signaler, avancer ou reporter), `temps_forts` (date et libellé), `preparation_jours`, `heures_disponibles_par_semaine`, `minutes_echanges_par_semaine`,
 `mesures` (réseau, abonnés, portée, interactions, clics, conversions, publications, heures passées, taux horaire hors taxes), `usages` (booléens : collaboration rémunérée, produit offert ou avantage, jeu-concours, participation payante, gagnant désigné par le hasard, personnes identifiables, images retouchées ou IA), `date_reference`.
@@ -169,8 +171,8 @@ Pour chacun, le dire et orienter vers un avocat ou un service juridique avant to
 
 # Désaccords des auteurs et des sources
 
-Corpus non réglementé pour les méthodes : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur et à son texte. Les billets et articles ci-dessous ont été lus en ligne le 03/10/2026 ;
-les livres de ces auteurs ne sont pas lus. Les textes de droit ont été lus sur Légifrance le 03/10/2026. Rien n'est recopié : tout est reformulé.
+Corpus non réglementé pour les méthodes : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur et à son texte. Les billets et articles ci-dessous ont été relevés en ligne ;
+les livres de ces auteurs ne sont pas lus. Les textes de droit viennent de Légifrance. Rien n'est recopié : tout est reformulé.
 
 ## Les lectures
 
@@ -369,9 +371,9 @@ Une question n'est posée que si la réponse change le résultat, jamais en têt
 
 ### Annexe : regles-legales-lues
 
-# Droit lu sur Légifrance le 03/10/2026
+# Droit relevé sur Légifrance
 
-Chaque texte a été lu en entier par l'interface officielle de Légifrance (API PISTE), dans sa version consolidée à la date de lecture. Information non opposable : seul le Journal officiel signé fait foi. La fiche n'interprète pas ces textes au-delà de ce qu'ils disent.
+Chaque texte a été lu en entier par l'interface officielle de Légifrance (API PISTE), dans sa version consolidée à la date indiquée pour chaque texte. Information non opposable : seul le Journal officiel signé fait foi. La fiche n'interprète pas ces textes au-delà de ce qu'ils disent.
 
 | Sujet | Texte | Version lue | Ce qu'il dit, en nos mots |
 | --- | --- | --- | --- |
