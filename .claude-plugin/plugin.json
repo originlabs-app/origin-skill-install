@@ -1,0 +1,21 @@
+{
+  "name": "originskill",
+  "version": "2026.10.3",
+  "description": "50 fiches gratuites pour votre assistant : la méthode d'un professionnel français (compta, fiscalité, RH, juridique, vente), datée.",
+  "author": {
+    "name": "OriginSkill",
+    "url": "https://originskill.ai"
+  },
+  "homepage": "https://originskill.ai",
+  "repository": "https://github.com/originlabs-app/origin-skill-install",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "france",
+    "comptabilité",
+    "fiscalité",
+    "rh",
+    "juridique",
+    "tva",
+    "paperasse"
+  ]
+}
