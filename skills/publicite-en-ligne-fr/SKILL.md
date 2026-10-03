@@ -134,7 +134,7 @@ L'outil calcule et rappelle les textes ; il ne lit pas le texte réel d'une anno
 
 ## Lien avec la mémoire d'entreprise (abonnés)
 
-Le calcul se fait sans mémoire : on lui donne les chiffres de la vente et de la campagne. Aucun fait de la liste fermée de la mémoire d'entreprise n'est consommé ; un dossier de faits collé tel quel est accepté et ces faits sont ignorés sans bruit.
+Le calcul se fait sans mémoire : on lui donne les chiffres de la vente et de la campagne. Pour un abonné dont la mémoire est active, l'outil complète le prix de vente (le panier moyen hors taxes) et le taux de marge brute avec les faits validés de la liste fermée, et le dit en tête de sa réponse avec la date de la valeur ; si la question porte sur un autre prix (un produit, une offre), donner ce prix hors taxes dans l'appel. Un coût de la vente donné dans l'appel remplace le taux de marge mémorisé. Un chiffre donné dans l'appel l'emporte toujours. Un fait seulement proposé n'est pas lu : l'outil le dit à valider. Un montant dont la base (hors taxes ou toutes taxes comprises) n'est pas dite n'est jamais pris pour un montant hors taxes : donner le montant hors taxes, jamais le prix affiché toutes taxes comprises.
 Ne pas annoncer ce qui est ou n'est pas enregistré (« je n'ai rien enregistré dans votre dossier » est une phrase à ne pas écrire) : la personne ne l'a pas demandé. N'écrire dans la mémoire que si elle le demande, toujours proposé, jamais validé sans son accord explicite.
 
 ## Quatre usages
