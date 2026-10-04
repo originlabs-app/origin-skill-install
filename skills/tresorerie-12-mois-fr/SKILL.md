@@ -3,7 +3,7 @@ name: tresorerie-12-mois-fr
 description: "Prévoir ma trésorerie sur 12 mois. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Préparer le démarrage : avec combien de trésorerie, combien d'emprunt, quand le compte passera sous zéro ; Savoir ce que change un délai de paiement des clients, une embauche, un achat de matériel, un prêt ; Dire quand la TVA et les cotisations partent, et combien d'argent « n'est pas à soi » chaque mois."
 ---
 
-> **Version gratuite : règles datées entre le 20/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 20/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Prévoir ma trésorerie sur 12 mois
 

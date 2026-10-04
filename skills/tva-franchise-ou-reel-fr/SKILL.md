@@ -3,7 +3,7 @@ name: tva-franchise-ou-reel-fr
 description: "Dois-je facturer la TVA, et à partir de quand ?. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Une création d'entreprise : en franchise ou à la TVA dès le départ, et jusqu'à quel chiffre d'affaires ; Un chiffre d'affaires qui approche ou dépasse 37 500 € (services) ou 85 000 € (ventes) : que se passe-t-il, ; Un micro-entrepreneur qui ne sait pas s'il doit écrire « TVA non applicable » ou facturer 20 %."
 ---
 
-> **Version gratuite : règles datées du 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 03/10/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Dois-je facturer la TVA, et à partir de quand ?
 
@@ -120,12 +120,15 @@ TVA (un sixième du prix à 20 %) est prélevée sur la marge. L'outil chiffre l
   03/11/2025 : les plafonds ci-dessus sont maintenus. Un article ou une vidéo qui parle encore de 25 000 € est périmé.
 - *Un projet de loi de finances pour 2027* est annoncé pour la fin septembre 2026 (source secondaire) ; son contenu sur la
   franchise n'est pas connu. Revérifier les plafonds après son dépôt.
-- *La recodification de la TVA au code des impositions sur les biens et services (CIBS)* renumérotera l'article
+- *La recodification de la TVA au code des impositions sur les biens et services (CIBS)* renumérote l'article
   293 B à droit constant. Elle entre en vigueur le 01/01/2027, et non le 01/09/2026 : l'ordonnance n° 2026-671 du
   27/07/2026 (art. 17, texte lu le 03/10/2026) a reporté la date. Jusqu'au 31/12/2026, l'article 293 B du CGI
-  s'applique ; les anciennes références du CGI restent admises jusqu'au 30/06/2028. Le numéro de l'article du CIBS
-  qui reprend la mention n'est pas relevé. Tant que ce n'est pas lu à la source, garder la mention « art. 293 B du
-  CGI » relevée et la vérifier avant d'éditer un modèle de facture à compter du 01/01/2027.
+  s'applique ; les anciennes références du CGI restent admises jusqu'au 30/06/2028. Le CIBS consolidé au 01/01/2027
+  (lu le 04/10/2026) reprend la franchise aux articles L. 233-3 (entreprise franchisée), L. 233-9 et L. 233-10
+  (plafonds, mêmes montants que l'article 293 B). La mention à écrire sur les factures à compter du 01/01/2027 n'est
+  fixée par aucun texte lu : la DGFiP (pages modifiées en mai et en juin 2026) cite « art. 293 B du CGI » ou
+  « article L.223-3 du CIBS », numéro d'avant l'ordonnance n° 2026-671 (L. 233-3 dans le texte consolidé). Garder la
+  mention « art. 293 B du CGI » relevée et la vérifier avant d'éditer un modèle de facture à compter du 01/01/2027.
 
 **Les faits de mémoire que cette fiche lit et propose** (mêmes noms que la mémoire d'entreprise) :
 
@@ -182,7 +185,7 @@ l'option : `sortie-de-la-franchise-et-option`. Vocabulaire : `glossaire`.
    leur état de relevé (« non relu en ligne à ce jour », recherche du 30/09/2026) ; l'article 293 B du CGI pour la
    franchise, l'article 293 F pour l'option.
 2. **Ne jamais inventer** : dire ce qui manque (chiffre d'affaires, date du dépassement, nature de l'activité) et ce
-   qui n'est pas relevé (cas d'exclusion, outre-mer, exercice décalé, nouveau numéro d'article du CIBS).
+   qui n'est pas relevé (cas d'exclusion, outre-mer, exercice décalé, mention de facture à compter du 01/01/2027).
 3. **Prévenir** quand une règle vient de changer ou reste incertaine (champ `prudence` : plafond unique supprimé,
    régime simplifié supprimé en 2027, recodification au CIBS, projet de loi de finances pour 2027).
 
@@ -257,7 +260,7 @@ artistes (BOFiP BOI-TVA-DECLA-40-20 et 40-30) ; l'outre-mer ; un exercice qui n'
 les modalités exactes des factures rectificatives, des intérêts de retard et de la régularisation de la TVA sur des stocks ou des
 immobilisations acquis en franchise ; les acomptes du régime simplifié ; le choix entre simplifié et normal d'une
 entreprise sans chiffre d'affaires de référence ; le traitement d'une option pour un assujetti sous les plafonds ;
-le nouvel article du CIBS. Pour chacun, le dire et orienter vers la source officielle ou le service des impôts
+la mention de facture à compter du 01/01/2027. Pour chacun, le dire et orienter vers la source officielle ou le service des impôts
 des entreprises.
 
 ### Annexe : exemples-calcules
@@ -355,7 +358,7 @@ Franchise cessée au 01/01/2026, 43 000 € de ventes à 10 % et 29 500 € de p
 | Option pour le paiement de la TVA | Renonciation à la franchise : effet le premier jour du mois de la demande, engagement de deux années civiles (CGI art. 293 F). |
 | Numéro de TVA intracommunautaire | Numéro nécessaire pour facturer la TVA. |
 | SIE | Service des impôts des entreprises, à informer de la sortie de la franchise. |
-| CIBS | Code des impositions sur les biens et services, où la TVA sera recodifiée à compter du 01/01/2027 (report du 01/09/2026 par l'ordonnance n° 2026-671) ; numéro de l'article qui reprend la mention de l'article 293 B non relevé. |
+| CIBS | Code des impositions sur les biens et services, où la TVA sera recodifiée à compter du 01/01/2027 (report du 01/09/2026 par l'ordonnance n° 2026-671) ; la franchise y est reprise aux articles L. 233-3, L. 233-9 et L. 233-10 (lus le 04/10/2026) ; la mention de facture à compter du 01/01/2027 n'est fixée par aucun texte lu. |
 | Micro-entreprise | Régime de l'impôt sur le revenu et des cotisations, avec ses propres plafonds ; distinct de la franchise de TVA. |
 | Ramené à douze mois | CA prévu de l'année de création × 365 / jours d'activité, comparé au plafond de base : dit si la franchise tient l'an prochain. |
 | TVA à rattraper | TVA due depuis la date de bascule sur des factures émises sans TVA : ajoutée au prix (HT × taux) ou prélevée sur le prix payé (prix × taux / (1 + taux)) ; deux lectures, aucune choisie par l'outil. |
@@ -465,8 +468,8 @@ pleine page reste à faire. Jusque-là, tout chiffre de ce tableau est à reconf
 | Plafond de base dépassé sans dépasser le plafond majoré : franchise jusqu'au 31/12, TVA au 01/01 suivant | 1er janvier | sans date relevée | Service-Public Entreprendre, fiche F21746 | non relu en ligne à ce jour |
 | Mention de facture en franchise | « TVA non applicable, art. 293 B du CGI » | version en vigueur depuis le 01/03/2025 | Légifrance, CGI art. 293 B (identifiant LEGIARTI000052488142), relevé Légifrance du 20/07/2026 | relevé daté, plus ancien que 30 jours |
 | Régime simplifié de TVA : CA sous 840 000 € (ventes) ou 254 000 € (services), TVA exigible inférieure à 15 000 € | 840 000 € / 254 000 € / 15 000 € | sans date relevée ; jusqu'au 31/12/2026 | impots.gouv.fr, « Les régimes d'imposition à la TVA » | non relu en ligne à ce jour |
-| Suppression du régime simplifié de TVA | 01/01/2027 | 01/01/2027 | Légifrance, loi n° 2025-127 du 14/02/2025, art. 38 ; impots.gouv.fr, actualité | non relu en ligne à ce jour |
-| Dès 2027, CA3 trimestrielle : CA de l'année précédente plus acquisitions taxables au plus 1 000 000 € | 1 000 000 € (et 1 100 000 € l'année en cours, à lire sur la page) | 01/01/2027 | impots.gouv.fr, actualité sur la suppression | non relu en ligne à ce jour |
+| Suppression du régime simplifié de TVA | 01/01/2027 | 01/01/2027 | Légifrance, loi n° 2025-127 du 14/02/2025, art. 38 ; impots.gouv.fr, actualité du 22/09/2026 | art. 38 lu le 03/10 et le 04/10/2026 ; actualité lue le 04/10/2026 |
+| Dès 2027, CA3 trimestrielle : CA de l'année précédente plus acquisitions taxables au plus 1 000 000 € | 1 000 000 € (et 1 100 000 € l'année en cours) | 01/01/2027 | Légifrance, CGI art. 287, 3, version du 01/01/2027 ; impots.gouv.fr, actualité du 22/09/2026 | lus le 04/10/2026 (preuve `docs/sources/relectures/2026-10-04-bascules-2`) |
 | Option pour le paiement de la TVA : effet le premier jour du mois, deux années civiles, reconduction tacite | 2 années civiles | sans date relevée | Légifrance, CGI art. 293 F | non relu en ligne à ce jour |
 
 ## La chronologie des réformes, sans rien trancher
@@ -478,7 +481,7 @@ pleine page reste à faire. Jusque-là, tout chiffre de ce tableau est à reconf
 | 03/11/2025 | Loi n° 2025-1044 visant à garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises, art. 1 | Supprime le plafond unique de 25 000 € et maintient les plafonds de 85 000 € et 37 500 € | BOFiP ACTU-2025-00144 (01/07/2026), non relu en ligne à ce jour |
 | 14/02/2025 | Loi n° 2025-127, art. 38 | Supprime le régime simplifié de TVA au 01/01/2027 | non relu en ligne à ce jour |
 | 19/02/2026 | Loi n° 2026-103 de finances pour 2026 | Aucun changement des plafonds de la franchise relevé ; un projet de plafond de 25 000 € pour les travaux du bâtiment, écarté pendant les débats selon des sources secondaires | sources secondaires seulement, non relues |
-| 17/12/2025 | Ordonnance n° 2025-1247 | Recodifie la TVA dans le code des impositions sur les biens et services (CIBS) | relevé du 20/07/2026 (veille) |
+| 17/12/2025 | Ordonnance n° 2025-1247 | Recodifie la TVA dans le code des impositions sur les biens et services (CIBS) ; art. 15 : les dispositions du CGI de la première colonne du tableau restent en vigueur jusqu'à leur reprise par des mesures réglementaires | relevé du 20/07/2026 (veille) ; art. 15, 46 et 49 relus le 04/10/2026 |
 | 27/07/2026 | Ordonnance n° 2026-671 portant divers ajustements du CIBS | Art. 17 : reporte du 01/09/2026 au 01/01/2027 l'entrée en vigueur de la recodification de la TVA dans le CIBS (ordonnance n° 2025-1247, art. 49) et du 31/12/2027 au 30/06/2028 l'admission des références du CGI | texte lu sur Légifrance le 03/10/2026 |
 | fin 09/2026 | Projet de loi de finances pour 2027 | Annoncé ; son contenu sur la franchise n'est pas connu | source secondaire seulement |
 
@@ -488,10 +491,15 @@ pleine page reste à faire. Jusque-là, tout chiffre de ce tableau est à reconf
   et nos relevés du 20/07/2026 donnaient le 01/09/2026 ; l'ordonnance n° 2026-671 du 27/07/2026 (art. 17, texte lu le
   03/10/2026), postérieure, a reporté la date au 01/01/2027. La mention « art. 293 B du CGI » reste celle en vigueur
   jusqu'au 31/12/2026, et les anciennes références du CGI restent admises jusqu'au 30/06/2028.
-- **Numéro du nouvel article** : « L. 223-3 du CIBS » selon un extrait attribué à une page de l'administration ;
-  « L. 233-3 » selon une source secondaire. **Non tranché**, à lire sur Légifrance avant d'écrire une nouvelle mention.
-- **Plafond de 1 100 000 € pour l'année en cours** (CA3 trimestrielle dès 2027) : cité par une partie des extraits
-  seulement. À lire sur la page officielle.
+- **Numéro du nouvel article** : tranché pour la franchise le 04/10/2026 par la lecture du CIBS consolidé au 01/01/2027 :
+  L. 233-3 (entreprise franchisée en France), L. 233-9 et L. 233-10 (plafonds, mêmes montants que l'article 293 B). Les
+  pages de la DGFiP (« Les régimes d'imposition à la TVA », modifiée le 21/05/2026 ; « En tant que micro-entrepreneur… »,
+  modifiée le 16/06/2026) citent « article L.223-3 du CIBS », numéro d'avant l'ordonnance n° 2026-671, qui a renuméroté le
+  livre II (L. 223-3 traite aujourd'hui de la déduction partielle). **Non tranché** : la mention à écrire à compter du
+  01/01/2027, qu'aucun texte lu ne fixe ; la lire sur la page de la DGFiP du jour avant d'éditer un modèle de facture.
+- **Plafond de 1 100 000 € pour l'année en cours** (CA3 trimestrielle dès 2027) : tranché le 04/10/2026, lu dans l'article 287
+  du CGI (3, a et b, version du 01/01/2027) et sur la page de la DGFiP du 22/09/2026 : 1 000 000 € l'année civile précédente,
+  1 100 000 € l'année en cours ; au-delà du second seuil, déclaration mensuelle dès le premier jour du mois du dépassement.
 - **TVA exigible de 15 000 €** pour le régime simplifié : l'extrait dit « inférieure à 15 000 € » ; le cas d'un
   montant exactement égal n'est pas relevé.
 - **Anciens plafonds** : tout chiffre daté d'avant 2025, et le plafond de 25 000 €, sont périmés. Ne pas les reprendre.
@@ -519,7 +527,7 @@ ouvertes : non relu en ligne à ce jour.
 | Avant la première facture avec TVA | Obtenir un numéro de TVA intracommunautaire | Nécessaire pour facturer la TVA |
 | Dès l'opération du dépassement | Informer le service des impôts des entreprises (espace professionnel impots.gouv.fr ; la doctrine parle aussi d'une simple lettre sur papier libre) | La sortie est à signaler même si la personne reste micro-entrepreneur |
 | Sur les factures déjà émises | Les rectifier si elles portent des opérations taxables datées de ce jour ou après | Modalités exactes non relevées |
-| Sur les factures futures | Retirer « TVA non applicable, art. 293 B du CGI » ; afficher le taux, le montant de TVA par taux, le total TTC et le numéro de TVA du vendeur | La mention vient des règles relevées ; le CIBS pourra la renuméroter |
+| Sur les factures futures | Retirer « TVA non applicable, art. 293 B du CGI » ; afficher le taux, le montant de TVA par taux, le total TTC et le numéro de TVA du vendeur | La mention vient des règles relevées ; à compter du 01/01/2027 aucun texte lu ne fixe la nouvelle (voir `seuils-et-etat-des-lieux.md`) |
 | Sur les achats | La TVA devient déductible pour les dépenses dont le droit à déduction naît à compter de la date où l'on devient redevable | La TVA payée avant sur des stocks ou des immobilisations encore en possession : régularisation non relevée, à demander |
 | Première déclaration | Jusqu'au 31/12/2026 : CA12 (régime simplifié) pour l'exercice, à déposer au plus tard le 2e jour ouvré après le 1er mai de l'année suivante pour un exercice égal à l'année civile, soit le 04/05/2027 pour 2026. Dès 2027 : CA3 du mois ou du trimestre, déposée le mois suivant | La date limite exacte d'une CA3 figure dans l'espace professionnel (fenêtre du 15 au 24 du mois suivant) |
 

@@ -3,7 +3,7 @@ name: prospects-prioritaires
 description: "Savoir quels prospects contacter en premier. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : L'offre existe, mais la liste de prospects est « tout le monde », ou rangée par taille, ; On veut savoir quels types d'organisations viser, et qui joindre à l'intérieur ; On se demande quels signaux d'achat surveiller et comment les vérifier."
 ---
 
-> **Version gratuite : règles datées entre le 09/08/2026 et le 26/09/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 09/08/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Savoir quels prospects contacter en premier
 
@@ -55,7 +55,7 @@ les avis de marchés publics sont des faits datés. Une procédure collective pu
 aussi un fait daté, mais c'est d'abord un **risque d'impayé** : souvent un motif
 d'exclusion, pas un signal d'achat. Les codes NAF et la base Sirene de l'INSEE
 **filtrent** une population, ils ne disent pas qui appeler en premier ; et un filtre
-secteur doit dire quelle révision NAF il utilise (INSEE, page du 30/07/2025 : NAF rev.2
+secteur doit dire quelle révision NAF il utilise (INSEE, page du 30/07/2025 relue le 04/10/2026 ; décret n° 2025-736 du 31/07/2025, art. 2 : entrée en vigueur le 01/01/2027 ; NAF rev.2
 jusqu'à fin 2026, NAF 2025 à partir de janvier 2027 ; le changement approche).
 
 **Une note n'est pas un jugement.** Un total de points, ou une note « d'intention d'achat »
