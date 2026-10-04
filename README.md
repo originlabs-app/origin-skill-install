@@ -1,10 +1,10 @@
 # OriginSkill : les fiches gratuites
 
-![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![60 fiches](https://img.shields.io/badge/fiches-60-green) ![Règles relevées du 26/06/2026 au 03/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2003--10--2026-orange)
+![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![60 fiches](https://img.shields.io/badge/fiches-60-green) ![Règles relevées du 26/06/2026 au 04/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2004--10--2026-orange)
 
 **Votre assistant d'intelligence artificielle répond comme un professionnel français : il connaît les règles, les pièges et les questions à poser.**
 
-60 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 03/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
+60 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 04/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
 
 ## Ce que je veux régler : la fiche qu'il me faut
 

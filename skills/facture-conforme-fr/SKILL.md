@@ -3,7 +3,7 @@ name: facture-conforme-fr
 description: "Vérifier qu'une facture est en règle. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Contrôler une facture client avant envoi, ou une facture fournisseur avant paiement ou comptabilisation ; Contrôler un lot de factures pour un client du cabinet ; Répondre à une question précise sur une mention (« faut-il le SIREN du client ? », « quelle mention en franchise ? »)."
 ---
 
-> **Version gratuite : règles datées entre le 18/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 18/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Vérifier qu'une facture est en règle
 
@@ -71,11 +71,21 @@ services n'est en principe exigible qu'à l'encaissement, sauf option pour les d
 si la société a opté, car la TVA a pu être déclarée dès l'émission et l'avoir la régularise alors
 sur la déclaration en cours.
 
-**Conservation : toujours donner les deux durées.** Les documents comptables et leurs pièces
-justificatives, dont les factures, se conservent dix ans (Code de commerce art. L123-22, texte lu
-sur Légifrance le 03/10/2026). La durée fiscale de conservation des factures et pièces est de six
-ans (Livre des procédures fiscales art. L102 B, relevé Légifrance du 20/07/2026). Une réponse qui
-n'en donne qu'une des deux est incomplète.
+**Conservation : toujours donner les deux durées, et dire que la durée fiscale change.** Les
+documents comptables et leurs pièces justificatives, dont les factures, se conservent dix ans
+(Code de commerce art. L123-22, texte lu sur Légifrance le 03/10/2026). La durée fiscale de
+conservation des factures et pièces (Livre des procédures fiscales art. L102 B) est de **six ans
+jusqu'au 31/12/2026** (version en vigueur depuis le 01/01/2023, texte lu sur Légifrance le
+04/10/2026), puis de **dix ans à compter du 01/01/2027** pour les documents et pièces dont le délai
+de conservation expire après le 1er janvier 2027 (version annoncée du même article, texte lu sur
+Légifrance le 04/10/2026 ; l'article 36, II, de la loi n° 2026-534 du 25/06/2026, lu le même jour, le dit aussi). Une
+facture de 2024, dont le délai de six ans expirerait en 2030, entre donc dans la seconde durée :
+c'est la lecture de ces deux textes, à présenter comme telle ; le délai qui expirerait exactement
+le 1er janvier 2027 n'est pas tranché par le texte relevé. Une version annoncée peut encore être
+modifiée ou reportée (la recodification de la TVA l'a été) : à confirmer à l'approche du
+01/01/2027 avec `article_en_vigueur` sur L102 B (Livre des procédures fiscales), qui rend la durée
+applicable à la date demandée et annonce la bascule. Une réponse qui n'en donne qu'une des deux
+durées, ou qui ne dit pas que la durée fiscale change, est incomplète.
 
 ## Pièges fréquents
 
@@ -131,9 +141,9 @@ L'exécution exacte est servie par le connecteur, sur le moteur facturation part
 | `reforme_calendrier` | Dire si l'émetteur est déjà soumis à la facture électronique à la date de la facture | Le doute porte sur les nouvelles mentions de la réforme |
 | `entreprise_profil` | Rendre dénomination, forme juridique et état (actif ou cessé) d'une entreprise à partir de son SIREN, source datée | Le SIREN du vendeur ou du client est à recouper avec les bases publiques |
 | `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces BODACC d'un SIREN, datées et avec leur lien : procédures collectives (jugement tel que publié), ventes et cessions, modifications, radiations ; un signal de risque si une procédure collective n'est pas clôturée | Le SIREN du client ou du vendeur est à recouper avec une procédure collective, une radiation ou une cession publiée |
-| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Le client est établi dans un autre État membre et la facture serait sans TVA (livraison intracommunautaire) : vérifier son numéro avant de facturer, et conserver la preuve |
+| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Le client est établi dans un autre État membre et la facture serait sans TVA (livraison intracommunautaire) : vérifier son numéro avant de facturer, et conserver la preuve. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander au client de vérifier le numéro sur le site de VIES (ec.europa.eu/taxation_customs/vies) et de conserver la preuve (date, heure, résultat), sans le déclarer valide de mémoire.** |
 | `taux_change_bce` (nom servi : `orizon_taux_change_bce`) | Lire le taux de change de référence de la BCE d'une devise contre l'euro (dernier taux publié, ou celui d'un jour passé), avec sa source et la date réelle de consultation, et convertir un montant au centième ; il ne dit pas la règle de conversion d'une facture ou d'une TVA | Une devise étrangère entre dans la facture ou le plan. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander le taux au client ou le lui faire lire sur le site de la BCE, sans en citer un de mémoire.** |
-| `article_en_vigueur` | Dire si un article cité (par exemple L441-9) est en vigueur à la date de la facture, d'après le dernier relevé daté | Un doute sur la version d'un article de la facture |
+| `article_en_vigueur` | Dire si un article cité (par exemple L441-9) est en vigueur à la date demandée, d'après le dernier relevé daté ; quand l'article change à une date connue (par exemple L102 B, durée de conservation), rendre la version applicable à cette date et annoncer la bascule | Un doute sur la version d'un article de la facture, ou une durée ou une règle qui change bientôt |
 
 Pour les nouvelles mentions de la réforme, il suffit de donner à `facture_verifier` la
 taille de l'émetteur (`taille_emetteur`) : il en déduit, à la date de la facture, si elles

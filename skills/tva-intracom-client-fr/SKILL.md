@@ -3,7 +3,7 @@ name: tva-intracom-client-fr
 description: "Facturer un client professionnel d'un autre pays de l'Union européenne. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Vérifier qu'un numéro de TVA intracommunautaire est actif avant de facturer ; Décider si une vente à un client de l'Union se facture avec ou sans TVA française ; Préparer les mentions d'une facture intracommunautaire (biens ou services) ou relire un projet."
 ---
 
-> **Version gratuite : règles datées entre le 20/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 20/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Facturer un client professionnel d'un autre pays de l'Union européenne
 
@@ -87,8 +87,8 @@ des lignes de taux et de la TVA brute. Si VIES avait répondu « non valide » e
   « Autoliquidation ».
 - Entre professionnels, s'ajoutent la date d'échéance, l'escompte (ou son absence), le taux des
   pénalités de retard et l'indemnité forfaitaire de 40 EUR (Code de commerce L441-9, relevé le
-  20/07/2026, texte lu le 03/10/2026 ; une nouvelle version, qui renvoie au CIBS, s'applique à compter du
-  01/01/2027).
+  20/07/2026, les deux versions lues le 04/10/2026 ; une nouvelle version, qui garde ces mentions et renvoie au CIBS pour la
+  conservation et les dérogations, s'applique à compter du 01/01/2027).
 - Une facture en langue étrangère est admise, avec traduction en français exigible en contrôle ;
   les montants peuvent être dans une autre monnaie si la TVA est déterminée en euros (article
   289, IV).
@@ -115,8 +115,8 @@ facturer les acomptes ne s'applique pas à une livraison intracommunautaire exon
   d'un service à un prestataire non établi en France s'autoliquide en A3 (articles 259-1 et 283-2 du
   CGI, notice CA3 2026, relevé le 27/09/2026). C'est le pendant côté acheteur.
 - Conservation des pièces : six ans pour les factures et pièces fiscales jusqu'au 31/12/2026, dix ans à compter du 01/01/2027
-  pour les documents dont le délai expire après cette date (Livre des procédures fiscales L102 B,
-  texte lu le 03/10/2026 ; loi n° 2026-534 du 25/06/2026, art. 36), dix ans pour les documents comptables (Code de commerce
+  pour les documents dont le délai de conservation expire après le 1er janvier 2027 (Livre des procédures fiscales L102 B,
+  les deux versions lues le 04/10/2026 ; nota : loi n° 2026-534 du 25/06/2026, art. 36), dix ans pour les documents comptables (Code de commerce
   L123-22). La durée de conservation de la preuve VIES elle-même n'est pas confirmée : la vérifier.
 
 **Vigilance : la TVA est recodifiée.** À compter du 01/01/2027 (et non du 01/09/2026 : report par l'ordonnance
@@ -194,7 +194,7 @@ fiscales.
 
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
-| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA du client est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source, nom et adresse quand le pays les publie, numéro de consultation si le numéro de TVA du vendeur est donné ; un pays en panne sort en non vérifié, jamais en oui deviné | Avant de facturer sans TVA, et à chaque nouveau client de l'Union |
+| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA du client est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source, nom et adresse quand le pays les publie, numéro de consultation si le numéro de TVA du vendeur est donné ; un pays en panne sort en non vérifié, jamais en oui deviné | Avant de facturer sans TVA, et à chaque nouveau client de l'Union. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander au client de vérifier le numéro sur le site de VIES (ec.europa.eu/taxation_customs/vies) et de conserver la preuve (date, heure, résultat), sans le déclarer valide de mémoire.** |
 | `taux_change_bce` (nom servi : `orizon_taux_change_bce`) | Lire le taux de change de référence de la BCE d'une devise contre l'euro (dernier taux publié, ou celui d'un jour passé), avec sa source et la date réelle de consultation, et convertir un montant au centième ; il ne dit pas la règle de conversion d'une facture ou d'une TVA | Une devise étrangère entre dans la facture ou le plan. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander le taux au client ou le lui faire lire sur le site de la BCE, sans en citer un de mémoire.** |
 | `facture_verifier` (nom servi : `orizon_facture_verifier`) | Contrôler une facture mention par mention (présente, absente, invalide, à confirmer) et refaire les totaux ; ne connaît pas la référence d'exonération ni le numéro de TVA d'un client étranger : ces points se contrôlent avec les mentions de la fiche | Un projet de facture est à relire |
 | `tva_ca3` (nom servi : `orizon_tva_ca3`) | Calculer la CA3 du mois : ventes par taux, autoliquidations, TVA brute et déductible, TVA due ; une vente à taux 0 sort en « opérations sans TVA » | Les montants du mois sont connus et il faut voir l'effet de la vente sur la CA3 |
@@ -359,9 +359,9 @@ qu'elle est à confirmer sur le texte officiel (l'article se lit en direct à la
 | Facture en langue étrangère admise, traduction en français exigible en contrôle ; montants dans toute monnaie si la TVA est déterminée en euros. | CGI, article 289, IV | 31/12/2023 | 20/07/2026 ; texte lu le 03/09/2026 |
 | Mentions : nom et adresse des parties (1°) ; numéro de TVA du vendeur (2°) ; numéros de TVA du vendeur et de l'acquéreur pour les livraisons du I de l'article 262 ter (3°) ; numéros de TVA du prestataire et du preneur quand le preneur est redevable (4°) ; date d'émission (6°), numéro unique et continu (7°), adresse de livraison si elle diffère (7° bis) ; quantité, dénomination, prix unitaire HT, taux ou bénéfice d'une exonération (8°) ; biens, services ou les deux (8° bis) ; date de livraison si elle diffère (10°) ; montant de la taxe (11°) ; en cas d'exonération, référence à la disposition du CGI ou de la directive 2006/112/CE, ou toute mention indiquant l'exonération (12°) ; « Autoliquidation » quand l'acquéreur ou le preneur est redevable (13°). | CGI, annexe II, article 242 nonies A, I (LEGIARTI000050811276) | 01/01/2025 | 20/07/2026 ; texte lu le 03/09/2026 |
 | La dispense de certaines mentions (numéro de TVA du vendeur, référence d'exonération) pour les factures de 150 EUR HT ou moins ne s'applique pas aux livraisons exonérées au titre du I de l'article 262 ter. | CGI, annexe II, article 242 nonies A, II | 01/01/2025 | 20/07/2026 ; texte lu le 03/09/2026 |
-| Facture entre professionnels : date d'échéance, taux des pénalités de retard, indemnité forfaitaire de 40 EUR. Une nouvelle version, qui renvoie au code des impositions sur les biens et services, s'applique à compter du 01/01/2027 (LEGIARTI000054567625). | Code de commerce, article L441-9 (LEGIARTI000038414397) | 26/04/2019 | 20/07/2026 ; texte lu le 03/10/2026 |
+| Facture entre professionnels : date d'échéance, taux des pénalités de retard, indemnité forfaitaire de 40 EUR. Une nouvelle version, qui garde ces mentions et renvoie au code des impositions sur les biens et services pour la conservation et les dérogations, s'applique à compter du 01/01/2027 (LEGIARTI000054567625). | Code de commerce, article L441-9 (LEGIARTI000038414397) | 26/04/2019 (jusqu'au 31/12/2026) ; 01/01/2027 (nouvelle version) | 20/07/2026 ; les deux versions lues le 04/10/2026 |
 | Fait générateur de la taxe : en principe le moment où la livraison est effectuée ; règles particulières pour les livraisons continues sur plus d'un mois. | CGI, article 269, 1 (LEGIARTI000044983827), version du 01/01/2023 | 01/01/2023 | texte lu le 03/09/2026 |
-| Conservation des factures et pièces fiscales : six ans jusqu'au 31/12/2026 ; dix ans à compter du 01/01/2027 pour les documents dont le délai de conservation expire après cette date (loi n° 2026-534 du 25/06/2026, art. 36). | Livre des procédures fiscales, article L102 B (LEGIARTI000046869194, nouvelle version LEGIARTI000054566874) | 01/05/2026 | 20/07/2026 ; texte lu le 03/10/2026 |
+| Conservation des factures et pièces fiscales : six ans jusqu'au 31/12/2026 ; dix ans à compter du 01/01/2027 pour les documents dont le délai de conservation expire après le 1er janvier 2027 (nota : loi n° 2026-534 du 25/06/2026, art. 36, II). | Livre des procédures fiscales, article L102 B (LEGIARTI000046869194, nouvelle version LEGIARTI000054566874) | 01/01/2023 (six ans) ; 01/01/2027 (dix ans) | les deux versions lues le 04/10/2026 |
 | Conservation des documents comptables et pièces justificatives : dix ans. | Code de commerce, article L123-22 (LEGIARTI000005634355) | 21/09/2000 | 20/07/2026 |
 
 ## CA3 : lignes concernées, règles relevées

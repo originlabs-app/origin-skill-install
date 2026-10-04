@@ -408,10 +408,10 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Conseil national de l'ordre des experts-comptables, relevée le 18/07/2026
 - Legifrance - CGI annexe II art. 242 nonies A, relevée le 03/10/2026
 - Légifrance - Code de commerce article L123-22, relevée le 03/10/2026
-- Légifrance - Code de commerce article L441-9, relevée le 03/10/2026
+- Légifrance - Code de commerce article L441-9, relevée le 04/10/2026
 - Légifrance - Code général des impôts article 289, relevée le 03/10/2026
 - Légifrance - Code général des impôts article 289 bis, relevée le 03/10/2026
-- Légifrance - Livre des procédures fiscales article L102 B, relevée le 03/10/2026
+- Légifrance - Livre des procédures fiscales article L102 B, relevée le 04/10/2026
 - OriginSkill - standard structured-v2, relevée le 28/08/2026
 
 ## Calculer les heures supplémentaires et complémentaires (`heures-supplementaires-fr`)
@@ -936,7 +936,7 @@ Aucune source datée n'est rattachée à cette fiche.
 - CGI, article 289 (facturation : obligation, délai, langue et monnaie), relevée le 03/10/2026
 - CGI, article 290 (transmission des données de transaction), relevée le 03/10/2026
 - Code de commerce, article L123-22 (conservation dix ans), relevée le 20/07/2026
-- Code de commerce, article L441-9 (mentions B2B de paiement), relevée le 03/10/2026
-- Livre des procédures fiscales, article L102 B (conservation six ans, dix ans à compter du 2027-01-01), relevée le 03/10/2026
+- Code de commerce, article L441-9 (mentions B2B de paiement), relevée le 04/10/2026
+- Livre des procédures fiscales, article L102 B (conservation six ans, dix ans à compter du 2027-01-01), relevée le 04/10/2026
 - Notice 3310-NOT-CA3-SD, millésime 2026 (lignes du décompte, taux, cases), relevée le 27/09/2026
 - impots.gouv, Achat/vente de biens (acquisitions intracommunautaires, mis à jour le 23/04/2025), relevée le 27/09/2026
