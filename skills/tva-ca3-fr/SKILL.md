@@ -3,7 +3,7 @@ name: tva-ca3-fr
 description: "Remplir ma déclaration de TVA mensuelle ou trimestrielle. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Préparer la déclaration de TVA (CA3) d'un mois ou d'un trimestre à partir des ventes et des achats ; Contrôler une CA3 déjà remplie (par un logiciel, un collaborateur) avant de la déposer ; Savoir s'il y a de la TVA à payer ou un crédit, et si le crédit peut être remboursé."
 ---
 
-> **Version gratuite : règles datées entre le 09/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 09/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Remplir ma déclaration de TVA mensuelle ou trimestrielle
 
@@ -41,6 +41,21 @@ Le mois où une opération se déclare dépend de l'**exigibilité** : à la liv
 les biens, à l'encaissement pour les services (sauf option pour les débits). C'est une
 cause fréquente de décalage entre la comptabilité et la CA3.
 
+**Mensuelle ou trimestrielle : la règle change le 1er janvier 2027** (article 287 du CGI, les
+deux versions lues le 04/10/2026). Jusqu'au 31/12/2026, la CA3 est mensuelle, et
+trimestrielle seulement si la taxe exigible annuellement est **inférieure à 4 000 EUR**
+(TVA-07). À compter du 01/01/2027, le régime simplifié disparaît et le critère devient le
+chiffre d'affaires : la CA3 est trimestrielle tant que le chiffre d'affaires **majoré des
+acquisitions taxables** n'a pas dépassé **1 000 000 EUR l'année civile précédente ni
+1 100 000 EUR l'année en cours**, mensuelle au-delà (TVA-07-2027) ; si le second plafond est
+dépassé en cours d'année, la CA3 est mensuelle dès le premier jour du mois du dépassement, et
+la première déclaration mensuelle reprend le trimestre civil en cours. Une entreprise qui
+remplit les conditions du trimestre peut opter pour le mensuel (quatre trimestres civils au
+moins). C'est la **période** déclarée qui décide de la règle, pas la date de dépôt : la CA3
+du 4e trimestre 2026, déposée en janvier 2027, relève encore de la règle de 4 000 EUR, car la
+nouvelle version s'applique aux opérations dont la taxe devient exigible à compter du
+01/01/2027 (nota de l'article 287).
+
 À compter du 1er janvier 2027 (et non du 1er septembre 2026 : report par l'ordonnance
 n° 2026-671 du 27/07/2026), les règles de TVA sont dans le **code des impositions sur
 les biens et services (CIBS)** ; jusqu'au 31/12/2026, ce sont les articles du CGI qui
@@ -60,7 +75,10 @@ Les fiches pratiques et les notices citent encore souvent le CGI.
 - **Demander un remboursement trop petit** : moins de 760 EUR au terme d'un mois
   (janvier à novembre) ou d'un des trois premiers trimestres, moins de 150 EUR sur la
   déclaration de décembre ou du 4e trimestre.
-- **Déclarer au trimestre** alors que la TVA de l'année atteint 4 000 EUR.
+- **Déclarer au trimestre à tort.** Pour une période jusqu'au 31/12/2026 : la TVA exigible de
+  l'année atteint 4 000 EUR. Pour une période à compter du 01/01/2027 : le chiffre d'affaires
+  majoré des acquisitions taxables dépasse 1 000 000 EUR l'année précédente ou 1 100 000 EUR
+  l'année en cours (mensuelle dès le premier jour du mois du dépassement).
 - **Arrondir au centime** : la CA3 se remplit à l'euro le plus proche.
 
 ## Méthodes proposées (jamais imposées)
@@ -129,7 +147,9 @@ ne le passe pas : l'outil le demande, on ne met pas 0 à la place.
 | `tva_deductible` | objet | `immobilisations`, `biens_services` (lignes 19 et 20, **hors TVA autoliquidée**), `autres` (ligne 21). Les trois sont exigées, 0 compris : une absente sort dans `manquant` |
 | `credit_anterieur` | montant | crédit reporté de la déclaration précédente (ligne 27 → ligne 22) |
 | `remboursement_demande` | montant | remboursement demandé (ligne 26) ; `remboursement` est accepté comme alias |
-| `tva_annuelle` | montant | TVA exigible sur l'année, **obligatoire pour une période trimestrielle** (seuil 4 000 EUR) |
+| `tva_annuelle` | montant | TVA exigible sur l'année, **obligatoire pour une période trimestrielle jusqu'au 31/12/2026** (seuil 4 000 EUR, strictement inférieur) ; à compter du 01/01/2027, n'est plus le critère (non utilisée, dit en `prudence`) |
+| `chiffre_affaires_annee_precedente` | montant | chiffre d'affaires de l'année civile précédente, hors taxe, **majoré des acquisitions taxables**, **obligatoire pour une période trimestrielle à compter du 01/01/2027** (plafond 1 000 000 EUR, comparaison stricte : 1 000 000 passe, 1 000 000,01 non) |
+| `chiffre_affaires_annee_en_cours` | montant | même chiffre pour l'année en cours, cumulé à la fin de la période, obligatoire dans les mêmes conditions (plafond 1 100 000 EUR) |
 | `date_limite` | texte | `AAAA-MM-JJ`, lue dans l'espace professionnel |
 | `declare` | objet | totaux d'une CA3 remplie à contrôler : `tva_brute` (16), `tva_deductible` (23), `tva_due` (TD), `credit` (25), `credit_a_reporter` (27) |
 | `regles` | liste | seule, lit des règles : `{"regles": ["TVA-06"]}` |
@@ -184,7 +204,8 @@ autoliquidations), lignes de taux, 16, 17, 19 à 24, TD, 25 à 28. Les hypothès
 | TVA-04 | Acquisition intracommunautaire : B2, ligne 17, déduction 19 ou 20 |
 | TVA-05 | Report du crédit : ligne 27 → ligne 22 |
 | TVA-06 | Remboursement : 760 EUR (mois, trimestres 1 à 3), 150 EUR (décembre, T4) |
-| TVA-07 | Trimestrielle seulement sous 4 000 EUR de TVA annuelle |
+| TVA-07 | Périodes jusqu'au 31/12/2026 : trimestrielle seulement sous 4 000 EUR de TVA annuelle |
+| TVA-07-2027 | Périodes à compter du 01/01/2027 : trimestrielle tant que le chiffre d'affaires majoré des acquisitions taxables n'a pas dépassé 1 000 000 EUR l'année précédente ni 1 100 000 EUR l'année en cours, mensuelle au-delà |
 | TVA-08 | Date limite dans l'espace professionnel, fenêtre du 15 au 24 |
 | TVA-09 | Régimes : CA3 au réel normal et mini-réel, CA12 au réel simplifié |
 | TVA-10 | Franchise en base : pas de CA3 |
@@ -242,7 +263,7 @@ sa règle source ; ce que l'outil n'a pas contrôlé est rappelé à côté.
 | --- | --- |
 | CA3 | Déclaration de TVA mensuelle ou trimestrielle du réel normal (formulaire 3310-CA3-SD). |
 | CA12 | Déclaration annuelle de TVA du réel simplifié, avec deux acomptes dans l'année. |
-| Réel normal | Régime où la TVA se déclare et se paie chaque mois (ou trimestre si moins de 4 000 EUR par an). |
+| Réel normal | Régime où la TVA se déclare et se paie chaque mois, ou chaque trimestre : jusqu'au 31/12/2026 si la taxe exigible annuellement est inférieure à 4 000 EUR ; à compter du 01/01/2027 tant que le chiffre d'affaires majoré des acquisitions taxables n'a pas dépassé 1 000 000 EUR l'année précédente ni 1 100 000 EUR l'année en cours. |
 | Mini-réel | Option d'une entreprise au réel simplifié pour déclarer la TVA comme au réel normal. |
 | Franchise en base | Régime sans TVA facturée ni déduite, et donc sans CA3. |
 | TVA brute | Toute la TVA due sur la période, autoliquidations comprises (ligne 16). |
@@ -273,6 +294,8 @@ Consultation initiale: 2026-07-08. Complement multi-mode: 2026-07-09.
 - BOFiP remboursement credit TVA (BOI-TVA-DED-50-20-10, regime general, § 40 a 60, 760 EUR et 150 EUR): https://bofip.impots.gouv.fr/bofip/1435-PGP.html/identifiant=BOI-TVA-DED-50-20-10-20150506
 - BOFiP majoration pour depot tardif (BOI-CF-INF-10-20-10, § 20, CGI art. 1728): https://bofip.impots.gouv.fr/bofip/2174-PGP.html/identifiant=BOI-CF-INF-10-20-10-20170308
 - BOFiP interet de retard (BOI-CF-INF-10-10-20, CGI art. 1727): https://bofip.impots.gouv.fr/bofip/1458-PGP.html/identifiant=BOI-CF-INF-10-10-20-20191002
+- Periodicite de la CA3, CGI art. 287, version en vigueur jusqu'au 31/12/2026 (trimestrielle sous 4 000 EUR de taxe annuelle): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048826856
+- Periodicite de la CA3, CGI art. 287, version applicable a compter du 01/01/2027 (trimestrielle sous 1 000 000 EUR l'annee precedente et 1 100 000 EUR l'annee en cours): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051190827
 - Acquisitions intracommunautaires sur CA3: https://www.impots.gouv.fr/professionnel/achatvente-de-biens
 - Facture d'avoir et correction TVA: https://www.impots.gouv.fr/professionnel/questions/comment-traiter-une-facture-davoir-sur-ma-declaration-de-tva
 
@@ -284,6 +307,8 @@ Consultation initiale: 2026-07-08. Complement multi-mode: 2026-07-09.
   TD et 28.
 - Regles d'arrondi a l'euro le plus proche.
 - Seuils et conditions de remboursement d'un credit de TVA.
+- Periodicite mensuelle ou trimestrielle: la version de l'article 287 depend de la periode
+  (jusqu'au 31/12/2026, puis a compter du 01/01/2027), pas de la date de depot.
 - Lignes AIC: B2, lignes de taux, ligne 17, lignes 19/20 si droit a deduction.
 - Autres autoliquidations (notice 2026, cadre A): A3 services d'un prestataire non
   etabli, B4 achats a un assujetti non etabli, A2 sous-traitance BTP, A4 importations

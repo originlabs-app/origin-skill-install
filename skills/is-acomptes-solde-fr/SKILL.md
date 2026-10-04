@@ -41,7 +41,7 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 ## Connaissances du métier
 
 **La réponse courte.** Chaque année, une société à l'impôt sur les sociétés paie quatre acomptes égaux, chacun au quart de l'impôt de son dernier exercice clos, puis un solde après la clôture : l'impôt de l'exercice moins les
-acomptes déjà versés. Si l'impôt du dernier exercice est inférieur à 3 000 €, il n'y a pas d'acompte. Pendant le premier exercice, il n'y en a pas non plus (Code général des impôts, article 1668, et BOFiP BOI-IS-DECLA-20-10 ;
+acomptes déjà versés. Les acomptes ne sont dus que si l'impôt du dernier exercice dépasse 3 000 € (au-delà de 3 000 €) ; en dessous, il n'y a pas d'acompte. Pendant le premier exercice, il n'y en a pas non plus (Code général des impôts, article 1668, et BOFiP BOI-IS-DECLA-20-10 ;
 relevés par résultat de recherche du 02/10/2026, non relus en ligne).
 
 **Ce que le calcul apporte que le texte seul ne donne pas.**
@@ -117,8 +117,10 @@ Entrées : `annee_exercice`, `date_cloture_exercice`, `date_debut_activite`, `da
 `capital_entierement_libere`, `detention_75_pct_personnes_physiques`, `duree_mois`), `avant_dernier_exercice_clos` (`is`), `exercice_en_cours` (`benefice_fiscal`, `deficits_reportables`, `acomptes_verses`, mêmes conditions du taux réduit),
 `impot`, `date_reference`. `acomptes_verses` est ce qui est payé : l'acompte non encore échu (par exemple celui du 15 décembre) est compté pour le solde avec l'hypothèse dite, et le solde sans lui est aussi donné. Les montants s'écrivent comme la personne les donne (« 18 400 € »). Une entrée non comprise est dite dans `manquant`, jamais ignorée en silence.
 
-Lire la réponse : `resultat.reponse` porte la synthèse en quelques phrases ; `acomptes` donne les échéances (date, montant, déjà échue ou non) ; `impot_de_l_exercice` les tranches à 15 % et 25 % ; `deficits.report_en_avant` et
+Lire la réponse : `resultat.reponse` porte la synthèse en quelques phrases ; `echeancier` donne le tableau complet daté (acomptes et solde) ; `acomptes` donne les échéances (date, montant, déjà échue ou non, jour à retenir si la date est un jour non ouvré) ; `impot_de_l_exercice` les tranches à 15 % et 25 % ; `deficits.report_en_avant` et
 `deficits.report_en_arriere` ; `solde` ; `hypotheses` ce qui a été retenu faute de fait ; `questions` et `question_decisive` ce qu'il faut demander. Chaque appel répond sous la forme unique `resultat` / `regles` / `manquant` / `prudence` / `garanti`.
+
+**Le calcul est complet, l'assistant ne recalcule rien.** Appeler l'outil avec tout ce que la personne a donné (clôture, impôt du dernier exercice, bénéfice de l'exercice, déficits, acomptes déjà versés, conditions du taux réduit), puis présenter son tableau : `echeancier` range les quatre acomptes et le solde du plus tôt au plus tard, chacun avec sa date, son jour de la semaine et son montant ; `en_clair.resultats` le dit en phrases prêtes à citer. Une date qui tombe un samedi, un dimanche ou un jour férié se dit avec `date_a_payer_au_plus_tard` (le dernier jour ouvré avant : aucun report n'est relevé dans les textes lus). Reprendre ces montants et ces dates tels quels, sans refaire aucune addition ni dater une échéance de tête : présenter le cas retenu de l'outil, pas une variante, et recopier le seuil (« au-delà de 3 000 € »), les dates sûres et, pour un premier exercice de plus de douze mois, la mention « règle à relever » sur la base des acomptes suivants (aucun montant d'acompte inventé, aucune règle de ramènement affirmée). Ce qui manque devient une question (`question_decisive`), jamais un zéro.
 
 Le calcul ne décide pas d'opter, ne remplit aucune déclaration et ne paie rien : les chiffres viennent de la personne.
 
@@ -133,7 +135,7 @@ et les faits sans effet sont ignorés sans bruit. Rien n'est écrit dans la mém
 | Usage | Attitude | Outils |
 | --- | --- | --- |
 | Question simple (« c'est quoi un acompte d'IS ? », « quel est le taux réduit ? ») | Répondre d'abord avec la règle et sa source, proposer de chiffrer ensuite | `is_acomptes_solde` si des chiffres sont donnés |
-| Objectif précis (« mon IS 2025 était de 18 400 €, combien d'acomptes en 2026 ? ») | Appeler l'outil tout de suite, rendre la réponse d'abord (montants et dates), puis les hypothèses | `is_acomptes_solde` |
+| Objectif précis (« mon IS 2025 était de 18 400 €, combien d'acomptes en 2026 ? ») | Appeler l'outil tout de suite avec tous les chiffres, présenter son tableau (`echeancier`, `en_clair`) sans rien recalculer : montants et dates d'abord, puis les hypothèses | `is_acomptes_solde` |
 | Suivre une méthode (« guide-moi sur mes échéances d'impôt », « que faire de mon déficit ? ») | Proposer l'une des deux méthodes ; la personne choisit le rythme | selon l'étape |
 | Explorer (« vaut-il mieux le report en arrière ? ») | Conversation libre, voies côte à côte, sans trancher à sa place | outil seulement si des chiffres sont donnés |
 

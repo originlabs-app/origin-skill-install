@@ -148,6 +148,14 @@ L'exécution exacte est servie par le connecteur, sur le moteur vente.
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
 | `relance_devis_plan` (nom servi : `orizon_relance_devis_plan`) | Pour une liste de devis : dates de relance J+3, J+7, J+14 (ou cadence donnée) calées sur un jour ouvré, relance à faire aujourd'hui ou en retard, devis qui expirent bientôt, devis expirés, montant HT en jeu, ordre de priorité (montant × proximité de l'expiration), rappel avant expiration | Dès qu'il y a une date à donner ou plus d'un devis à ordonner |
+| `entreprise_profil` (nom servi : `orizon_entreprise_profil`) | Lire à la source (registre Sirene, API Recherche d'entreprises) la fiche d'une entreprise dont on a le SIREN : raison sociale, forme juridique, activité (code NAF), tranche d'effectif, siège, date de création, état (active ou cessée) ; la sortie dit « Lu le JJ/MM/AAAA » et la source | La personne donne le SIREN du client du devis : vérifier que l'entreprise est active et sa taille en tranche avant de choisir le ton ou l'interlocuteur de la relance |
+| `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces légales (BODACC) d'un SIREN, datées et avec leur lien : procédures collectives, ventes et cessions, modifications, radiations ; la sortie dit « Lu le JJ/MM/AAAA » | Avant de relancer un devis important : vérifier qu'aucune procédure collective, cession ou radiation n'est publiée pour ce client |
+
+Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
+
+- **Quand les appeler** : pour le client d'un devis dont on a le SIREN, lire sa fiche (`entreprise_profil`) avant de relancer, surtout si le devis est ancien ou important ; le calendrier de relance reste `relance_devis_plan`. Lire ses annonces légales (`bodacc_annonces`) avant de relancer un gros devis : une procédure collective non clôturée change la suite à donner (risque d'impayé). Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
+- **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce. Une annonce légale n'autorise ni ne dispense d'une relance : le choix reste à la personne.
 
 Entrées : `devis`, liste de `{client, montant_ht, date_envoi, date_validite, dernier_contact, canal}`
 (seuls `montant_ht` et `date_envoi` sont indispensables) ; facultativement `cadence` (jours après
@@ -450,6 +458,8 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Ces calculs sont inclus dans l'abonnement. OriginSkill les fait pour vous, avec des règles à jour et sourcées, et la réponse est garantie.
 
+- **Retrouver la fiche d'une entreprise avec son numéro SIREN** (outil `orizon_entreprise_profil`) : Rend ce que les registres publics disent d'une entreprise : nom, forme juridique, activité, effectif, adresse du siège, dirigeants publiés, entreprise en activité ou fermée.
+- **Lire les annonces légales d'une entreprise** (outil `orizon_bodacc_annonces`) : Lit les annonces publiées au Bulletin officiel des annonces civiles et commerciales sur une entreprise : procédures collectives, ventes, comptes déposés, modifications.
 - **Planifier la relance de vos devis restés sans réponse** (outil `orizon_relance_devis_plan`) : À partir de la liste de vos devis, rend pour chacun les dates de relance (à J+3, J+7, J+14 ou votre rythme), ceux qui expirent bientôt et l'ordre de priorité.
 
 ### Avec l'abonnement, en plus

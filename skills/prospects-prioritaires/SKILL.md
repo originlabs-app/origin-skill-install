@@ -170,6 +170,13 @@ n'ordonne rien (l'ordre reste « à confirmer »). Sans SIREN, la méthode seule
 | --- | --- | --- |
 | `entreprise_signaux` (nom servi : `orizon_entreprise_signaux`) | Enrichir 1 à 50 SIREN connus de faits datés et sourcés (activité, effectif, création, état, dirigeants publiés, aucune coordonnée) et de trois signaux : création récente, changement de dirigeant récent, cessation (risque d'impayé, jamais un signal d'achat) | La personne a une liste de SIREN à vérifier ou à dater |
 | `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces BODACC d'un SIREN, datées et avec leur lien : procédures collectives (jugement tel que publié), ventes et cessions, modifications, radiations ; un signal de risque si une procédure collective n'est pas clôturée | La personne a un ou plusieurs SIREN dont il faut savoir s'ils sont en procédure collective, radiés ou en cession |
+| `entreprise_profil` (nom servi : `orizon_entreprise_profil`) | Lire à la source (registre Sirene, API Recherche d'entreprises) la fiche d'une entreprise dont on a le SIREN : raison sociale, forme juridique, activité (code NAF), tranche d'effectif, siège, date de création, état (active ou cessée) ; la sortie dit « Lu le JJ/MM/AAAA » et la source | La personne a un SIREN et veut savoir à quoi ressemble l'entreprise (activité, taille en tranche, âge, état) avant de la garder dans la liste |
+
+Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
+
+- **Quand les appeler** : pour un SIREN précis, lire sa fiche (`entreprise_profil`) avant de la retenir ou de l'écarter, et la liste complète d'abord avec `entreprise_signaux`. Lire ses annonces légales (`bodacc_annonces`) avant d'en faire une cible prioritaire. Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
+- **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce.
 
 ## Quatre usages
 
@@ -361,6 +368,7 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Cette fiche fait partie des fiches d'essai : ses calculs sont utilisables gratuitement, avec un nombre d'utilisations limité par mois. Au-delà, ou pour une réponse garantie, l'abonnement prend le relais.
 
+- **Retrouver la fiche d'une entreprise avec son numéro SIREN** (outil `orizon_entreprise_profil`) : Rend ce que les registres publics disent d'une entreprise : nom, forme juridique, activité, effectif, adresse du siège, dirigeants publiés, entreprise en activité ou fermée.
 - **Repérer les événements récents sur une liste d'entreprises** (outil `orizon_entreprise_signaux`) : Pour une liste de 1 à 50 entreprises (numéros SIREN), rend ce que les registres officiels disent de chacune, avec sa date : activité, effectif, création, signaux utiles pour une prospection.
 - **Lire les annonces légales d'une entreprise** (outil `orizon_bodacc_annonces`) : Lit les annonces publiées au Bulletin officiel des annonces civiles et commerciales sur une entreprise : procédures collectives, ventes, comptes déposés, modifications.
 

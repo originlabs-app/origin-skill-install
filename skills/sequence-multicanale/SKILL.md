@@ -156,9 +156,22 @@ des obligations.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
-## Pas d'outil de calcul
+## Outils (description ouverte)
 
-Fiche gratuite et ouverte : la méthode suffit. Aucune source lue ne fixe d'écart en jours
+Fiche gratuite et ouverte : la méthode suffit, et rien de la cadence ne se calcule par un outil. Le connecteur sert seulement des données du jour sur l'entreprise visée, quand la personne donne un SIREN.
+
+| Outil | Sert à | Appeler quand |
+| --- | --- | --- |
+| `entreprise_profil` (nom servi : `orizon_entreprise_profil`) | Lire à la source (registre Sirene, API Recherche d'entreprises) la fiche d'une entreprise dont on a le SIREN : raison sociale, forme juridique, activité (code NAF), tranche d'effectif, siège, date de création, état (active ou cessée) ; la sortie dit « Lu le JJ/MM/AAAA » et la source | Avant d'écrire l'angle d'une séquence pour une entreprise précise dont on a le SIREN : activité, taille en tranche, âge et état réels |
+| `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces légales (BODACC) d'un SIREN, datées et avec leur lien : procédures collectives, ventes et cessions, modifications, radiations ; la sortie dit « Lu le JJ/MM/AAAA » | Avant de lancer une séquence sur une entreprise précise : vérifier qu'elle n'est pas en procédure collective, radiée ou en cession |
+
+Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
+
+- **Quand les appeler** : pour un prospect dont on a le SIREN, lire sa fiche (`entreprise_profil`) pour fonder l'angle sur un fait daté. Lire ses annonces légales (`bodacc_annonces`) avant de lancer la séquence ; `entreprise_signaux` reste l'outil pour une liste de SIREN. Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
+- **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce.
+
+Pour la cadence elle-même (aucun outil) : aucune source lue ne fixe d'écart en jours
 entre deux relances : l'écart se choisit selon le rythme tenable, puis se teste. Si un
 logiciel propose des écarts en jours, ce sont des conventions d'Orizon, jamais une
 recommandation de Blount, Stokes, Braun, RAIN ou Gong. Aucun taux de réponse, aucun
@@ -337,7 +350,9 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Cette fiche fait partie des fiches d'essai : ses calculs sont utilisables gratuitement, avec un nombre d'utilisations limité par mois. Au-delà, ou pour une réponse garantie, l'abonnement prend le relais.
 
+- **Retrouver la fiche d'une entreprise avec son numéro SIREN** (outil `orizon_entreprise_profil`) : Rend ce que les registres publics disent d'une entreprise : nom, forme juridique, activité, effectif, adresse du siège, dirigeants publiés, entreprise en activité ou fermée.
 - **Repérer les événements récents sur une liste d'entreprises** (outil `orizon_entreprise_signaux`) : Pour une liste de 1 à 50 entreprises (numéros SIREN), rend ce que les registres officiels disent de chacune, avec sa date : activité, effectif, création, signaux utiles pour une prospection.
+- **Lire les annonces légales d'une entreprise** (outil `orizon_bodacc_annonces`) : Lit les annonces publiées au Bulletin officiel des annonces civiles et commerciales sur une entreprise : procédures collectives, ventes, comptes déposés, modifications.
 - **Savoir si l'on a le droit de contacter un prospect ou un client** (outil `orizon_contact_verifier`) : Dit si l'on peut contacter un professionnel ou un particulier par e-mail, téléphone ou courrier : oui, non ou à confirmer, avec la règle et ses conditions.
 
 ### Avec l'abonnement, en plus
