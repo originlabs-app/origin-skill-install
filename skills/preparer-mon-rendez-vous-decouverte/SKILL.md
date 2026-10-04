@@ -155,9 +155,22 @@ lire d'abord les faits commerciaux validés au lieu de les redemander.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
-## Pas d'outil de calcul
+## Outils (description ouverte)
 
-Cette fiche est gratuite et ouverte : la méthode suffit. Il n'y a rien à
+Cette fiche est gratuite et ouverte : la méthode suffit, et il n'y a rien à calculer. Le connecteur sert seulement des données du jour sur l'entreprise rencontrée, quand la personne donne son SIREN.
+
+| Outil | Sert à | Appeler quand |
+| --- | --- | --- |
+| `entreprise_profil` (nom servi : `orizon_entreprise_profil`) | Lire à la source (registre Sirene, API Recherche d'entreprises) la fiche d'une entreprise dont on a le SIREN : raison sociale, forme juridique, activité (code NAF), tranche d'effectif, siège, date de création, état (active ou cessée) ; la sortie dit « Lu le JJ/MM/AAAA » et la source | Avant un rendez-vous découverte avec une entreprise dont on a le SIREN : savoir quelle activité, quelle taille (tranche), quel âge et quel état au registre, pour préparer les questions plutôt que les deviner |
+| `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces légales (BODACC) d'un SIREN, datées et avec leur lien : procédures collectives, ventes et cessions, modifications, radiations ; la sortie dit « Lu le JJ/MM/AAAA » | Avant un rendez-vous avec une entreprise dont on a le SIREN : vérifier qu'une procédure collective, une cession ou une radiation n'est pas publiée |
+
+Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
+
+- **Quand les appeler** : pour le prospect rencontré, lire sa fiche (`entreprise_profil`) quand la personne donne un SIREN, avant de proposer les thèmes du rendez-vous. Lire ses annonces légales (`bodacc_annonces`) pour savoir s'il faut une question sur un changement récent. Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
+- **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce. Ce qui est lu au registre n'est jamais une réponse du prospect : les faits à apprendre en rendez-vous restent des questions.
+
+Pour le reste : il n'y a rien à
 calculer. Aucun résultat n'est « garanti » : ni l'intérêt du prospect, ni la
 suite du rendez-vous, ni une vente.
 
@@ -339,7 +352,10 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 ### Les calculs de cette fiche
 
-Cette fiche d'essai n'a pas de calcul à part : sa méthode se suffit. OriginSkill reste utile pour les autres fiches du catalogue.
+Cette fiche fait partie des fiches d'essai : ses calculs sont utilisables gratuitement, avec un nombre d'utilisations limité par mois. Au-delà, ou pour une réponse garantie, l'abonnement prend le relais.
+
+- **Retrouver la fiche d'une entreprise avec son numéro SIREN** (outil `orizon_entreprise_profil`) : Rend ce que les registres publics disent d'une entreprise : nom, forme juridique, activité, effectif, adresse du siège, dirigeants publiés, entreprise en activité ou fermée.
+- **Lire les annonces légales d'une entreprise** (outil `orizon_bodacc_annonces`) : Lit les annonces publiées au Bulletin officiel des annonces civiles et commerciales sur une entreprise : procédures collectives, ventes, comptes déposés, modifications.
 
 ### Avec l'abonnement, en plus
 

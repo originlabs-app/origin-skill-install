@@ -913,7 +913,7 @@ Aucune source datée n'est rattachée à cette fiche.
 - Code général des impôts, article 279, relevée le 03/10/2026
 - Code général des impôts, article 281 quater, relevée le 03/10/2026
 - Code général des impôts, article 283, relevée le 03/10/2026
-- Code général des impôts, article 287, relevée le 03/10/2026
+- Code général des impôts, article 287, relevée le 04/10/2026
 - Code général des impôts, article 298 septies, relevée le 03/10/2026
 - Comment traiter une facture d'avoir sur ma declaration de TVA ?, relevée le 09/07/2026
 - Conseil national de l'ordre des experts-comptables, relevée le 18/07/2026

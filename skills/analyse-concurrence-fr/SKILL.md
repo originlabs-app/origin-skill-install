@@ -118,6 +118,14 @@ L'exécution exacte est servie par le connecteur, sur le moteur concurrence.
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
 | `concurrence_analyser` (nom servi : `orizon_concurrence_analyser`) | Le positionnement prix (minimum, médiane, moyenne, maximum, rang, écarts), la marge à son prix et l'effet d'un alignement ; la grille pondérée (scores, rangs avec les poids donnés et à poids égaux, écart au meilleur, critère à rattraper, rang sans chaque critère) ; les alternatives rangées en directes, indirectes et statu quo ; l'état de chaque relevé (source, date, âge) ; les conditions de licéité d'une publicité comparative | Dès qu'il y a des alternatives avec des prix ou des notes, ou une question sur ce qu'on peut dire d'un concurrent |
+| `entreprise_profil` (nom servi : `orizon_entreprise_profil`) | Lire à la source (registre Sirene, API Recherche d'entreprises) la fiche d'une entreprise dont on a le SIREN : raison sociale, forme juridique, activité (code NAF), tranche d'effectif, siège, date de création, état (active ou cessée) ; la sortie dit « Lu le JJ/MM/AAAA » et la source | La personne donne le SIREN d'un concurrent ou d'une alternative : activité, taille en tranche, âge, état, pour classer l'alternative (directe, indirecte) sur un fait lu plutôt que supposé |
+| `bodacc_annonces` (nom servi : `orizon_bodacc_annonces`) | Lire en direct les annonces légales (BODACC) d'un SIREN, datées et avec leur lien : procédures collectives, ventes et cessions, modifications, radiations ; la sortie dit « Lu le JJ/MM/AAAA » | La personne veut savoir si un concurrent est en difficulté, repris ou radié (annonces légales) |
+
+Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
+
+- **Quand les appeler** : pour un concurrent dont la personne donne le SIREN, lire sa fiche (`entreprise_profil`) avant de le classer ou de le comparer ; le calcul des prix et de la grille reste `concurrence_analyser`. Lire ses annonces légales (`bodacc_annonces`) seulement si la question porte sur sa solidité ou un changement récent. Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
+- **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce. Un site ou un prix de concurrent n'est jamais lu par ces outils : ces données viennent de la personne.
 
 Entrées : `mon_prix_ht`, `mon_cout_unitaire_ht`, `concurrents` (50 au plus ; chacun : `nom`, `type` direct, indirect ou statu_quo, `prix_ht`, `source`, `date_releve`, `scores` {critère : note de 0 à 10}), `criteres` (`nom` et `poids`), `mes_scores`,
 `usage_publicite_comparative`, `releve_ancien_apres_jours` (90 par défaut), `date_reference`. Les montants s'écrivent comme la personne les donne (« 1 200 € », « 99,90 »). Une entrée non comprise est dite dans `manquant`, jamais ignorée en silence ;
@@ -288,6 +296,8 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Ces calculs sont inclus dans l'abonnement. OriginSkill les fait pour vous, avec des règles à jour et sourcées, et la réponse est garantie.
 
+- **Retrouver la fiche d'une entreprise avec son numéro SIREN** (outil `orizon_entreprise_profil`) : Rend ce que les registres publics disent d'une entreprise : nom, forme juridique, activité, effectif, adresse du siège, dirigeants publiés, entreprise en activité ou fermée.
+- **Lire les annonces légales d'une entreprise** (outil `orizon_bodacc_annonces`) : Lit les annonces publiées au Bulletin officiel des annonces civiles et commerciales sur une entreprise : procédures collectives, ventes, comptes déposés, modifications.
 - **Analyser sa concurrence : prix, critères de choix, alternatives** (outil `orizon_concurrence_analyser`) : À partir de ce que vous avez relevé sur vos concurrents (prix, notes par critère, source et date), calcule votre position prix, votre classement et les critères à rattraper.
 
 ### Avec l'abonnement, en plus
