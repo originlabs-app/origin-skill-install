@@ -110,7 +110,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur déclarations fi
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
 | `tva_ca3` | Calculer la TVA par taux, les autoliquidations, la TVA brute et déductible, le report du crédit, la TVA due ou le crédit, le remboursement ; contrôler les montants déjà remplis, la périodicité et la date limite | Des montants de la période sont connus, ou une CA3 remplie est à vérifier |
-| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Une livraison intracommunautaire exonérée ou une autoliquidation dépend du numéro de TVA de l'autre partie : vérifier qu'il est actif |
+| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Une livraison intracommunautaire exonérée ou une autoliquidation dépend du numéro de TVA de l'autre partie : vérifier qu'il est actif. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander au client de vérifier le numéro sur le site de VIES (ec.europa.eu/taxation_customs/vies) et de conserver la preuve (date, heure, résultat), sans le déclarer valide de mémoire.** |
 
 ### Contrat d'entrée exact
 

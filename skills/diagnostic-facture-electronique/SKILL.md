@@ -94,7 +94,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur facturation part
 | Outil | Sert à | Appeler quand |
 | --- | --- | --- |
 | `reforme_calendrier` | Dire si l'entreprise est concernée, sa catégorie (déclarée ou calculée), sa date de réception, sa date d'émission et de e-reporting, ce qui s'applique à une date donnée et les jours restants | Dès la première question de date ou de taille |
-| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Une opération avec un client de l'Union met en jeu son numéro de TVA : vérifier qu'il est actif |
+| `vies_tva` (nom servi : `orizon_vies_tva`) | Interroger VIES (Commission européenne) en direct : le numéro de TVA intracommunautaire d'un client de l'Union est-il actif à l'instant T ? Statut valide, non valide ou non vérifié, date et heure de consultation, source ; pays en panne = non vérifié, jamais un oui deviné | Une opération avec un client de l'Union met en jeu son numéro de TVA : vérifier qu'il est actif. **Outil ouvert progressivement : il n'existe que s'il figure dans la liste `outils` rendue par `orizon_fiche` ; sinon, demander au client de vérifier le numéro sur le site de VIES (ec.europa.eu/taxation_customs/vies) et de conserver la preuve (date, heure, résultat), sans le déclarer valide de mémoire.** |
 
 Données à passer : `assujetti_tva` (`true` aussi en franchise en base : ne pas facturer de
 TVA n'est pas ne pas être assujetti), `etabli_en_france`, `taille` (micro, pme, eti, grande) si elle
