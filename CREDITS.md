@@ -73,7 +73,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 ## Répondre ou non à un appel d'offres public (`appel-offres-public-fr`)
 
 - Legifrance - Avis relatif aux seuils de procédure (JORF du 26/12/2025), relevée le 03/10/2026
-- Legifrance - Code de la commande publique R2122-8, relevée le 03/10/2026
+- Legifrance - Code de la commande publique R2122-8, relevée le 04/10/2026
 - Legifrance - Code de la commande publique R2132-2, relevée le 03/10/2026
 - Legifrance - Code de la commande publique R2132-7, relevée le 03/10/2026
 - Legifrance - Code de la commande publique R2143-3, relevée le 03/10/2026
@@ -393,7 +393,7 @@ Chaque fiche s'appuie sur des textes officiels (lois, décrets, circulaires, sit
 - Ministère de l'Économie - Facturation électronique pour les entreprises, relevée le 28/08/2026
 - Ordre des experts-comptables - Comprendre la facturation électronique, relevée le 18/07/2026
 - OriginSkill - standard structured-v2, relevée le 28/08/2026
-- impots.gouv - Calendrier de la réforme de la facturation électronique, relevée le 28/08/2026
+- impots.gouv - Calendrier de la réforme de la facturation électronique, relevée le 04/10/2026
 - impots.gouv - Conséquences de la facturation électronique, relevée le 28/08/2026
 - impots.gouv - Foire aux questions facturation électronique, relevée le 28/08/2026
 - impots.gouv - Je découvre la facturation électronique, relevée le 28/08/2026
@@ -659,7 +659,7 @@ Aucune source datée n'est rattachée à cette fiche.
 - LinkedIn User Agreement, relevée le 25/08/2026
 - MEDDIC Sales Methodology Checklist, relevée le 09/08/2026
 - Mentions obligatoires sur le site internet d'un entrepreneur individuel, relevée le 19/09/2026
-- Nomenclature d'activites francaise, relevée le 09/08/2026
+- Nomenclature d'activites francaise, relevée le 04/10/2026
 - Preference Matters More Than In-Market Intent Alone In Modern B2B Buying, relevée le 09/08/2026
 - Prospection commerciale par telephone (hors automate d'appel) : quelles sont les regles ?, relevée le 19/09/2026
 - RFC 5321 - Simple Mail Transfer Protocol, relevée le 16/08/2026
@@ -892,6 +892,7 @@ Aucune source datée n'est rattachée à cette fiche.
 - Code general des impots, article 1679 quinquies (cotisation fonciere des entreprises : acompte et solde), relevée le 03/10/2026
 - Harriet Stevenson (Float) : 13-week cash flow forecast, relevée le 04/09/2026
 - Samuel Hayot (Hayot Expertise) : Prévisionnel de trésorerie 13 semaines, le construire, relevée le 04/09/2026
+- impots.gouv, Le régime simplifié d'imposition à la TVA est supprimé à compter du 1er janvier 2027 (actualité), relevée le 04/10/2026
 - impots.gouv, Les régimes d'imposition à la TVA (mis à jour le 21/05/2026), relevée le 27/09/2026
 - impots.gouv, Quels sont les taux de TVA en vigueur en France ?, relevée le 28/09/2026
 - impots.gouv, TVA (espace professionnel, modifié le 21/05/2026), relevée le 27/09/2026
@@ -926,7 +927,8 @@ Aucune source datée n'est rattachée à cette fiche.
 
 - Légifrance, CGI article 293 F (option pour le paiement de la taxe), relevée le 03/10/2026
 - Légifrance, loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 38 (suppression du régime simplifié d'imposition à la TVA), relevée le 03/10/2026
-- Légifrance, ordonnance n° 2026-671 du 27 juillet 2026 portant divers ajustements du code des impositions sur les biens et services, relevée le 03/10/2026
+- Légifrance, ordonnance n° 2026-671 du 27 juillet 2026 portant divers ajustements du code des impositions sur les biens et services, relevée le 04/10/2026
+- impots.gouv.fr, actualité : Le régime simplifié d'imposition à la TVA est supprimé à compter du 1er janvier 2027, relevée le 04/10/2026
 
 ## Facturer un client professionnel d'un autre pays de l'Union européenne (`tva-intracom-client-fr`)
 
@@ -935,7 +937,7 @@ Aucune source datée n'est rattachée à cette fiche.
 - CGI, article 269 (fait générateur), relevée le 03/10/2026
 - CGI, article 289 (facturation : obligation, délai, langue et monnaie), relevée le 03/10/2026
 - CGI, article 290 (transmission des données de transaction), relevée le 03/10/2026
-- Code de commerce, article L123-22 (conservation dix ans), relevée le 20/07/2026
+- Code de commerce, article L123-22 (conservation dix ans), relevée le 04/10/2026
 - Code de commerce, article L441-9 (mentions B2B de paiement), relevée le 04/10/2026
 - Livre des procédures fiscales, article L102 B (conservation six ans, dix ans à compter du 2027-01-01), relevée le 04/10/2026
 - Notice 3310-NOT-CA3-SD, millésime 2026 (lignes du décompte, taux, cases), relevée le 27/09/2026

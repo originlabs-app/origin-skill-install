@@ -3,7 +3,7 @@ name: facturation-electronique-2026
 description: "Préparer mon entreprise à la facture électronique. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir si l'entreprise est concernée, et à quelle date elle doit recevoir puis émettre ; Bâtir ou relire un plan de préparation (plateforme, formats, mentions, transmission des données de ; Expliquer la réforme à un dirigeant, ou en suivre l'avancement pour plusieurs clients d'un cabinet."
 ---
 
-> **Version gratuite : règles datées entre le 18/07/2026 et le 28/08/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 18/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Préparer mon entreprise à la facture électronique
 

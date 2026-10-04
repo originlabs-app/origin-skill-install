@@ -3,7 +3,7 @@ name: tva-intracom-client-fr
 description: "Facturer un client professionnel d'un autre pays de l'Union européenne. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Vérifier qu'un numéro de TVA intracommunautaire est actif avant de facturer ; Décider si une vente à un client de l'Union se facture avec ou sans TVA française ; Préparer les mentions d'une facture intracommunautaire (biens ou services) ou relire un projet."
 ---
 
-> **Version gratuite : règles datées entre le 20/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 27/09/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Facturer un client professionnel d'un autre pays de l'Union européenne
 
@@ -362,7 +362,7 @@ qu'elle est à confirmer sur le texte officiel (l'article se lit en direct à la
 | Facture entre professionnels : date d'échéance, taux des pénalités de retard, indemnité forfaitaire de 40 EUR. Une nouvelle version, qui garde ces mentions et renvoie au code des impositions sur les biens et services pour la conservation et les dérogations, s'applique à compter du 01/01/2027 (LEGIARTI000054567625). | Code de commerce, article L441-9 (LEGIARTI000038414397) | 26/04/2019 (jusqu'au 31/12/2026) ; 01/01/2027 (nouvelle version) | 20/07/2026 ; les deux versions lues le 04/10/2026 |
 | Fait générateur de la taxe : en principe le moment où la livraison est effectuée ; règles particulières pour les livraisons continues sur plus d'un mois. | CGI, article 269, 1 (LEGIARTI000044983827), version du 01/01/2023 | 01/01/2023 | texte lu le 03/09/2026 |
 | Conservation des factures et pièces fiscales : six ans jusqu'au 31/12/2026 ; dix ans à compter du 01/01/2027 pour les documents dont le délai de conservation expire après le 1er janvier 2027 (nota : loi n° 2026-534 du 25/06/2026, art. 36, II). | Livre des procédures fiscales, article L102 B (LEGIARTI000046869194, nouvelle version LEGIARTI000054566874) | 01/01/2023 (six ans) ; 01/01/2027 (dix ans) | les deux versions lues le 04/10/2026 |
-| Conservation des documents comptables et pièces justificatives : dix ans. | Code de commerce, article L123-22 (LEGIARTI000005634355) | 21/09/2000 | 20/07/2026 |
+| Conservation des documents comptables et pièces justificatives : dix ans. | Code de commerce, article L123-22 (LEGIARTI000006219327) | 04/01/2003 (version en vigueur ; la version du 21/09/2000 au 03/01/2003 disait aussi dix ans) | 04/10/2026 |
 
 ## CA3 : lignes concernées, règles relevées
 
@@ -387,11 +387,17 @@ a été reportée au 01/01/2027 par l'ordonnance n° 2026-671 du 27/07/2026, art
 03/10/2026) ; elle ne touche pas le calendrier de la facturation électronique (01/09/2026 et
 01/09/2027). Sources : ordonnance n° 2025-1247 du 17/12/2025, articles 46 et 49, dans leur rédaction de
 l'ordonnance n° 2026-671 (lue le 03/10/2026) ; BOFiP BOI-RES-TVA-000253 du 18/02/2026 (consulté le
-27/09/2026, antérieur au report). Les relevés des articles 269, 289, 289 bis et 293 B du CGI
-signalent une abrogation au 01/01/2027, certaines dispositions (289 bis, 3 du I, IV et VII de
-l'article 289) étant maintenues jusqu'à leur reprise par des mesures réglementaires. Les
-numéros des nouveaux articles ne sont pas relevés ici : ne pas les deviner, lire l'article en
-direct.
+27/09/2026, antérieur au report). Les relevés des articles 269, 289, 289 bis, 290, 290 A et 293 B du
+CGI signalent une abrogation au 01/01/2027, certaines dispositions (289 bis, 290 et 290 A en
+entier, 3 du I, IV et VII de l'article 289) étant maintenues jusqu'à leur reprise par des mesures
+réglementaires. Lu le 04/10/2026 dans le CIBS consolidé au 01/01/2027 : l'obligation de facturer
+et ses mentions sont reprises aux articles L. 216-30 (obligation), L. 216-32 (acomptes), L. 216-33
+(mentions, par décret), L. 216-35 (mandat) et L. 216-38 (conservation du double) ; le délai
+d'émission relève d'un arrêté prévu à L. 216-34 (non relevé : jusqu'à lui, le 3 du I de l'article
+289 s'applique) ; la facture électronique (289 bis) repose sur L. 215-39 et L. 216-36, les données
+de transaction (290) et de paiement (290 A) sur L. 216-47 et L. 216-48 ; la franchise (293 B) est
+reprise à L. 233-3, L. 233-9 et L. 233-10. Le numéro de l'article qui reprend l'article 269 n'est
+pas relevé : ne pas le deviner, lire l'article en direct.
 
 ## Ce qui n'est pas relevé
 

@@ -3,7 +3,7 @@ name: appel-offres-public-fr
 description: "Répondre ou non à un appel d'offres public. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Un avis de marché ou un dossier de consultation vient d'arriver : faut-il répondre, seul, à plusieurs ; Organiser la réponse jusqu'à la date limite : qui fait quoi, quand, quelles pièces ; Vérifier une offre montée avant de la déposer."
 ---
 
-> **Version gratuite : règles datées entre le 18/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 18/07/2026 et le 04/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Répondre ou non à un appel d'offres public
 
