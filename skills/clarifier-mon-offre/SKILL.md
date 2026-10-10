@@ -3,7 +3,7 @@ name: clarifier-mon-offre
 description: "Clarifier mon offre. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : L'offre est floue, trop large ou « pour tout le monde » ; On ne sait pas dire à qui elle s'adresse, ni quel problème elle règle ; On ressemble à ses concurrents et on ne sait pas dire pourquoi choisir soi."
 ---
 
-> **Version gratuite : règles datées entre le 06/08/2026 et le 19/09/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 06/08/2026 et le 10/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Clarifier mon offre
 
@@ -15,7 +15,9 @@ description: "Clarifier mon offre. Méthode professionnelle française, avec ses
 - On veut relire une formulation existante, comparer deux versions, ou préparer
   un test auprès de vrais clients.
 
-Quand **ne pas** l'utiliser :
+Quand **ne pas** l'utiliser (ces renvois ne servent que si la demande porte sur l'un de
+ces sujets ; une réponse sur l'offre ne se termine jamais par la liste de ce qu'elle ne
+traite pas) :
 
 - Le prix, la marge, la rentabilité : cette fiche ne fixe pas de prix ; c'est la fiche
   « Fixer le bon prix et connaître ma marge » (`prix-et-marge`) qui calcule prix de vente, taux de marge et de marque,
@@ -29,8 +31,8 @@ Quand **ne pas** l'utiliser :
 - Une facture à contrôler : fiche « Vérifier qu'une facture est en règle » ; des conditions générales de
   vente à relire : fiche « Vérifier mes conditions générales de vente ».
 - Objections, négociation, accroche publicitaire : hors de cette fiche, et aucune fiche
-  disponible ne les traite encore. Le dire et poser la question qui oriente, sans inventer
-  la suite.
+  disponible ne les traite encore. Si la demande porte dessus, le dire et poser la question
+  qui oriente, sans inventer la suite.
 
 ## Connaissances du métier
 
@@ -151,14 +153,15 @@ validés au lieu de les redemander.
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
 ## Pas d'outil de calcul
 
-Fiche gratuite et ouverte : la méthode suffit. Aucun calcul, aucune note, aucun
-résultat « garanti ». Si un fait manque, poser **la** question décisive (par
+Fiche gratuite et ouverte : la méthode suffit. Aucune note, aucun résultat
+« garanti ». La réponse commence par ce qui répond à la question, sans jamais dire au
+dirigeant qu'il n'y a rien à calculer. Si un fait manque, poser **la** question décisive (par
 exemple « que font-ils aujourd'hui à la place ? ») et rendre quand même la trame
 déjà possible, marquée « à confirmer ». Une réponse vide est un échec.
 
@@ -217,7 +220,7 @@ Checklist d'auto-vérification **avant** de rendre la réponse. Ce n'est pas un 
 - Aucun fichier d'offre, aucune accroche prête à publier.
 - Valeur utile ou question en premier.
 - Pas de coulisses techniques exposées au client.
-- Hors périmètre (prix, closing, copie) : aiguillage + question, pas une hypothèse fictive.
+- Hors périmètre (prix, closing, copie), seulement si la demande porte dessus : aiguillage + question, pas une hypothèse fictive. Sinon, rien : pas de liste de ce que la réponse ne traite pas.
 
 ### Annexe : divergences
 
@@ -276,7 +279,7 @@ Comment raisonner. Pas une table « si le mot X alors la méthode Y ».
 
 ## 1. Nommer l'objectif de la demande
 
-L'utilisateur veut-il borner une offre floue, relire une formulation, comparer deux écoles, préparer un test ? Le livrable change. Une accroche à publier, un tarif, un closing : hors périmètre, question qui oriente.
+L'utilisateur veut-il borner une offre floue, relire une formulation, comparer deux écoles, préparer un test ? Le livrable change. Si la demande porte sur une accroche à publier, un tarif ou un closing : hors périmètre, question qui oriente. Si elle n'en parle pas, la réponse n'en parle pas non plus.
 
 ## 2. Isoler les faits avant les auteurs
 

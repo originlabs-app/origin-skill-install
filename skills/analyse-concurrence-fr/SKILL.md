@@ -3,13 +3,13 @@ name: analyse-concurrence-fr
 description: "Me situer face à mes concurrents. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Se situer : suis-je plus cher, moins cher, mieux noté que les autres, et sur quoi dois-je rattraper quelqu'un en premier ? ; Dresser la liste honnête des alternatives de ses clients, y compris celles qui ne ressemblent pas à des concurrents (un tableur, le faire soi-même, ne rien faire) ; Savoir ce que coûterait un alignement sur le prix du marché : marge restante, volume à gagner pour garder la même marge totale."
 ---
 
-> **Version gratuite : règles datées du 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées du 07/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Me situer face à mes concurrents
 
 Une seule tâche : dire à un dirigeant où se situe son offre face aux alternatives de ses clients, sur le prix et sur ce qui fait choisir, avec des relevés datés et sourcés, et à quelles conditions il peut
 s'en servir en public. Le calcul est exact ; le jugement (qui est vraiment mon concurrent, quels critères comptent, quoi supprimer ou créer) reste celui de la personne, avec les voix d'experts côte à côte.
-Fiche relue le 02/10/2026 ; chaque règle propre à la fiche est « relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ».
+Fiche relue le 02/10/2026. L'état de relecture se dit règle par règle, tel que le calcul le rend dans la source de chacune : un texte consulté en ligne avec la date de consultation enregistrée dans le relevé des sources et son adresse, sinon « relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Jamais « non relus » pour tous les textes quand l'un d'eux est dit lu.
 
 ## Quand l'utiliser
 
@@ -38,8 +38,8 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 ## Connaissances du métier
 
 **La réponse courte.** Commencer par ce que le client ferait si vous n'existiez pas, y compris le faire lui-même ou ne rien faire ; relever pour chaque alternative un prix et des notes, avec leur source et leur date ; se situer sur le prix et sur
-une grille de critères ; et ne rien publier sur un concurrent sans avoir vérifié les conditions de la publicité comparative. Règles relevées le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir (Code de la consommation,
-articles L122-1 et L132-2 ; Code civil, article 1240 ; Code de commerce, articles L151-1 et suivants).
+une grille de critères. Le droit de la publicité comparative ne s'évoque que si la personne veut citer un concurrent en public (publicité, devis, page de vente) ou le demande : pour une analyse interne, il n'apporte rien
+à la réponse. Textes en jeu : Code de la consommation, articles L122-1 et L132-2 ; Code civil, article 1240 ; Code de commerce, articles L151-1 et suivants ; dire pour chacun s'il est consulté en ligne (date de consultation enregistrée et adresse) ou seulement relevé, d'après la source rendue par le calcul ; à reconfirmer avant d'agir.
 
 **Ce que le calcul apporte que le texte seul ne donne pas.**
 
@@ -47,14 +47,14 @@ articles L122-1 et L132-2 ; Code civil, article 1240 ; Code de commerce, article
   Un prix gratuit (0 €) est mis de côté des statistiques et dit ; moins de trois prix : repère, pas un marché.
 - *Ce que coûte un alignement.* Prix de 70, 80 et 90 € ; vous à 100 € pour un coût de 60 € (marge 40 €, taux de marque 40 %, taux de marge 66,67 %). Aligné sur la médiane (80 €) : marge de 20 €, il faut vendre 100 % de plus pour garder la même marge totale ;
   aligné sur le moins cher (70 €) : marge de 10 €, 300 % de plus. Si l'alignement tombe sous le coût, aucun volume ne compense : l'outil le dit.
-- *Un classement qui dépend des poids.* Trois alternatives notées sur le prix (poids 3) et la qualité (poids 1), vous à 6 et 8 : avec vos poids, vous êtes 3e sur 4 (6,5 contre 7,5, 7,5 et 6) ; à poids égaux, vous êtes premier ex æquo. Le critère qui rapporterait le plus s'il était
+- *Un classement qui dépend des poids.* Trois alternatives notées sur le prix (poids 3) et la qualité (poids 1), vous à 6 et 8 : avec vos poids, vous êtes 3e sur 4 (6,5 contre 7,5, 7,5 et 6) ; à poids égaux, vous êtes premier ex æquo (une égalité se dit « ex æquo avec… », jamais « premier » tout court). Le critère qui rapporterait le plus s'il était
   rattrapé est le prix (2,25 points sur 10), la qualité ne rapporterait que 0,25. L'outil donne aussi votre rang sans chaque critère, pour voir lequel vous fait gagner ou perdre.
-- *L'âge des relevés.* Un relevé du 01/05/2026 a 154 jours au 02/10/2026 : au-delà du seuil de 90 jours (choix de l'outil, pas du droit), il est dit ancien. Sans source ni date, il est dit non vérifiable.
+- *L'âge des relevés.* Un relevé du 01/05/2026 a 154 jours au 02/10/2026 : au-delà du seuil de 90 jours (repère de prudence, pas une règle de droit), il est dit ancien : un tarif a pu changer, le relevé est à refaire. Sans source ni date, il est dit non vérifiable.
 
 **Ce que le droit permet de dire d'un concurrent.** La publicité comparative, qui identifie explicitement ou implicitement un concurrent ou ses biens ou services, n'est licite que si trois conditions sont réunies : elle n'est pas trompeuse, elle porte sur des biens ou services qui répondent aux mêmes besoins
 ou ont le même objectif, et elle compare objectivement une ou plusieurs caractéristiques essentielles, pertinentes, vérifiables et représentatives, dont le prix (article L122-1 du Code de la consommation ; l'adresse relevée est celle d'une version du 01/07/2016 : relire la version en vigueur). Elle ne doit pas non plus dénigrer :
 le dénigrement peut être sanctionné comme concurrence déloyale devant le juge civil (article 1240 du Code civil). Une comparaison faussée est une pratique commerciale trompeuse, délit passible de deux ans d'emprisonnement et de 300 000 € d'amende, montant pouvant être porté à 10 % du chiffre d'affaires moyen
-ou à 50 % des dépenses de la publicité ; lorsque l'infraction est commise par un service de communication au public en ligne ou par un support numérique ou électronique, les peines sont de cinq ans d'emprisonnement et de 750 000 € d'amende (article L132-2). L'outil rend ces conditions avec l'état de chacune : un statu quo n'est pas une offre comparable, un relevé sans source ou sans date n'est pas vérifiable ; il ne dit jamais qu'une publicité est licite.
+ou à 50 % des dépenses de la publicité ; lorsque l'infraction est commise par un service de communication au public en ligne ou par un support numérique ou électronique, les peines sont de cinq ans d'emprisonnement et de 750 000 € d'amende (article L132-2). L'outil rend ces conditions avec l'état de chacune : un statu quo n'est pas une offre comparable, un relevé sans source ou sans date n'est pas vérifiable ; il ne dit jamais qu'une publicité est licite. Une source et une date ne remplissent aucune condition à elles seules : l'équivalence des offres, la représentativité du prix, l'absence de tromperie et de dénigrement restent à établir par la personne. Si elle demande un tableau ou une phrase, les rédiger comme un **projet à faire relire par un avocat ou un service juridique avant diffusion**, avec ce qui reste à établir ; jamais « le tableau que vous pouvez publier », « cela remplit les conditions » ni « cela convient », qui jugeraient la licéité qu'on vient de dire ne pas pouvoir juger.
 
 **Comment se renseigner sans s'exposer.** L'accès à une information d'un concurrent est illicite s'il se fait sans son consentement par un accès non autorisé à un document ou à un fichier numérique qui contient le secret, ou par un comportement déloyal contraire aux usages du commerce ; l'observation, l'étude ou le test d'un produit mis à la
 disposition du public, ou la découverte indépendante, sont des modes d'obtention licites sauf clause contraire (Code de commerce, articles L151-1 et suivants). Un tarif affiché, un produit acheté, un appel d'offres, un document public : oui. Un fichier obtenu par un accès non autorisé, un salarié débauché pour ses documents : non.
@@ -68,7 +68,8 @@ disposition du public, ou la découverte indépendante, sont des modes d'obtenti
 - *Divergences avec l'outil.* La grille de l'outil est un canevas à notes données par la personne : elle compare, ce que Kim et Mauborgne invitent aussi à dépasser ; l'outil signale un profil de notes proche de la moyenne, sans dire quoi supprimer ou créer. Les critères et leurs poids devraient venir de ce que les clients disent (Dunford), pas du seul secteur (Porter).
   Les critiques de l'approche de Kim et Mauborgne (espaces non disputés rares et éphémères, protocole peu précis) sont à connaître avant de s'y fier.
 
-**Le chiffre ne tranche pas seul.** Une note est un jugement : demandez un fait derrière chaque note. Un prix plus bas n'est pas un meilleur positionnement ; un prix plus haut peut être justifié ou pas. La personne décide.
+**Le chiffre ne tranche pas seul.** Une note est un jugement : demandez un fait derrière chaque note. Un prix plus bas n'est pas un meilleur positionnement ; un prix plus haut peut être justifié ou pas. La personne décide :
+la réponse ouvre sur la position chiffrée (ou sur ce qui manque pour la calculer), pas sur un verdict « trop cher », « ne baissez pas » ou « baissez » ; ce que chaque choix coûterait se montre, le choix reste le sien.
 
 ## Pièges fréquents
 
@@ -97,7 +98,7 @@ La première convient à un premier tour d'horizon ; la seconde, dès que l'on v
 ## Contrat de réponse (3 règles fixes)
 
 1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : le droit et les méthodes d'auteurs viennent du calcul avec leur source ; ce qui n'est pas relu en ligne le dit
-   (« relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir »), jamais une mention de vérification.
+   (« relevée le 02/10/2026, texte officiel pas encore relu ; à reconfirmer avant d'agir »), jamais une mention de vérification ; un texte que la source dit consulté se dit « consulté en ligne le JJ/MM/AAAA » avec son adresse, jamais « lu » ni « vérifié » sans elles, et l'état se donne texte par texte.
 2. **Ne jamais inventer** : ne jamais produire un prix ou une note de concurrent que la personne n'a pas donné ; dire l'hypothèse retenue faute de fait et ce qui n'est pas relevé (parts de marché, comptes déposés, avis clients).
 3. **Prévenir** quand une règle vient de changer (champ `prudence`).
 
@@ -107,7 +108,7 @@ La première convient à un premier tour d'horizon ; la seconde, dès que l'on v
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -123,7 +124,7 @@ L'exécution exacte est servie par le connecteur, sur le moteur concurrence.
 
 Méthode d'usage des deux outils de données du jour (fiche entreprise du prospect) :
 
-- **Quand les appeler** : pour un concurrent dont la personne donne le SIREN, lire sa fiche (`entreprise_profil`) avant de le classer ou de le comparer ; le calcul des prix et de la grille reste `concurrence_analyser`. Lire ses annonces légales (`bodacc_annonces`) seulement si la question porte sur sa solidité ou un changement récent. Sans SIREN, ne pas en inventer un et ne pas appeler : demander le SIREN (ou le nom exact et la ville) en une question, ou continuer avec la méthode seule.
+- **Quand les appeler** : pour un concurrent dont la personne donne le SIREN, lire sa fiche (`entreprise_profil`) avant de le classer ou de le comparer ; le calcul des prix et de la grille reste `concurrence_analyser`. Lire ses annonces légales (`bodacc_annonces`) seulement si la question porte sur sa solidité ou un changement récent. Sans SIREN, ne pas en inventer un et ne pas appeler : continuer avec la méthode seule. Le SIREN d'un concurrent se demande seulement si la personne demande elle-même de vérifier ou enrichir une entreprise ou une liste. Le SIREN n'est jamais la question finale : la question finale, s'il en faut une, est celle qui change la réponse pour le dirigeant (ce que ses clients feraient sans lui, l'offre comparée, le fait décisif du dossier).
 - **Quoi en faire** : citer `en_clair.resultats` tel quel, avec sa date de lecture (« lu le JJ/MM/AAAA ») et la source ; s'en servir pour adapter la question, l'angle ou la priorité, jamais pour conclure à la place de la personne.
 - **Quoi ne pas faire** : ne jamais déduire un effectif exact d'une tranche ; ne jamais dire « aucune annonce » ni « entreprise saine » quand la source est injoignable ou que `en_clair.non_verifie` le dit (dire que la source n'a pas répondu et proposer de relancer) ; ne pas citer les dirigeants ni chercher de coordonnées ; une annonce légale n'est pas un signal d'achat, une procédure collective non clôturée est un risque d'impayé à vérifier dans l'annonce. Un site ou un prix de concurrent n'est jamais lu par ces outils : ces données viennent de la personne.
 
@@ -132,7 +133,7 @@ Entrées : `mon_prix_ht`, `mon_cout_unitaire_ht`, `concurrents` (50 au plus ; ch
 une alternative aux notes incomplètes sort de la grille et c'est dit.
 
 Lire la réponse : `resultat.reponse` porte la synthèse en quelques phrases ; `prix` donne la position et les scénarios d'alignement ; `grille` le classement, les critères et les priorités ; `alternatives` la répartition ; `donnees_releves` l'état de chaque
-relevé ; `publicite_comparative` les conditions avec leur état ; `hypotheses` ce qui a été retenu faute de fait ; `questions` et `question_decisive` ce qu'il faut demander. Chaque appel répond sous la forme unique `resultat` / `regles` / `manquant` / `prudence` / `garanti`.
+relevé ; `publicite_comparative` les conditions avec leur état (une source et une date ne suffisent à aucune) et `liceite`, qui dit la licéité non jugée ; `en_clair` la synthèse, les voix d'experts pertinentes (auteur, ouvrage, date de relevé) et leur divergence, la licéité non jugée et l'état de relecture de chaque source de droit, à reprendre tels quels ; les voix se redisent nommées et datées, avec leur divergence, dès que la question touche au jugement (qui est le concurrent, s'aligner ou se distinguer, quels critères) : elles éclairent, elles ne tranchent pas ; `voix_d_experts` les détaille ; `hypotheses` ce qui a été retenu faute de fait ; `questions` et `question_decisive` ce qu'il faut demander. Chaque appel répond sous la forme unique `resultat` / `regles` / `manquant` / `prudence` / `garanti`.
 
 L'outil calcule et contrôle ; il n'accède à aucun site, ne fait aucune veille, ne note pas à la place de la personne, ne juge pas qu'une publicité est licite et ne rédige aucune comparaison. Il ne calcule pas de parts de marché.
 
@@ -170,14 +171,14 @@ un avocat ou un service juridique avant toute diffusion publique.
 # Désaccords des auteurs et des sources
 
 Corpus non réglementé pour les méthodes : plusieurs voix, divergences montrées, aucune tranchée à la place de la personne. Chaque position est attribuée à son auteur. Lecture faite par extraits de résultats de recherche du 02/10/2026,
-articles et ouvrages non ouverts : à reconfirmer sur les textes avant d'agir. Le droit (publicité comparative, dénigrement, secret des affaires) est relevé aussi par résultat de recherche, non relu en ligne.
+articles et ouvrages non ouverts : à reconfirmer sur les textes avant d'agir. Le droit (publicité comparative, dénigrement, secret des affaires) est relevé aussi par résultat de recherche ; les articles L122-1 et L132-2 du Code de la consommation ont depuis été consultés en ligne (date et adresse dans le relevé des sources), les autres textes pas encore.
 
 | Sujet | Voix 1 | Voix 2 | Ce que fait l'outil |
 | --- | --- | --- | --- |
 | Qui est le concurrent | Porter : le secteur et ses cinq forces ; les substituts comptent autant que les rivaux directs | Dunford : ce que le client ferait sans vous, en commençant par le statu quo ; part du client, pas du secteur | Range les alternatives en directes, indirectes et statu quo ; sans statu quo, le dit et pose la question |
 | Se comparer ou en sortir | Dunford et Porter : comprendre les alternatives pour mieux se positionner | Kim et Mauborgne : ne pas copier les critères des rivaux, chercher ce qu'on supprime, réduit, relève ou crée ; les critiques jugent les espaces non disputés rares et éphémères | Compare sur une grille et signale un profil proche de la moyenne ; ne dit pas quoi supprimer ou créer |
 | D'où viennent les critères | Dunford : de ce que disent les clients de leur choix | Porter : de la structure du secteur | Prend critères, poids et notes de la personne ; ne les invente pas ; montre si le classement tient à poids égaux |
-| Seuil d'ancienneté d'un relevé | Le droit exige des caractéristiques vérifiables et représentatives, sans fixer d'âge | Pratique : 90 jours par défaut dans l'outil, modifiable | Signale les relevés anciens au-delà du seuil donné ; dit que le seuil est un choix de l'outil et non du droit |
+| Seuil d'ancienneté d'un relevé | Le droit exige des caractéristiques vérifiables et représentatives, sans fixer d'âge | Pratique : 90 jours par défaut dans l'outil, modifiable | Signale les relevés anciens au-delà du seuil donné ; dit que le seuil est un repère de prudence et non une règle de droit |
 | Version de l'article L122-1 | Adresse relevée : version du 01/07/2016 | Version en vigueur : non relevée | Cite la version relevée et demande de relire la version en vigueur |
 | Une comparaison avec un statu quo | Dunford : le statu quo est la première alternative à battre | Droit de la publicité comparative : biens ou services répondant aux mêmes besoins ; un tableur n'est pas une offre concurrente | Marque les statu quo et indirects « à démontrer » avant d'être cités en public |
 
@@ -207,7 +208,7 @@ Prix : meilleur concurrent Tableur (9), écart moins 3, retard important, gain p
 
 ## 4. Âge d'un relevé
 
-Un relevé du 01/05/2026 a 154 jours au 02/10/2026 : ancien au-delà du seuil de 90 jours (seuil de l'outil, modifiable, pas du droit). Une date du 01/11/2026 est postérieure à la date de référence : date future.
+Un relevé du 01/05/2026 a 154 jours au 02/10/2026 : ancien au-delà du seuil de 90 jours (repère de prudence modifiable, pas une règle de droit). Une date du 01/11/2026 est postérieure à la date de référence : date future.
 
 ## 5. Publicité comparative
 

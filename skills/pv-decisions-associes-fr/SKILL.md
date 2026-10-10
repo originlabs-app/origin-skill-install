@@ -1,9 +1,9 @@
 ---
 name: pv-decisions-associes-fr
-description: "Faire voter les associés et préparer le procès-verbal. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Nommer ou révoquer un président ou un gérant : qui décide, à quelle majorité, quel PV ; Transférer le siège, changer la dénomination ou l'objet, augmenter le capital de façon simple ; Vérifier si un vote est acquis : « 600 voix pour sur 1 000, les statuts disent deux tiers, est-ce."
+description: "Faire voter les associés et préparer le procès-verbal. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Nommer ou révoquer un président ou un gérant : qui décide, à quelle majorité, quel PV ; Transférer le siège, changer la dénomination ou l'objet, augmenter le capital de façon simple ; Vérifier si un vote est acquis : « 600 voix pour sur 1 000, les statuts disent deux tiers, est-ce bon ? » ; calculer les voix qu'il faudrait."
 ---
 
-> **Version gratuite : règles datées entre le 18/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 18/07/2026 et le 10/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Faire voter les associés et préparer le procès-verbal
 
@@ -50,8 +50,8 @@ la règle ordinaire en référence, tous les cas, et calcule exactement dès qu'
 dans l'article de ce type de décision ou dans les statuts.
 
 **Trois façons de décider, mais pas trois règles relevées.** Assemblée (en SARL : convocation de chaque
-associé au moins quinze jours avant, par lettre recommandée ; courriel seulement avec l'accord écrit
-de l'associé, au moins vingt jours avant), consultation écrite, acte unanime. Relevé : l'assemblée en
+associé au moins quinze jours avant, par lettre recommandée ; courriel seulement si l'associé y a donné
+son accord écrit au plus tard vingt jours avant l'assemblée, la convocation restant à quinze jours), consultation écrite, acte unanime. Relevé : l'assemblée en
 SARL, et le fait que la loi ouvre en SARL d'autres modalités que l'assemblée depuis L223-27 (version du
 14/09/2024), sans que leurs conditions soient relevées. En SAS, ce sont les statuts qui disent.
 
@@ -107,7 +107,7 @@ quand la personne veut agir, pas des obligations.
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -289,13 +289,13 @@ n'ont pas deux sources indépendantes : le dire.
 
 | Identifiant | Règle | Article | En vigueur depuis | Relevé le | Statut | Lien |
 | --- | --- | --- | --- | --- | --- | --- |
-| `majorite-sarl-ago` | SARL, décisions ordinaires : sans quorum, plus de la moitié de toutes les parts en première consultation ; à défaut, seconde consultation à la majorité des votes émis, sauf clause statutaire contraire | L223-29 | 21/07/2019 | 03/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038799356 |
-| `convocation-sarl` | SARL, assemblée : chaque associé convoqué au moins 15 jours avant, par lettre recommandée ; courriel avec l'accord écrit de l'associé, au moins 20 jours avant | R223-20 | 01/04/2018 | 03/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036665390 |
-| `sas-decisions-collectives-statuts` | SAS : forme, quorum et majorité des décisions collectives fixés par les statuts ; plancher de la majorité des voix exprimées (Cass., ass. plén., 15/11/2024, n° 23-16.670, arrêt non relu) | L227-9 | 01/10/2025 | 03/10/2026 | à recouper | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706 |
-| `associe-unique-decision-registre` | EURL et SASU : l'associé unique décide seul, par décision écrite répertoriée au registre des décisions | L223-31 (EURL), L227-9 (SASU) | 06/08/2008 | 03/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019291719 |
-| `sarl-pv-registre` | SARL et EURL : procès-verbal établi et signé (R.223-24), inscrit au registre des décisions, coté et paraphé ou électronique avec signature avancée et horodatage (R.223-26) ; liste des mentions non relevée | R223-24, R223-26 | 28/02/2009 | 03/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020316738 |
+| `majorite-sarl-ago` | SARL, décisions ordinaires : sans quorum, plus de la moitié de toutes les parts en première consultation ; à défaut, seconde consultation à la majorité des votes émis, sauf clause statutaire contraire | L223-29 | 21/07/2019 | 07/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038799356 |
+| `convocation-sarl` | SARL, assemblée : chaque associé convoqué au moins 15 jours avant, par lettre recommandée ; courriel si l'associé y a donné son accord écrit au plus tard 20 jours avant l'assemblée, la convocation restant à 15 jours | R223-20 | 01/04/2018 | 07/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036665390 |
+| `sas-decisions-collectives-statuts` | SAS : forme, quorum et majorité des décisions collectives fixés par les statuts ; plancher de la majorité des voix exprimées (Cass., ass. plén., 15/11/2024, n° 23-16.670, arrêt non relu) | L227-9 | 01/10/2025 | 07/10/2026 | à recouper | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706 |
+| `associe-unique-decision-registre` | EURL et SASU : l'associé unique décide seul, par décision écrite répertoriée au registre des décisions | L223-31 (EURL), L227-9 (SASU) | 06/08/2008 | 07/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019291719 |
+| `sarl-pv-registre` | SARL et EURL : procès-verbal établi et signé (R.223-24), inscrit au registre des décisions, coté et paraphé ou électronique avec signature avancée et horodatage (R.223-26) ; liste des mentions non relevée | R223-24, R223-26 | 28/02/2009 | 07/10/2026 | recoupée | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020316738 |
 | `sas-pv-statuts` | SAS : procès-verbal conforme aux statuts, décisions, votes et incidents pertinents ; R.225-106 (SA) non applicable directement ; registre à confirmer | F36625 (Service-Public, vérifiée le 08/10/2025) | inconnue | 29/07/2026 | à recouper | https://entreprendre.service-public.gouv.fr/vosdroits/F36625 |
-| `sarl-modalites-consultation` | SARL : autres modalités de consultation que l'assemblée ouvertes par la loi, conditions non relevées ; télécommunication : identification, voix, retransmission continue et simultanée | L223-27, R223-20-1 | 14/09/2024 | 03/10/2026 | à recouper | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049720548 |
+| `sarl-modalites-consultation` | SARL : autres modalités de consultation que l'assemblée ouvertes par la loi, conditions non relevées ; télécommunication : identification, voix, retransmission continue et simultanée | L223-27, R223-20-1 | 14/09/2024 | 07/10/2026 | à recouper | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049720548 |
 
 Précisions :
 
