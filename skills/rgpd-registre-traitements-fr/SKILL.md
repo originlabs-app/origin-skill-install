@@ -1,9 +1,9 @@
 ---
 name: rgpd-registre-traitements-fr
-description: "Tenir le registre des données personnelles (RGPD). Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir si l'entreprise doit tenir un registre, en particulier sous 250 personnes ; Dresser un premier registre : quelles activités y inscrire, une fiche par usage des données ; Compléter ou relire un registre existant, fiche par fiche, avant un contrôle ou une."
+description: "Tenir le registre des données personnelles (RGPD). Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir si l'entreprise doit tenir un registre, en particulier sous 250 personnes ; Dresser un premier registre : quelles activités y inscrire, une fiche par usage des données ; Compléter ou relire un registre existant, fiche par fiche, avant un contrôle ou une mise à jour."
 ---
 
-> **Version gratuite : règles datées entre le 20/09/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 20/09/2026 et le 10/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Tenir le registre des données personnelles (RGPD)
 
@@ -42,8 +42,17 @@ durées, contrats avec les prestataires.
 - **Ce que porte une fiche du responsable** : qui est responsable (et le délégué s'il y en
   a un), la finalité, les catégories de personnes et de données, les destinataires, les
   transferts hors Union européenne s'il y en a, et, dans la mesure du possible, les durées
-  de conservation et les mesures de sécurité. Le registre du sous-traitant est plus court.
-  La liste exacte, avec l'article qui fonde chaque mention, vient de l'outil.
+  de conservation et les mesures de sécurité. La liste exacte, avec l'article qui fonde
+  chaque mention, vient de l'outil.
+- **Ce que porte le registre du sous-traitant** (RGPD art. 30, par. 2, texte lu sur cnil.fr
+  le 10/10/2026) : une fiche par catégorie d'activité menée pour les clients, avec (a) le nom
+  et les coordonnées du sous-traitant, de **chaque client** responsable du traitement, de
+  leurs représentants et de leurs **délégués à la protection des données** ; (b) les
+  catégories de traitements faits pour chaque client ; (c) les transferts hors Union
+  européenne et, pour ceux de l'art. 49, par. 1, al. 2, les garanties ; (d) dans la mesure
+  du possible, les mesures de sécurité. La CNIL y ajoute les sous-traitants ultérieurs
+  (page « Le registre des activités de traitement », publiée le 13/04/2018). La dispense
+  sous 250 personnes (art. 30, par. 5) vaut aux mêmes conditions que pour le responsable.
 - **Les activités habituelles d'une petite entreprise** : paie et gestion du personnel,
   recrutement, clients et prospects, fournisseurs, site internet et cookies, messagerie,
   vidéosurveillance, contrôle d'accès, comptabilité. Chacune se confirme avec la personne ;
@@ -97,7 +106,7 @@ bonnes habitudes quand la personne veut agir, pas des obligations.
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 

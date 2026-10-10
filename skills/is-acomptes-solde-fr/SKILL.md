@@ -1,9 +1,9 @@
 ---
 name: is-acomptes-solde-fr
-description: "Payer le juste impôt sur les sociétés. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir combien vaut chaque acompte du 15 mars, du 15 juin, du 15 septembre et du 15 décembre, ou pourquoi il n'y en a pas cette année ; Prévoir le solde de l'année et sa date (15 mai pour un exercice clos au 31 décembre), ou voir qu'on a trop payé ; Calculer l'impôt d'un bénéfice avec le taux réduit de 15 %, et voir ce que change un chiffre d'affaires ou un capital qui ne remplit pas les conditions."
+description: "Payer le juste impôt sur les sociétés. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir combien vaut chaque acompte du 15 mars, du 15 juin, du 15 septembre et du 15 décembre, ou pourquoi il n'y en a pas cette année ; Prévoir le solde de l'année et sa date (15 mai pour un exercice clos au 31 décembre, texte exprès de l'article 1668, 2 du CGI ; pour une autre clôture, le 15 du quatrième mois qui suit), ou voir qu'on a trop payé ; Calculer l'impôt d'un bénéfice avec le taux réduit de 15 %, et voir ce que change un chiffre d'affaires ou un capital qui ne remplit pas les conditions."
 ---
 
-> **Version gratuite : règles datées du 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées du 07/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Payer le juste impôt sur les sociétés
 
@@ -15,7 +15,7 @@ Fiche relue le 02/10/2026 ; chaque règle propre à la fiche est « relevée le 
 ## Quand l'utiliser
 
 - Savoir combien vaut chaque acompte du 15 mars, du 15 juin, du 15 septembre et du 15 décembre, ou pourquoi il n'y en a pas cette année.
-- Prévoir le solde de l'année et sa date (15 mai pour un exercice clos au 31 décembre), ou voir qu'on a trop payé.
+- Prévoir le solde de l'année et sa date (15 mai pour un exercice clos au 31 décembre, texte exprès de l'article 1668, 2 du CGI ; pour une autre clôture, le 15 du quatrième mois qui suit), ou voir qu'on a trop payé.
 - Calculer l'impôt d'un bénéfice avec le taux réduit de 15 %, et voir ce que change un chiffre d'affaires ou un capital qui ne remplit pas les conditions.
 - Voir combien de déficits passés on peut déduire cette année et combien il en reste.
 - Un déficit cette année : ce que rapporterait le report en arrière (créance sur l'État) contre le simple report sur les années suivantes.
@@ -23,7 +23,7 @@ Fiche relue le 02/10/2026 ; chaque règle propre à la fiche est « relevée le 
 
 Quand **ne pas** l'utiliser : déclarer la TVA (fiches `tva-ca3-fr`, `tva-autoliquidation-encaissements-fr`) ; décider des dividendes (fiche `affectation-resultat-dividendes-fr`) ;
 choisir son salaire ou ses dividendes (fiche `remuneration-dirigeant-fr`) ; remplir la liasse fiscale (fiche `liasse-2033-fr`) ; une entreprise à l'impôt sur le revenu (micro-entreprise, entreprise
-individuelle) : pas d'impôt sur les sociétés ; un groupe de sociétés, une très grande entreprise ou un exercice qui ne dure pas douze mois (expert-comptable).
+individuelle) : pas d'impôt sur les sociétés ; un groupe de sociétés, une très grande entreprise ou un exercice en cours qui ne dure pas douze mois (nombre d'acomptes : expert-comptable).
 
 ## Les faits du calcul
 
@@ -32,7 +32,8 @@ Donner le calcul avec ce que l'on sait, dire l'hypothèse retenue pour chaque fa
 | Fait | Pourquoi il compte |
 | --- | --- |
 | **Impôt sur les sociétés du dernier exercice clos** (ou son bénéfice imposable) | C'est la base des quatre acomptes. Sans lui, aucun montant n'est donné. 0 est un vrai chiffre (pas de bénéfice), à demander, jamais à supposer. |
-| **Date de clôture de l'exercice** | Les dates de 15 mars, 15 juin, 15 septembre et 15 décembre valent pour une clôture au 31 décembre ; pour une autre clôture d'un exercice de douze mois, l'outil lit la table de l'annexe III au CGI (art. 360 bis) : les quatre dates changent d'ordre et d'année, et le solde se règle le 15 du quatrième mois après la clôture. Texte lu sur Légifrance le 03/10/2026. |
+| **Date de clôture de l'exercice** | Les dates de 15 mars, 15 juin, 15 septembre et 15 décembre valent pour une clôture au 31 décembre ; pour une autre clôture d'un exercice de douze mois, l'outil lit la table de l'annexe III au CGI (art. 360 bis) : les quatre dates changent d'ordre et d'année, et le solde se règle le 15 du quatrième mois qui suit la clôture (clôture au 30 septembre : 15 janvier ; au 30 juin : 15 octobre). Pour une clôture au 31 décembre, le 15 mai est la règle écrite de l'article 1668, 2 du CGI, pas une tolérance. Textes lus le 04/10/2026. |
+| **Durée du dernier exercice clos** | Les acomptes se calculent sur l'impôt du dernier exercice clos rapporté à douze mois (annexe III au CGI, art. 359, 1) : impôt × 12 ÷ durée en mois (8 000 € sur 8 mois donnent 12 000 €). Si l'exercice est le premier, ou court ou long, et que sa durée manque, elle est demandée et aucun montant d'acompte n'est donné. Texte lu le 04/10/2026. |
 | **Date de début d'activité et date de la première clôture** | Aucun acompte n'est dû tant qu'aucun exercice n'est clos : sans impôt d'un dernier exercice clos et sans ces dates, aucune date d'acompte n'est annoncée. Quand l'impôt (ou le bénéfice) du dernier exercice clos est donné, la société a forcément clos un exercice : ces dates ne sont pas demandées. |
 | **Conditions du taux réduit** : chiffre d'affaires de 10 millions d'euros au plus, capital entièrement libéré, capital détenu à 75 % au moins par des personnes physiques | Elles font passer l'impôt de 25 % à 15 % sur les 42 500 premiers euros. Si l'une manque, les deux impôts sont donnés et la question est posée. |
 | **Bénéfice de l'exercice, déficits reportables, acomptes déjà versés** | Donnent l'impôt de l'exercice, le solde et ce qui reste de déficits. |
@@ -101,7 +102,7 @@ Exemples chiffrés : `exemples-calcules`. Questions à poser : `questions-a-pose
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -151,7 +152,7 @@ et `solde` ; il ne prétend jamais avoir créé un fichier ni payé quoi que ce 
 ## Ce qui n'est pas relevé
 
 Les crédits et réductions d'impôt (non déduits de l'impôt de référence) ; la modulation des acomptes ; les groupes de sociétés (intégration fiscale, appréciation du chiffre d'affaires du groupe) ; les contributions supplémentaires des grandes entreprises ;
-les acomptes d'un exercice qui ne dure pas douze mois ; la perte des déficits après un changement d'activité ou un changement de contrôle ; les règles propres à une entreprise en difficulté ; les pénalités de retard.
+le nombre d'acomptes d'un exercice en cours qui ne dure pas douze mois (l'impôt de référence d'un dernier exercice de durée différente est, lui, ramené à douze mois) ; la perte des déficits après un changement d'activité ou un changement de contrôle ; les règles propres à une entreprise en difficulté ; les pénalités de retard.
 Pour chacun, le dire et orienter vers un expert-comptable quand l'enjeu le justifie.
 
 ### Annexe : exemples-calcules

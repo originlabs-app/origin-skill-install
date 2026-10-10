@@ -1,10 +1,12 @@
 # OriginSkill : les fiches gratuites
 
-![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![60 fiches](https://img.shields.io/badge/fiches-60-green) ![Règles relevées du 26/06/2026 au 04/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2004--10--2026-orange)
+![Licence CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue) ![68 fiches](https://img.shields.io/badge/fiches-68-green) ![Règles relevées du 26/06/2026 au 10/10/2026](https://img.shields.io/badge/r%C3%A8gles%20relev%C3%A9es-26--06--2026%20au%2010--10--2026-orange)
 
 **Votre assistant d'intelligence artificielle répond comme un professionnel français : il connaît les règles, les pièges et les questions à poser.**
 
-60 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 04/10/2026 : chaque fiche porte en tête les dates de ses propres règles.
+68 fiches, gratuites, libres de droits (même pour un usage commercial). Leurs règles ont été relevées entre le 26/06/2026 et le 10/10/2026 : chaque fiche porte en tête les dates de ses propres règles, sauf 3 qui n'ont pas encore de règle datée et l'écrivent en tête (`marge-par-produit-fr`, `statut-juridique-choisir-fr`, `tva-autoliquidation-encaissements-fr`).
+
+**Commencer tout de suite** : `npx skills add originlabs-app/origin-skill-install` installe les fiches dans Claude Code, Codex, Cursor et les autres assistants compatibles. Pour que votre assistant calcule sur vos chiffres : [créer un compte gratuit](https://originskill.ai/creer-compte?ref=github&utm_source=github&utm_medium=depot-public) (sans carte bancaire : toutes les fiches et quelques utilisations par mois de tous les outils de calcul).
 
 ## Ce que je veux régler : la fiche qu'il me faut
 
@@ -37,6 +39,14 @@
 | Amortir un achat : sur combien d'années, et combien par an | [`amortir-un-achat-fr`](skills/amortir-un-achat-fr) |
 | Rembourser des notes de frais et des kilomètres | [`notes-de-frais-ik-fr`](skills/notes-de-frais-ik-fr) |
 | Savoir quels produits ou clients me rapportent vraiment | [`marge-par-produit-fr`](skills/marge-par-produit-fr) |
+| Ma retraite de dirigeant : trimestres, rachat, cumul | [`retraite-dirigeant-fr`](skills/retraite-dirigeant-fr) |
+| Chômage du dirigeant : ARE, ATI, assurance perte d'emploi | [`chomage-dirigeant-fr`](skills/chomage-dirigeant-fr) |
+| Prévoyance, santé et patrimoine du dirigeant : ce qui est couvert, ce qui est à risque | [`prevoyance-patrimoine-dirigeant-fr`](skills/prevoyance-patrimoine-dirigeant-fr) |
+| Créer une holding : quand, pourquoi, combien | [`holding-fr`](skills/holding-fr) |
+| Vendre ou transmettre son entreprise | [`vendre-transmettre-entreprise-fr`](skills/vendre-transmettre-entreprise-fr) |
+| Calculer mon besoin en fonds de roulement | [`bfr-besoin-fonds-roulement-fr`](skills/bfr-besoin-fonds-roulement-fr) |
+| Fixer mon tarif journalier ou horaire | [`tarif-journalier-freelance-fr`](skills/tarif-journalier-freelance-fr) |
+| Acheter, financer ou louer un équipement | [`acheter-ou-louer-fr`](skills/acheter-ou-louer-fr) |
 
 ### Ma comptabilité, mes factures et ma TVA
 
@@ -103,19 +113,43 @@
 | Faire financer une formation par l'OPCO | [`opco-financement-fr`](skills/opco-financement-fr) |
 | Préparer l'audit Qualiopi de mon organisme de formation | [`qualiopi-audit-fr`](skills/qualiopi-audit-fr) |
 
-## Installer, en une phrase
+## Installer les fiches, en une phrase par assistant
 
-- **Claude Code** : tapez `npx skills add originlabs-app/origin-skill-install`, ou, avec les plugins, `/plugin marketplace add originlabs-app/origin-skill-install` puis `/plugin install originskill@originskill`.
+- **Claude Code** : `npx skills add originlabs-app/origin-skill-install -a claude-code`, ou, avec les plugins, `/plugin marketplace add originlabs-app/origin-skill-install` puis `/plugin install originskill@originskill`.
 - **Codex** : `npx skills add originlabs-app/origin-skill-install -a codex`.
 - **Cursor** : `npx skills add originlabs-app/origin-skill-install -a cursor`.
-- **claude.ai** : téléchargez le fichier zip de la fiche voulue sur https://originskill.ai/installer (par exemple `https://originskill.ai/skills/affectation-resultat-dividendes-fr.zip`), puis importez-le comme compétence dans les réglages de claude.ai.
-- **agentskill.sh** : cherchez « OriginSkill » ; le site indexe ce dépôt public.
+- **claude.ai** : téléchargez le fichier zip de la fiche voulue sur https://originskill.ai/installer (par exemple `https://originskill.ai/skills/acheter-ou-louer-fr.zip`), puis importez-le comme compétence dans les réglages de claude.ai.
+- **skills.sh** : `npx skills add originlabs-app/origin-skill-install` est l'outil de skills.sh ; il vous demande dans quel assistant installer les fiches (Gemini CLI, GitHub Copilot, Windsurf et d'autres).
+- **agentskill.sh** : cherchez « OriginSkill » une fois ce dépôt référencé par le site.
 
 Une fois installée, la fiche se déclenche toute seule quand votre question la concerne. Vous n'avez rien d'autre à faire.
 
 ## Avec le serveur OriginSkill, aller plus loin
 
-> **Avec le serveur OriginSkill, la fiche calcule sur vos chiffres, interroge les données officielles et vous alerte.** Les fiches de ce dépôt sont la méthode, gratuite et datée. Le serveur ajoute les calculs exacts, les règles tenues à jour, la mémoire de votre entreprise et, en cours de déploiement, les alertes. [Découvrir OriginSkill](https://originskill.ai) · [Tarif](https://originskill.ai/tarif)
+> **Avec le serveur OriginSkill, la fiche calcule sur vos chiffres, interroge les données officielles et vous alerte.** Les fiches de ce dépôt sont la méthode, gratuite et datée. Le serveur ajoute les calculs exacts, les règles tenues à jour, la mémoire de votre entreprise et, en cours de déploiement, les alertes. [Créer un compte gratuit](https://originskill.ai/creer-compte?ref=github&utm_source=github&utm_medium=depot-public) · [Découvrir OriginSkill](https://originskill.ai/?ref=github&utm_source=github&utm_medium=depot-public) · [Tarif](https://originskill.ai/tarif?ref=github&utm_source=github&utm_medium=depot-public)
+
+## Brancher le serveur OriginSkill dans votre assistant
+
+> **Pas encore en ligne.** Ces réglages sont écrits dans le code du serveur, mais ne sont pas encore déployés, et aucun n'a encore été essayé en réel. Cette mention disparaîtra après l'essai ; d'ici là, la page https://originskill.ai/installer fait foi.
+
+Adresse complète : `https://api.originskill.ai/mcp`. Adresse compacte : `https://api.originskill.ai/mcp?profil=compact` ; l'assistant y voit un seul outil de calcul au lieu de plusieurs dizaines, pour les assistants qui limitent le nombre d'outils. La clé API se crée dans votre espace client OriginSkill et s'envoie dans l'en-tête `Authorization`.
+
+| Assistant | Adresse | Connexion |
+|---|---|---|
+| Claude (web, Desktop, mobile) | complète | connecteur personnalisé par adresse, connexion avec votre compte OriginSkill ; offre gratuite comprise |
+| Claude Code | complète | `claude mcp add --transport http originskill https://api.originskill.ai/mcp`, puis connexion avec votre compte, ou une clé API |
+| ChatGPT (mode développeur, applications) | complète | connexion avec votre compte OriginSkill ; offres payantes seulement |
+| Mistral Le Chat | compacte | connecteur personnalisé ajouté par l'administrateur ; compte ou clé API |
+| Cursor | compacte | compte, ou clé API dans `mcp.json` (Cursor accepte environ 40 outils) |
+| VS Code et GitHub Copilot | compacte | compte, ou clé API (environ 128 outils, tous serveurs confondus) |
+| Windsurf | compacte | compte ou clé API |
+| Gemini CLI | compacte | adresse dans `httpUrl` ; compte ou clé API |
+| Gemini Enterprise | compacte | clé API |
+| Copilot Studio | compacte | clé API, ou compte |
+| Grok (API xAI) | compacte | clé API OriginSkill |
+| Manus | compacte | clé API |
+| Zapier, n8n | compacte | clé API |
+| Perplexity, Genspark | à essayer | rien n'est promis avant un essai réel |
 
 ## Résultats des bancs
 
@@ -123,7 +157,7 @@ Un banc est un essai chiffré : les mêmes questions sont posées à l'assistant
 
 Les questions, les réponses et les verdicts complets : [https://originskill.ai/bancs](https://originskill.ai/bancs).
 
-37 essais publiés à ce jour. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
+51 essais publiés à ce jour, plus le banc contre Paperasse ci-dessous. Dans plusieurs, l'assistant avec le serveur perd des questions ou fait jeu égal avec la fiche gratuite : c'est écrit ligne par ligne.
 
 <details>
 <summary>Voir tous les résultats, essai par essai</summary>
@@ -167,14 +201,32 @@ Les questions, les réponses et les verdicts complets : [https://originskill.ai/
 | 04/10/2026 | Test de travail : trésorerie 12 mois et acomptes d'IS (G3) | SASU de conseil fictive (Ravel Conseil), 12 questions de travail (chiffres, une date, 2 avec mémoire), A, B, C et A+, B+, références calculées par l'outil et figées, juge Opus neuf par question, serveur avec la consigne G6 | trésorerie : A 4,3 ; B 7,8 ; C 7,5 (1 victoire, 3 égalités, 2 défaites au-delà du bruit : mauvais cas mis en avant, addition fausse ; date sûre omise sur T2, à −1,0) ; IS : A 6,0 ; B 6,2 ; **C 8,33** (3 victoires au-delà du bruit, 2 égalités, 1 défaite ; part du gain sans payer 9 % ; p = 0,16, à confirmer) ; un calcul du serveur jamais appelé |
 | 04/10/2026 | Avantages structurels, rejeu du bras C | mêmes six questions que le rejeu G6, C seul rejoué (outil de vérification poussé à l'appel, sorties complétées), juge Opus neuf, tirage neuf | un calcul du serveur appelé **5 fois sur 6** (0 avant) ; C 8,42 (8,75 au rejeu G6, dans le bruit) ; erreurs relevées 5 → 7 dont deux que la référence du juge ne connaît pas ; DIR-Q6 recule à 6 : seule question sans appel, l'assistant affirme encore ce que l'outil dit ne pas avoir vérifié |
 | 04/10/2026 | Test de travail trésorerie et IS, rejeu du bras C | T2, T4, T6, I1, I5, C seul rejoué, mémoire rechargée pour I5, juge Opus neuf, tirage neuf | C 6,8 → **8,8** ; trésorerie 6,0 → **9,0** avec zéro erreur relevée (un seul cas, date sûre par échéance) ; erreurs du juge 13 → 1 ; un calcul du serveur appelé 4 fois sur 5 ; C rejoint la fiche seule sans la battre |
+| 04/10/2026 | Lot 6 de : retraite, chômage, prévoyance et patrimoine, holding, vendre ou transmettre | dirigeant fictif, 5 fiches payantes, 6 questions chacune (références calculées par l'outil et figées), A, B (fiche servie), C (banc MCP local, cinq outils et vérification des chiffres allumés), juge Opus neuf par question, premier banc | retraite A 4,33 ; B 7,25 ; C 8,08 · chômage 5,17 ; 7,75 ; 8,58 · protection 5,75 ; 8,00 ; 8,50 · holding 3,42 ; 8,25 ; 8,92 · cession 4,58 ; 8,25 ; 8,67 ; **les cinq fiches devant A et B en moyenne** (+0,42 à +0,83 contre B : « devant, à confirmer », aucune tranchée au seuil statistique) ; essentiels 112/113 ; part du gain sans payer 76 à 90 % |
+| 07/10/2026 | Lot 7 de : besoin en fonds de roulement, tarif journalier en micro-entreprise, acheter ou louer | dirigeant fictif, 3 fiches payantes, 10 questions chacune (références calculées en fractions exactes et figées), A, B (fiche servie), C (banc MCP local, trois outils et vérification des chiffres allumés), juge Opus neuf par question | BFR A 5,90 ; B 8,50 ; C 8,65 · tarif 4,25 ; 8,65 ; 8,55 · achat 6,45 ; 7,95 ; 8,45 ; **devant A très nettement ; devant B de +0,15 (BFR) et +0,50 (achat), « devant, à confirmer » ; tarif sous B de 0,10** ; aucune compétence au seuil statistique (p 0,30 à 0,44) ; part du gain sans payer 95 %, 102 % et 75 % ; aucun chiffre faux rendu par un moteur |
+| 08/10/2026 | Tarif journalier, second banc : dix questions neuves après correction des défauts du lot 7 | dirigeant fictif, 1 fiche payante (tarif-journalier-freelance-fr), 10 questions neuves (références calculées en fractions exactes et figées), A, B (fiche servie), C (banc MCP local, outil du tarif et vérification des chiffres allumés dans le banc seulement), juge Opus neuf par question | A 3,70 ; B 8,35 ; C 8,30 ; **devant A très nettement (+4,60), pas devant B (−0,05)** : critère de non atteint, 2 victoires, 7 égalités, 1 défaite (ACRE, TJ4 −4,0), p 0,50 ; part du gain sans payer 101 % ; drapeau de l'outil non ouvert |
+| 04/10/2026 | Test de travail trésorerie et IS, seconde vague | 12 questions neuves (Atelier Vasseur, 4 avec mémoire), A, B, C, A+, B+, références calculées par l'outil et figées, juge Opus neuf par question, verdict sur la vague et sur les douze questions par compétence | vague 2 : trésorerie A 8,62 ; B 7,12 ; C 8,25 ; IS A 7,50 ; B 7,88 ; C 8,42 (égalités dans le bruit) ; sur 12 questions : trésorerie +0,62 (p 0,15), **IS +0,67 (p 0,06, 3 victoires au-delà du bruit, 0 défaite)** ; les deux défaites nettes sont deux questions à mémoire où l'assistant reconstruit un chiffre que l'outil ne rend pas (CFE, modulation) ; vérification des chiffres appelée 10 fois sur 12 |
+| 08/10/2026 | Suivi dans le temps, garage automobile : la mémoire face au dossier collé, avec la lecture complète paginée | PME fictive (Garage Valcroze, Albi, 11 salariés), 15 dépôts, 12 questions de six fiches dont 6 à fait changé, références et mémoire figées avant le jeu (gel.json), quatre bras joués par Sonnet, juge Opus | moyennes A+ 7,58 ; B+ 8,54 ; C 8,21 ; C0 3,50 sur 12 questions ; C gagne 0, égalise 9, perd 3 contre le meilleur des deux avec le bruit (p = 0,08 : derrière, à confirmer) ; part du gain sans payer 107 % ; lecture complète sans réponse refusée, atteinte en entier dans 7 questions sur 12 ; C gagne les 12 contre C0 |
+| 08/10/2026 | Suivi dans le temps, gros dossier d'imprimerie : la mémoire face à un dossier trop gros pour être collé | PME fictive (Imprimerie Vauquois, Tours, 21 salariés), 77 dépôts de 166 Ko sur quinze mois, 12 questions de six fiches dont 8 dépendant d'un fait ancien ou noyé absent du collé (note de synthèse et trois derniers documents, 10,6 Ko, fixés avant le jeu), références et mémoire figées avant le jeu (gel.json), cinq bras joués par Sonnet (A+ collé réaliste, B+ fiche et collé, C mémoire, C0 sans mémoire, T tout le dossier collé en contrôle), juge Opus | moyennes A+ 5,00 ; B+ 5,83 ; C 8,21 ; C0 3,46 ; T 8,29 sur 12 questions ; **C gagne** contre le meilleur collé (+2,21 par question, p 0,005 ; gagne 8, égalise 3, perd 1 au-delà du bruit) et gagne les 8 questions à fait ancien ou noyé, égale T (−0,08, p 0,44), ne gagne pas sur les 4 questions récentes ; l'assistant ne lit jamais les 18 pages de la mémoire (0 sur 12) : il cherche (16 recherches, 26 dépôts ouverts), aucune réponse refusée ; part du gain sans payer 50 % (102 % avec T) |
+| 08/10/2026 | Rejeu du suivi dans le temps, gros dossier d'imprimerie : la mémoire après les correctifs (sommaire, page suivante, date du document, types) | même PME fictive (Imprimerie Vauquois), mêmes 12 questions, mêmes références, même dossier de 77 dépôts ; seul le bras mémoire est rejoué (C2) sur le serveur de la branche corrigée, mémoire rechargée avec date_document et les types d'origine ; réponses de A+, B+, T et C du banc d'origine reprises et rejugées avec C2 (cinq réponses ensemble, juge Opus neuf et aveugle par question, C0 non rejugé) | moyennes A+ 4,38 ; B+ 5,13 ; C avant correctifs 8,63 ; **C2 après correctifs 8,54** ; T 8,33 : **les correctifs ne changent pas la note** (C2 moins C −0,08, p 0,45, 10 questions sur 12 dans le bruit), la mémoire garde son avance sur le meilleur collé (+3,17 par question, p 0,002 ; gagne 8, égalise 4, perd 0 au-delà du bruit) et égale T ; la lecture complète reste à **0 sur 12** « Dernière page » malgré le sommaire et la consigne de page suivante (page 1 lue en 10 questions, 18 recherches, 24 dépôts ouverts, aucune réponse refusée pour taille) ; les résultats disent « daté du … » (plus de « date du document inconnue »), mais citer mieux les dates n'est pas démontré ; le juge dérive de 0,04 à 0,71 point sur les mêmes réponses d'une session à l'autre |
+| 08/10/2026 | Compétences maison : la couche du client face au dossier collé | entreprise fictive (Paysages Lestrade, Albi, 11 salariés), 40 corrections sur huit mois, 3 fiches (relances-impayes-fr, memoire-technique-marche-public-fr, sequence-multicanale), 40 questions (36 pour la décision), règle de verdict, détecteurs et fenêtre de collage figés avant le jeu (gel.json), quatre bras joués par Sonnet (A+ collage, B+ fiche et collage, C serveur local avec la couche chargée par les vrais outils, C0 même serveur drapeau éteint), juge Opus neuf et aveugle par question | moyennes A+ 4,63 ; B+ 5,48 ; **C 7,61** ; C0 7,56 sur 40 questions ; C moins le meilleur des deux collages +1,93 (26 victoires, 10 égalités, 4 défaites au-delà du bruit : GEN-Q1 −5,0, REL-Q10, REL-Q7, MEM-Q2) ; **verdict de la règle écrite : NON PROUVÉ** (défaites et détecteurs : C applique v1 ou laisse fuir 2 fois, il en faut au plus 1) ; fiche gagnante : sequence-multicanale seule ; C0 a lu les dépôts bruts des corrections à 39 questions sur 40 drapeau éteint (comparaison C contre C0 non propre) ; un seul passage, serveur d'avant le commit 1c735dae2 |
+| 09/10/2026 | Rejeu au protocole actuel des 13 fiches où le payant était derrière | dirigeants fictifs, mêmes 78 questions et références que les bancs d'origine, A, B (texte complet de la méthode servie) et C (banc MCP local, contrôle des chiffres allumé) rejoués et rejugés ensemble, même consigne, une question par appel, juge Opus neuf par question | moyennes sur 78 questions : gratuit contre seul +2,03 par question (65 devant, 11 derrière) ; **payant contre gratuit −0,37** (23 devant, 12 égales, 43 derrière ; perd au seuil sur analyse-concurrence-fr) ; causes : commentaire adressé au contrôle des chiffres en tête de réponse (11 sur 78), libellé de la DSN lu comme le mois de paie, sources datées après la question (artefact du banc) |
+| 09/10/2026 | Rejeu de C après les correctifs du contrôle des chiffres et de la DSN | mêmes 78 questions ; A et B repris, C rejoué sur le serveur corrigé, les trois rejugés ensemble, juge Opus neuf par question | **payant contre gratuit −0,24** (contre −0,37) ; concurrence et calendrier rattrapés ; perd au seuil sur ppv-interessement-fr (en partie une erreur du juge sur la règle des versements) ; reste surtout la source datée après la question (artefact du banc) |
+| 09/10/2026 | Rejugement du payant corrigé, sans l'artefact de date | réponses A, B et C de rejeu-c reprises, rejugées avec le juge qui ne pénalise plus une source relevée après la question | **payant contre gratuit −0,09** (contre −0,24) ; perd au seuil sur analyse-concurrence-fr (−0,92) ; trésorerie −1,00 à confirmer (erreurs de recopie autour d'un tableau juste) |
+| 09/10/2026 | 7 fiches où le gratuit n'était pas devant et 3 fiches sans banc ponctuel | dirigeants fictifs, 6 questions par fiche (3 anciennes recopiées et 3 neuves, ou 6 neuves), références figées avant le jeu, même protocole que le rejeu du payant | 60 questions : **gratuit contre seul +0,01** (perd au seuil sur contrat-travail-fr, −2,75 ; derrière sur CGV, appel d'offres, AG annuelle) ; **payant contre gratuit +1,32** (gagne au seuil sur appel d'offres, CGV, liasse 2033) ; cause : texte gratuit de première génération sans valeurs datées |
+| 09/10/2026 | Rejeu de B après l'ajout des valeurs datées au texte gratuit | mêmes 60 questions ; A et C repris, B rejoué avec le texte enrichi, les trois rejugés ensemble, juge Opus neuf par question | **gratuit contre seul +1,02** (contre +0,01) ; contrat de travail −0,75, plus perdant au seuil ; payant contre gratuit +0,41 ; reste surtout la source datée après la question (artefact du banc, 32 réponses B sur 60) |
+| 09/10/2026 | Rejugement du gratuit enrichi, sans l'artefact de date | réponses A, B et C de rejeu-b reprises, rejugées avec le même juge corrigé | **gratuit contre seul +1,44** (contre +1,02) ; gagne au seuil sur appel d'offres, DUME, facturation électronique, liasse 2033 ; contrat de travail −0,42 et délais −0,08 à confirmer ; payant contre gratuit +0,29 |
 
 </details>
 
 ### Comparaison avec Paperasse : égalité, nous ne faisons pas encore mieux
 
-[Paperasse](https://github.com/romainsimon/paperasse) (licence MIT, Romain Simon) est un autre dépôt libre de fiches pour la paperasse française. Banc du 03/10/2026, 20 questions sur les sujets que nous couvrons tous les deux, un juge par question qui ne sait pas d'où vient la réponse. Après nos corrections, moyennes sur 10 : assistant seul 7,3 ; avec Paperasse 7,0 ; avec notre fiche gratuite 7,1 ; avec le serveur OriginSkill 7,2.
+[Paperasse](https://github.com/romainsimon/paperasse) (licence MIT, Romain Simon) est un autre dépôt libre de fiches pour la paperasse française. Banc du 03/10/2026, 20 questions sur les sujets que nous couvrons tous les deux, un juge par question qui ne sait pas d'où vient la réponse.
 
-**Nous ne faisons pas mieux que Paperasse aujourd'hui.** Notre juge peut se tromper d'un point : un écart d'un point ou moins compte comme une égalité. Avec cette règle, le serveur OriginSkill gagne 4 questions, fait jeu égal sur 13 et en perd 3 face à Paperasse ; la fiche gratuite seule en gagne 4, fait jeu égal sur 9 et en perd 7. Nous corrigeons nos fiches et rejouerons ce banc ; le résultat sera publié ici, gagné ou perdu.
+- **Premier passage, perdu** : moyennes sur 10, assistant seul 7,8 ; avec Paperasse 7,4 ; avec notre fiche gratuite 7,3 ; avec le serveur OriginSkill 7,1. L'assistant seul bat tout le monde.
+- **Après nos corrections (rejeu)** : assistant seul 7,3 ; avec Paperasse 7,0 ; avec notre fiche gratuite 7,1 ; avec le serveur OriginSkill 7,2.
+- **Second rejeu, sur les 3 questions d'assemblée et de dépôt des comptes encore perdues** : le serveur OriginSkill 5,5 contre Paperasse 8,2 ; toujours perdu.
+
+**Nous ne faisons pas mieux que Paperasse aujourd'hui.** Notre juge peut se tromper d'un point : un écart d'un point ou moins compte comme une égalité. Avec cette règle, après le rejeu, le serveur OriginSkill gagne 4 questions, fait jeu égal sur 13 et en perd 3 face à Paperasse ; la fiche gratuite seule en gagne 4, fait jeu égal sur 9 et en perd 7. Nous corrigeons nos fiches et rejouerons ce banc ; le résultat sera publié ici, gagné ou perdu.
 
 ## Licence et sources
 

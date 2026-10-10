@@ -3,7 +3,7 @@ name: remuneration-dirigeant-fr
 description: "Combien me verser en salaire et en dividendes. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Un créateur ou un dirigeant se demande s'il doit se payer un salaire, des dividendes, ou les deux ; Savoir combien coûte un salaire à la société et combien il en reste net, avant puis après impôt ; Comparer, pour des dividendes, l'impôt forfaitaire (la flat tax) et le barème de l'impôt sur le revenu."
 ---
 
-> **Version gratuite : règles datées entre le 13/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 13/07/2026 et le 10/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Combien me verser en salaire et en dividendes
 
@@ -67,7 +67,7 @@ toujours sur la mémoire, et un fait pris en mémoire se dit « à confirmer »)
 
 Les autres faits de la mémoire (régime de TVA, convention collective, activité, cible) ne servent pas ici. Ne sont
 pas en mémoire et se demandent à chaque fois : l'enveloppe, le capital, le statut du gérant de SARL, le foyer, le
-taux de cotisations du gérant.
+taux de cotisations du gérant majoritaire.
 
 ## Connaissances du métier
 
@@ -124,11 +124,19 @@ en ligne à ce jour, sauf mention) :
 | Gérant majoritaire, dividendes | fraction au-delà de 10 % du capital, des primes et des comptes courants du foyer soumise aux cotisations | notice Urssaf des revenus 2026 (relue le 13/07/2026) |
 | Barème de l'impôt sur le revenu (revenus de 2025) | 0 % jusqu'à 11 600 € ; 11 % jusqu'à 29 579 € ; 30 % jusqu'à 84 577 € ; 41 % jusqu'à 181 917 € ; 45 % au-delà, par part | Service-Public (A18045), loi n° 2026-103 du 19 février 2026, art. 4 |
 | Plafond de la Sécurité sociale 2026 | 48 060 € | arrêté du 22 décembre 2025 |
+| Président (ou gérant minoritaire ou égalitaire) assimilé salarié, cotisations patronales 2026 | maladie 13 % ; vieillesse plafonnée 8,55 % (jusqu'au plafond) ; vieillesse déplafonnée 2,11 % ; allocations familiales 5,25 % ; Fnal 0,10 % (moins de 50 salariés, jusqu'au plafond) ; contribution solidarité autonomie 0,30 % ; ni assurance chômage ni réduction générale | Urssaf, taux du secteur privé et Fnal : pages officielles identifiées, taux lus dans des extraits concordants de pages professionnelles, non relus en ligne |
+| Assimilé salarié, cotisations salariales 2026 | vieillesse plafonnée 6,90 % (jusqu'au plafond) ; vieillesse déplafonnée 0,40 % ; ni chômage ni maladie | Urssaf, taux du secteur privé, mêmes réserves |
+| Retraite complémentaire Agirc-Arrco 2026 (salarié / employeur) | tranche 1 (jusqu'au plafond) 3,15 % / 4,72 % ; tranche 2 (du plafond à 8 plafonds) 8,64 % / 12,95 % ; contribution d'équilibre général 0,86 % / 1,29 % (tranche 1) et 1,08 % / 1,62 % (tranche 2) ; contribution d'équilibre technique 0,14 % / 0,21 % sur toute la rémunération dès qu'elle dépasse le plafond | Agirc-Arrco, barèmes 2026 : page officielle identifiée, non relue en ligne |
+| CSG et CRDS sur un salaire | CSG 9,2 % (dont 6,8 % déductible de l'impôt sur le revenu) et CRDS 0,5 %, sur 98,25 % du brut jusqu'à 4 plafonds, 100 % au-delà | Urssaf, taux du secteur privé : extraits de recherche concordants, page non relue |
+| Déduction de 10 % sur les salaires (impôt sur le revenu) | 10 % du salaire imposable pour frais professionnels, plafonnée à 14 555 € pour les rémunérations de 2025 | impots.gouv.fr, déduction forfaitaire de 10 % : extrait de recherche, page non relue |
 | Trimestre de retraite validé | 150 fois le SMIC horaire du 1er janvier (12,02 € en 2026, soit 1 803 € bruts par trimestre), quatre trimestres au plus par an | Code de la sécurité sociale, art. R351-9 : règle connue du rédacteur, **non relue en ligne** (le SMIC vient de la table des paramètres sociaux d'OriginSkill) ; à relire sur Légifrance avant de s'y fier |
 
 Le barème des revenus perçus en 2026 n'est pas voté à cette date : l'estimation prend celui des revenus de 2025. Les
 lignes de cotisations du président (maladie, vieillesse, allocations familiales, retraite complémentaire, CSG-CRDS) sont
-dans le calcul, avec leur date et leur source.
+dans le calcul, avec leur date et leur source ; ce sont les taux du tableau ci-dessus. **Pour un président ou un gérant
+assimilé salarié, ces taux suffisent à chiffrer le salaire ligne par ligne, même sans le calcul** : coût pour la société,
+cotisations, CSG-CRDS, net, impôt. Chiffrer avec eux en disant leur source et la date de recherche, plutôt que de refuser
+de chiffrer. Seul le gérant majoritaire (travailleur indépendant) n'a pas de taux officiels relevés ici.
 
 ## Pièges fréquents
 
@@ -169,8 +177,9 @@ questions à peser sont dans `cas-types-et-arbitrages` ; le vocabulaire dans `gl
 
 1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** : les taux viennent du calcul avec leur source ;
    un repère se cite avec sa source et la date de la recherche, et on dit quand la page officielle n'a pas été relue.
-2. **Ne jamais inventer** : dire ce qui manque (taux de cotisations du gérant, cotisations propres à l'entreprise,
-   capital) et ce qui n'est pas relevé. Un ordre de grandeur de site professionnel n'est jamais présenté comme un taux
+2. **Ne jamais inventer** : dire ce qui manque (taux de cotisations du gérant majoritaire, cotisations propres à
+   l'entreprise, capital) et ce qui n'est pas relevé. Les taux du président ou du gérant assimilé salarié sont relevés
+   (repères datés) : ils se disent avec leur source et servent à chiffrer, ce n'est pas inventer. Un ordre de grandeur de site professionnel n'est jamais présenté comme un taux
    officiel : sans taux fourni pour un gérant majoritaire, l'outil ne chiffre ni le net ni le coût du salaire ; il pose la question et
    cite l'ordre de grandeur « autour de 40 à 45 % du net selon les sources secondaires, à vérifier » sans l'appliquer. Ne jamais en
    déduire un net ou un coût.
@@ -183,7 +192,7 @@ personne veut agir, pas des obligations.
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -465,6 +474,7 @@ Ce que vous venez de lire est la méthode de la fiche : elle est ouverte à tous
 
 Ces calculs sont inclus dans l'abonnement. OriginSkill les fait pour vous, avec des règles à jour et sourcées, et la réponse est garantie.
 
+- **Lire le texte officiel d'un article de loi** (outil `orizon_article_texte`) : Va chercher, au moment de la question, le texte officiel d'un article de loi sur le site de l'État, tel qu'il est en vigueur à la date voulue.
 - **Comparer salaire, dividendes ou mélange des deux pour un dirigeant** (outil `orizon_remuneration_dirigeant_comparer`) : Pour un résultat donné, compare ce qui reste au dirigeant (et ce que coûte la société) selon qu'il se paie en salaire, en dividendes ou en mélangeant les deux.
 
 ### Avec l'abonnement, en plus

@@ -1,9 +1,9 @@
 ---
 name: qualiopi-audit-fr
-description: "Préparer l'audit Qualiopi de mon organisme de formation. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir sur quel référentiel portera le prochain audit, et ce que change le décret du ; Lister les indicateurs à préparer selon les actions de l'organisme (certifiantes, ; Poser les dates du cycle : fenêtre de l'audit de surveillance, échéance du certificat."
+description: "Préparer l'audit Qualiopi de mon organisme de formation. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Savoir sur quel référentiel portera le prochain audit, et ce que change le décret du 1er août 2026 ; Lister les indicateurs à préparer selon les actions de l'organisme (certifiantes, alternance, sous-traitance, apprentissage, formation en situation de travail) ; Poser les dates du cycle : fenêtre de l'audit de surveillance, échéance du certificat."
 ---
 
-> **Version gratuite : règles datées entre le 18/07/2026 et le 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 30/08/2026 et le 10/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Préparer l'audit Qualiopi de mon organisme de formation
 
@@ -30,26 +30,66 @@ concernée. Le référentiel tient en sept critères, déclinés en indicateurs 
 s'applique à tous, les autres selon la situation (formations certifiantes, alternance,
 sous-traitance, apprentissage).
 
+**Sans Qualiopi, deux obligations restent.** Un organisme payé seulement par des entreprises
+sur leur budget n'a pas besoin de Qualiopi, mais tout formateur ou organisme de formation
+professionnelle dépose une **déclaration d'activité** dans les 3 mois de sa première
+convention ou de son premier contrat de formation (la même page dit aussi « suivant le début de son
+activité » : point de départ à confirmer ; hors formation interne d'une entreprise et
+loisirs de particuliers), et transmet chaque année un **bilan pédagogique et financier** ;
+sans ce bilan, la déclaration n'est plus valide et doit être refaite (Entreprendre
+Service-Public F19087, vérifié le 27/11/2025, lu le 10/10/2026 ; C. trav. L6352-11 et L6351-6,
+lus sur le Code du travail numérique le 27/09/2026). Le détail du bilan : `bilan-pedagogique-financier-fr`.
+
 Le certificat vaut trois ans, avec un audit de surveillance au milieu du cycle. Une
 non-conformité majeure doit être corrigée dans un délai court ; une mineure appelle un plan
 d'action, et devient majeure si elle n'est pas levée à l'audit suivant.
 
 À partir du 1er novembre 2026, tout audit se fait sur un référentiel à 33 indicateurs. Le
 guide de lecture qui l'accompagne n'est pas encore paru : les listes d'indicateurs restent
-à revoir dès sa publication. Nombres, listes, délais et fenêtres viennent de l'outil
-`qualiopi_cycle`, avec leur source et leur date.
+à revoir dès sa publication.
+
+### Les valeurs, avec leur source et leur date
+
+| Point | Valeur | Source (relevée le) |
+| --- | --- | --- |
+| Obligation | certification pour la catégorie d'action (action de formation, bilan de compétences, VAE, apprentissage), dès qu'un OPCO, Transitions Pro, l'État, une région, la Caisse des dépôts (CPF), France Travail ou l'Agefiph finance | C. trav. L6316-1 (07/10/2026) |
+| Critères | 7 : information du public ; objectifs et conception ; adaptation, accueil, suivi et évaluation ; moyens pédagogiques, techniques et d'encadrement ; qualification des personnels ; environnement professionnel ; appréciations et réclamations | C. trav. R6316-1 (07/10/2026) |
+| Référentiel jusqu'au 31/10/2026 | 32 indicateurs : 22 communs (1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 17, 18, 19, 21, 22, 23, 24, 25, 26, 30, 31, 32) et 10 selon la situation ; valable pour un audit mené jusqu'au 31/10/2026 ; ensuite, la nouvelle valeur est dans le service ou sur la source officielle | C. trav. D6316-1-1 et annexe (décret n° 2019-565) |
+| Référentiel à partir du 01/11/2026 | 33 indicateurs, mêmes 7 critères ; nouvel indicateur 33 (évaluation des contenus par les apprenants, présenté comme propre aux CFA) ; indicateurs modifiés cités : 1, 2, 3, 7, 12, 13, 14, 15, 19, 20, 27, 32 ; arrêtés de seuil des indicateurs 19 et 20 et guide de lecture V10 encore attendus | décret n° 2026-728 du 01/08/2026 (JO du 04/08/2026), relevé le 27/09/2026 |
+| Guide de lecture en vigueur | V9 du 08/01/2024 ; la V10 n'était pas publiée au 27/09/2026 | ministère du Travail (27/09/2026) |
+| Indicateurs selon la situation | formations certifiantes : 3, 7, 16 (pas pour un bilan de compétences ni une VAE) ; alternance : 13 ; sous-traitance ou portage salarial : 27 ; formation en situation de travail : 28 ; propres aux CFA : 14, 15 (20 et 29 à confirmer), plus 33 à partir du 01/11/2026 | guide de lecture V8/V9 (27/09/2026) |
+| Cycle | certificat valable 3 ans à partir de l'obtention ; audit de surveillance entre le 14e et le 22e mois ; audit de renouvellement avant l'échéance (les certificateurs conseillent de le lancer 8 mois avant) | arrêté du 06/06/2019 modifié par l'arrêté du 31/05/2023 (04/07/2026) |
+| Non-conformités | majeure : corrigée et vérifiée dans les 3 mois ; à l'audit initial, pas de certificat tant qu'elle n'est pas levée ; mineure : plan d'action mis en œuvre dans les 6 mois, requalifiée majeure si elle n'est pas levée à l'audit suivant ; faute de traitement, suspension ou retrait | même arrêté (04/07/2026) |
+| Nouvel entrant (première année d'activité ou nouvelle catégorie d'actions) | à l'audit initial, modalités adaptées pour les indicateurs 2, 3, 11, 13, 14, 19, 22, 24, 25, 26, 32 ; à la surveillance, tous les indicateurs, une demi-journée d'audit en plus | même arrêté (27/09/2026) |
+| Contrôle par les financeurs | depuis le 01/01/2024, un financeur peut signaler un manquement directement au certificateur ; conclusions communiquées avec un préavis de 7 jours ; refus de nouveaux financements en cas d'opposition au contrôle | C. trav. R6316-7-1 (décret n° 2023-1396), lu sur Légifrance le 27/09/2026 |
+| Sous-traitance d'une action CPF | depuis le 01/04/2024, le sous-traitant doit être certifié, sauf micro-entrepreneur sous le plafond de chiffre d'affaires (77 700 € cité, ancien seuil : à confirmer) | décret n° 2023-1350 du 28/12/2023, selon une seule source (27/09/2026) |
+
+**Exemples chiffrés.**
+
+- Certificat obtenu le 10/03/2025 : surveillance entre le 10/05/2026 (14e mois) et le
+  10/01/2027 (22e mois) ; échéance du certificat le 10/03/2028. Un audit le 15/06/2026 se
+  fait sur 32 indicateurs ; un audit le 01/12/2026, sur 33.
+- Certificat obtenu le 15/01/2025, audit prévu le 18/11/2026 : la fenêtre de surveillance
+  se ferme le 15/11/2026 (22e mois) ; l'audit est trop tard, à avancer.
+- Audit du 20/05/2026 : non-conformité majeure sur l'indicateur 2 à lever au plus tard le
+  20/08/2026 (3 mois) ; mineure sur l'indicateur 11, plan d'action au plus tard le 20/11/2026
+  (6 mois).
+- Organisme de formation qui n'est pas un CFA, audit le 10/11/2026 : référentiel à 33, dont
+  au plus 30 indicateurs le concernent (14, 15 et 33 sont propres aux CFA).
 
 ## Pièges fréquents
 
-- **Préparer un audit de novembre 2026 sur l'ancien référentiel**, ou citer un guide
-  « V10 » qui n'est pas encore publié.
+- **Préparer un audit de novembre 2026 sur l'ancien référentiel** (32 indicateurs jusqu'au
+  31/10/2026, 33 à partir du 01/11/2026), ou citer un guide « V10 » qui n'est pas encore
+  publié.
 - **Oublier un indicateur conditionnel** : sous-traitance ou portage (27), alternance (13),
   formation en situation de travail (28).
 - **Préparer les indicateurs des formations certifiantes pour un bilan de compétences**
   ou une VAE, qui n'en relèvent pas.
-- **Rater la fenêtre de surveillance** ou lancer le renouvellement trop tard : un
-  certificat échu coupe l'accès aux financements.
-- **Traiter une non-conformité mineure comme sans suite** : non levée, elle devient majeure.
+- **Rater la fenêtre de surveillance** (14e au 22e mois après l'obtention) ou lancer le
+  renouvellement trop tard : un certificat échu (3 ans) coupe l'accès aux financements.
+- **Traiter une non-conformité mineure comme sans suite** : plan d'action sous 6 mois ; non
+  levée à l'audit suivant, elle devient majeure (3 mois pour la corriger).
 
 ## Méthodes proposées (jamais imposées)
 
@@ -62,15 +102,17 @@ La personne peut ignorer la méthode, en changer, sauter une étape ou revenir e
 
 ## Contrat de réponse (3 règles fixes)
 
-1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** (les outils la donnent).
+1. Toute règle ou tout chiffre affirmé vient avec sa **source datée** (texte et date de
+   relevé, comme dans le tableau des valeurs ci-dessus).
 2. **Ne jamais inventer** : dire ce qui manque ou ce qui est incertain.
-3. **Prévenir** quand une règle vient de changer (champ `prudence` des outils).
+3. **Prévenir** quand une règle vient de changer ou va changer à une date connue (bascule
+   du référentiel au 01/11/2026).
 
 **Restitution au dirigeant.**
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -188,15 +230,16 @@ reponse officielle restent humaines.
 Structure tirée du référentiel national qualité (sept critères, article R6316-1) et du guide
 de lecture du ministère du Travail. La mise en tableau est la nôtre.
 
-1. **Référentiel** : le calcul du cycle Qualiopi, avec la date d'audit, dit s'il compte 32 ou 33
-   indicateurs. À partir du 1er novembre 2026, revoir la liste dès la parution du guide V10.
+1. **Référentiel** : la date d'audit décide : 32 indicateurs pour un audit mené jusqu'au
+   31/10/2026, 33 à partir du 01/11/2026 (décret n° 2026-728). À partir de cette date, revoir
+   la liste dès la parution du guide V10.
 2. **Indicateurs applicables** : partir de la liste des indicateurs à préparer ; noter à part ceux dont la portée est discutée et les faire confirmer par le certificateur.
 3. **Une ligne par indicateur** : preuve existante, où elle se trouve, date, qui la tient,
    ce qui manque.
 4. **Échantillon** : pour quelques sessions réalisées, vérifier que la preuve existe
    vraiment (émargements, évaluations, réclamations traitées).
-5. **Non-conformités ouvertes** : date limite de levée,
-   action, preuve de correction.
+5. **Non-conformités ouvertes** : date limite de levée (majeure : 3 mois ; mineure : plan
+   d'action sous 6 mois), action, preuve de correction.
 6. **Relecture** avant l'audit, sans jamais conclure « conforme ».
 
 Approche concurrente : **l'audit blanc par un consultant**. Il donne un regard extérieur,

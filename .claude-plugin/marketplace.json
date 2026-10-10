@@ -1,6 +1,6 @@
 {
   "name": "originskill",
-  "description": "60 fiches gratuites pour votre assistant : la méthode d'un professionnel français (compta, fiscalité, RH, juridique, vente), datée.",
+  "description": "68 fiches gratuites pour votre assistant : la méthode d'un professionnel français (compta, fiscalité, RH, juridique, vente), datée.",
   "owner": {
     "name": "OriginSkill",
     "url": "https://originskill.ai"
@@ -9,8 +9,8 @@
     {
       "name": "originskill",
       "source": "./",
-      "description": "60 fiches gratuites pour votre assistant : la méthode d'un professionnel français (compta, fiscalité, RH, juridique, vente), datée.",
-      "version": "2026.10.4",
+      "description": "68 fiches gratuites pour votre assistant : la méthode d'un professionnel français (compta, fiscalité, RH, juridique, vente), datée.",
+      "version": "2026.10.10",
       "license": "CC-BY-4.0",
       "homepage": "https://originskill.ai",
       "category": "business"

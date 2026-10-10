@@ -1,9 +1,9 @@
 ---
 name: cfe-premiere-annee-fr
-description: "Quand et combien je paie de CFE après la création. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Une entreprise vient d'être créée (ou va l'être) : quand la CFE, l'impôt local des entreprises, commence, ; Savoir si le chiffre d'affaires donne droit à l'exonération de la cotisation minimum (5 000 € et moins) ; Connaître la date limite de la première déclaration (formulaire 1447-C) et les dates de paiement (15 juin,."
+description: "Quand et combien je paie de CFE après la création. Méthode professionnelle française, avec ses pièges et ses questions à poser. À utiliser quand : Une entreprise vient d'être créée (ou va l'être) : quand la CFE, l'impôt local des entreprises, commence, à combien, avec quelle réduction ; Savoir si le chiffre d'affaires donne droit à l'exonération de la cotisation minimum (5 000 € et moins) ; Connaître la date limite de la première déclaration (formulaire 1447-C) et les dates de paiement (15 juin, 15 décembre), et comment payer."
 ---
 
-> **Version gratuite : règles datées du 03/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
+> **Version gratuite : règles datées entre le 07/10/2026 et le 08/10/2026.** Les règles changent (SMIC, TVA, seuils…). Avec l'abonnement OriginSkill, votre assistant reçoit la règle à jour, avec sa source et sa date.
 
 # Quand et combien je paie de CFE après la création
 
@@ -56,10 +56,13 @@ texte officiel pas encore relu ; à reconfirmer avant d'agir (CGI, art. 1478 et 
   détaille pas si c'est en jours ou en mois.
 - *Les seuils sont au centime.* 5 000 € exactement : exonéré (seuil inclus, CGI art. 1647 D). 5 000,01 € : plus exonéré. Les tranches de chiffre d'affaires
   sont 10 000, 32 600, 100 000, 250 000 et 500 000 €.
-- *La base minimum est celle de la commune, dans une fourchette.* Pour 2026 : de 247 à 589 € jusqu'à 10 000 € de chiffre d'affaires, de 247 à 1 179 € jusqu'à
-  32 600 €, de 247 à 2 477 € jusqu'à 100 000 €, de 247 à 4 129 € jusqu'à 250 000 €, de 247 à 5 897 € jusqu'à 500 000 €, de 247 à 7 669 € au-delà
-  (economie.gouv.fr, résultat de recherche du 30/09/2026, non relu en ligne). Le barème est actualisé chaque année : celui d'une autre année n'est pas
-  relevé et n'est jamais extrapolé. Des sites non officiels donnent d'autres chiffres (250 à 597 € pour la première tranche) : non retenus.
+- *La base minimum est celle de la commune, dans une fourchette.* Pour 2026 : de 250 à 597 € jusqu'à 10 000 € de chiffre d'affaires, de 250 à 1 194 € jusqu'à
+  32 600 €, de 250 à 2 509 € jusqu'à 100 000 €, de 250 à 4 183 € jusqu'à 250 000 €, de 250 à 5 974 € jusqu'à 500 000 €, de 250 à 7 769 € au-delà
+  (CGI, art. 1647 D, I, 1, version en vigueur depuis le 01/07/2026, lue sur Légifrance le 08/10/2026). Le barème précédent, en vigueur du 19/06/2025 au
+  30/06/2026, était de 247 à 589 € jusqu'à 10 000 €, de 247 à 1 179 €, de 247 à 2 477 €, de 247 à 4 129 €, de 247 à 5 897 €, de 247 à 7 669 € au-delà ;
+  il est rattaché à l'année d'imposition 2025. Cette année d'application n'est pas écrite dans le texte : elle est déduite de la clause de revalorisation
+  annuelle de l'article 1647 D (le décret n° 2026-562 du 29 juin 2026 n'a pas de disposition d'entrée en vigueur), à confirmer sur l'avis de CFE. Le barème
+  est actualisé chaque année : celui de 2027 n'est pas relevé et n'est jamais extrapolé.
 - *La réduction de moitié.* La première année d'imposition, la base est réduite de moitié (CGI art. 1478, II). Appliquée à la base minimum, elle est
   déduite du BOFiP (résultat de recherche, page non relue) : à confirmer sur l'avis. Exemple fictif : commune à 500 € de base et 28,5 % de taux, première
   année 250 € x 28,5 % = 71,25 €, deuxième année 500 € x 28,5 % = 142,50 €, hors taxes additionnelles.
@@ -82,7 +85,9 @@ chiffre d'affaires : paiement direct en ligne, prélèvement à l'échéance ou 
 
 **Points où les sources divergent.** Le seuil de l'acompte est écrit « au moins égal à 3 000 € » sur impots.gouv et « dépassait 3 000 € » dans une règle
 relevée le 28/09/2026 ; ils ne diffèrent que pour une CFE d'exactement 3 000 €, traitée comme donnant droit à l'acompte, à confirmer sur l'avis. Le barème de la base
-minimum 2026 diffère entre economie.gouv.fr (247 à 589 € pour la première tranche) et des sites non officiels (250 à 597 €) : la source officielle est retenue.
+minimum : le texte de l'article 1647 D donne 247 à 589 € (première tranche) jusqu'au 30/06/2026 puis 250 à 597 € depuis le 01/07/2026, sans écrire l'année
+d'imposition de chacun ; une page de economie.gouv.fr relevée le 30/09/2026 (non relue) donnait 247 à 589 € comme barème 2026. La fiche retient 250 à 597 €
+pour 2026, par déduction dite comme telle.
 Détail : `divergences-des-sources`.
 
 ## Pièges fréquents
@@ -124,7 +129,7 @@ La première convient à la création et à la première année ; la seconde, d�
 
 1. Répondre d'abord, exactement, à la question posée et à rien d'autre : la règle ou le chiffre en une ou deux phrases, puis ce qui sert à cette question. Pas de tableau complet, pas de volet non demandé, aucun chiffre d'exemple inventé. Reprendre tels quels les chiffres de `en_clair.resultats`, sans les recalculer ; ne jamais affirmer qu'un point non fourni par le dirigeant est en règle.
 2. Si un fait manque et change la réponse, donner la réponse pour chaque cas, puis poser une seule question à la fin : celle qui débloque. Aucune question si rien ne manque.
-3. Parler en mots du dirigeant : jamais « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir ». Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification.
+3. Parler en mots du dirigeant : jamais « la fiche », « la méthode », « l'outil », « le moteur », « le serveur », ni un code ou un champ technique (`entree_incomplete`, `manquant`, `prudence`) ; ne jamais recopier le mot « garanti » ni « non garanti ». Traduire : « il me manque la date d'embauche pour calculer… », « règle relevée sur Légifrance le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important » pour une règle dont la source porte un relevé Légifrance daté, sans y ajouter que le texte n'a pas été relu (relevé veut dire lu ce jour-là) ; « relevée le JJ/MM/AAAA, texte officiel pas encore relu ; à reconfirmer avant d'agir » seulement pour une règle que sa source dit non relue en ligne ou relevée par une recherche. Écrire « vérifiée » seulement pour une règle marquée vérifiée (« règle vérifiée le JJ/MM/AAAA ; à reconfirmer avant d'agir si l'enjeu est important ») : une source citée n'est pas une vérification. Les dates de relevé des sources et leurs numéros (S1, S2…) servent à dire « à confirmer », jamais à écrire qu'une fiche ou une méthode a été vérifiée.
 4. Une échéance qui tombe un samedi, un dimanche ou un jour férié se dit avec son report si les règles en donnent un, sinon « à vérifier ».
 5. Ne jamais inventer un fait absent, ni pour appeler un outil. Une règle datée fournie par OriginSkill n'est jamais remplacée par une source secondaire trouvée en ligne ; en cas d'écart, donner les deux valeurs, leurs sources et leurs dates.
 
@@ -199,7 +204,7 @@ pas tranchée en silence.
 | Question | Une source | Une autre | Ce que fait la fiche |
 | --- | --- | --- | --- |
 | Seuil de l'acompte de CFE | impots.gouv (page de paiement, 2026) : CFE de l'année précédente « supérieure ou égale à 3 000 € » | Une règle relevée le 28/09/2026 dans les échéances d'OriginSkill : « dépassait 3 000 € » | Les deux ne diffèrent que pour une CFE d'exactement 3 000 € : l'acompte est compté dû, à confirmer sur l'avis d'acompte ; dit dans `prudence` |
-| Base minimum 2026, première tranche | economie.gouv.fr (résultat de recherche) : de 247 à 589 € | Sites non officiels : de 250 à 597 € | La source officielle est retenue ; la fourchette se vérifie sur l'avis |
+| Base minimum, première tranche | CGI art. 1647 D lu le 08/10/2026 : de 247 à 589 € jusqu'au 30/06/2026, de 250 à 597 € depuis le 01/07/2026 (aucune année d'imposition écrite) | economie.gouv.fr (résultat de recherche du 30/09/2026, non relu) : de 247 à 589 € présenté comme barème 2026 | 250 à 597 € retenu pour 2026 et 247 à 589 € pour 2025, par déduction de la clause de revalorisation annuelle de l'article 1647 D (décret n° 2026-562 sans disposition d'entrée en vigueur) ; dit dans `prudence`, à confirmer sur l'avis |
 | Dates de l'acompte et du solde | Anciennes pages du BOFiP (antérieures aux réformes du recouvrement) : 31 mai et 1er décembre | impots.gouv 2026 : 15 juin et 15 décembre | Dates 2026 retenues ; les anciennes ne sont pas reprises |
 | Réduction de moitié et base minimum | CGI art. 1478, II : base réduite de moitié la première année d'imposition | BOFiP (résumé de recherche) : s'applique aussi à la cotisation minimum | Appliquée à la base minimum, dit comme déduit du BOFiP, à confirmer sur l'avis |
 | Méthode du prorata | BOFiP : chiffre d'affaires « corrigé pour correspondre à une année pleine » | Aucun détail relevé (jours ou mois) | Prorata en jours, dit dans les hypothèses de la réponse |
@@ -216,7 +221,7 @@ Règles relevées le 30/09/2026, texte officiel pas encore relu ; à reconfirmer
 ## 1. Micro-entreprise créée le 10 mars 2025, 12 000 € réalisés en 2025
 
 - 297 jours d'activité sur 365 : 12 000 x 365 / 297 = 14 747,47 € de chiffre d'affaires de référence (hors taxes).
-- Au-dessus de 5 000 € : pas d'exonération. Tranche 2 (de 10 000 à 32 600 €), fourchette de la base 2026 de 247 à 1 179 €.
+- Au-dessus de 5 000 € : pas d'exonération. Tranche 2 (de 10 000 à 32 600 €), fourchette de la base 2026 de 250 à 1 194 €.
 - 2025 : pas de CFE. 2026 : base 500 € réduite de moitié = 250 €, x 28,5 % = 71,25 €. 2027 : 500 € x 28,5 % = 142,50 € (base et taux supposés inchangés).
 - Dates : 1447-C avant le mercredi 31 décembre 2025 ; solde le mardi 15 décembre 2026 (71,25 €), puis le mercredi 15 décembre 2027 (142,50 €) ; aucun acompte (CFE précédente sous 3 000 €).
 - Hors taxes additionnelles et frais de gestion de l'avis.
@@ -228,7 +233,7 @@ Règles relevées le 30/09/2026, texte officiel pas encore relu ; à reconfirmer
 
 ## 3. Le seuil de 5 000 € au centime
 
-- Chiffre d'affaires de référence de 5 000 € : exonéré de cotisation minimum. De 5 000,01 € : tranche 1 (jusqu'à 10 000 €), fourchette 2026 de 247 à 589 €.
+- Chiffre d'affaires de référence de 5 000 € : exonéré de cotisation minimum. De 5 000,01 € : tranche 1 (jusqu'à 10 000 €), fourchette 2026 de 250 à 597 €.
 - Création le 1er février 2025, 4 400 € réalisés : 334 jours, 4 400 x 365 / 334 = 4 808,38 € : exonéré de cotisation minimum en 2026 et 2027.
 
 ## 4. Un acompte
